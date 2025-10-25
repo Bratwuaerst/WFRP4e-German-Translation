@@ -1,0 +1,2579 @@
+{ 
+    "WFRP4E.system.title" : "Warhammer Fantasy Rollenspiel 4.te Edition",
+    "WFRP4E.system.description" : "Ein umfassendes System um grimme und gefahrvolle Runden Warhammer Fantasy Rollenspiel in der Foundry VTT Umgebung zu spielen.",
+
+    "TYPES.Actor.character" : "Spielercharakter",
+    "TYPES.Actor.npc" : "Nichtspielercharakter",
+    "TYPES.Actor.creature" : "Kreatur",
+    "TYPES.Actor.vehicle" : "Fahrzeug",
+
+    "TYPES.Item.ammunition" : "Munition",
+    "TYPES.Item.armour" : "Rüstung",
+    "TYPES.Item.career" : "Karriere",
+    "TYPES.Item.container" : "Behälter",
+    "TYPES.Item.critical" : "Kritischer Treffer",
+    "TYPES.Item.disease" : "Krankheit",
+    "TYPES.Item.injury" : "Verletzung",
+    "TYPES.Item.money" : "Geld",
+    "TYPES.Item.mutation" : "Mutation",
+    "TYPES.Item.prayer" : "Gebete",
+    "TYPES.Item.psychology" : "Psychologie",
+    "TYPES.Item.talent" : "Talent",
+    "TYPES.Item.trapping" : "Ausrüstung",
+    "TYPES.Item.skill" : "Fähigkeit",
+    "TYPES.Item.spell" : "Zauber",
+    "TYPES.Item.trait" : "Merkmal",
+    "TYPES.Item.weapon" : "Waffe",
+    "TYPES.Item.extendedTest" : "Erweiterte-Probe",
+    "TYPES.Item.cargo" : "Ladung",
+    "TYPES.Item.vehicleMod" : "Fahrzeug Modifikation",
+    "TYPES.Item.vehicleTest" : "Fahrzeugbesatzung-Probe",
+    "TYPES.Item.vehicleRole" : "Fahrzeug-Wurf",
+    "TYPES.Item.template" : "Vorlage",
+
+    "SHEETS.Item.ammunition" : "Munitions Bogen",
+    "SHEETS.Item.armour" : "Rüstungs Bogen",
+    "SHEETS.Item.career" : "Karriere Bogen",
+    "SHEETS.Item.container" : "Behälter Bogen",
+    "SHEETS.Item.critical" : "Kritischer Treffer Bogen",
+    "SHEETS.Item.disease" : "Krankheits Bogen",
+    "SHEETS.Item.injury" : "Verletzungs Bogen",
+    "SHEETS.Item.money" : "Geld Bogen",
+    "SHEETS.Item.mutation" : "Mutations Bogen",
+    "SHEETS.Item.prayer" : "Gebets Bogen",
+    "SHEETS.Item.psychology" : "Psychologie Bogen",
+    "SHEETS.Item.talent" : "Talent Bogen",
+    "SHEETS.Item.trapping" : "Ausrüstungs Bogen",
+    "SHEETS.Item.skill" : "Fähigkeiten Bogen",
+    "SHEETS.Item.spell" : "Zauber Bogen",
+    "SHEETS.Item.trait" : "Merkmals Bogen",
+    "SHEETS.Item.weapon" : "Waffen Bogen",
+    "SHEETS.Item.extendedTest" : "Erweiterte-Probe Bogen",
+    "SHEETS.Item.cargo" : "Ladungs Bogen",
+    "SHEETS.Item.vehicleMod" : "Fahrzeugmodigikations Bogen",
+    "SHEETS.Item.vehicleTest" : "Fahrzeugbesatzung-Probe Bogen",
+    "SHEETS.Item.vehicleRole" : "Fahrzeug-Wurf Bogen",
+    "SHEETS.Item.template" : "Vorlage Bogen",
+
+    "SHEETS.Actor.character" : "Spielercharakter Bogen",
+    "SHEETS.Actor.npc" : "Nichtspielercharakter Bogen",
+    "SHEETS.Actor.creature" : "Kreatur Bogen",
+    "SHEETS.Actor.vehicle" : "Fahrzeug Bogen",
+
+    "TOKEN.MOVEMENT.Status.immobile": "Unbeweglich",
+    "TOKEN.MOVEMENT.Status.restricted": "Eingeschränkt",
+
+    "Targets" : "Ziele",
+    "Trapping" : "Ausrüstung",
+    "Weapon" : "Waffe",
+    "Melee" : "Nahkampf",
+    "Ranged" : "Fernkampf",
+    "comma separated" : "komma getrennt",
+
+    "ITEM.Sell" : "Verkaufen",
+    "Import Results" : "Importiere Ergebnisse",
+    "ITEM.Import": "Bist du dir sicher, die fraglichen Ergebnisse zu importieren?<br>({number} items)",
+
+    "WFRP4e House Rules": "WFRP4e Hausregeln",
+    "WFRP4e Homebrew": "WFRP4e Hausgemachte Regeln",
+    "Homebrew Settings": "Einstellungen für hausgemachte Regeln",
+    "Settings for common homebrew/house rules": "Einstellungen für Hausregeln/hausgemachte Regeln",
+    "SETTINGS.DisableTheme" : "Thema abschalten",
+    "SETTINGS.DisableThemeHint" : "Schaltet das Warhammer Themendesign zugunsten des Standard Foundry UI aus. (Das Charakterbogen Thema can über die Einstellungen der Bögenkonfiguration oben rechts am Bogen eingestellt werden.).",
+    "SETTINGS.InitRule" : "Initiative Regeln",
+    "SETTINGS.InitHint" : "Stellt die Methode ein, mit der bestimmt wird, wer in der Kampfrunde zuerst agiert.",
+    "SETTINGS.InitDefault" : "Standard (Höchste zu niedrigste Initiative, Gewandheit entscheidet über Gleichstände)",
+    "SETTINGS.InitSL" : "Initiative Probe, höchster EG beginnt.",
+    "SETTINGS.InitD10" : "Wirf einen w10 und addiere die Initiative, der höchste Wert beginnt.",
+    "SETTINGS.InitD10Agi" : "Wirf einen w10 und addiere den Initiative Bonus sowie den Gewandheits Bonus, der höchste Wert beginnt.",
+    "SETTINGS.AdvantageMax" : "Vorteils Maximum",
+    "SETTINGS.AdvantageMaxHint" : "Das Vorteils Maximum ist festgelegt auf ein vorher bestimmten Wert wie z.b. 2, 4 oder mehr.",
+    "SETTINGS.CapAdvIB" : "Vorteils Maximum ist gleich Initiative Bonuswert",
+    "SETTINGS.CapAdvIBHint" : "Setzt das Vorteils Maximum eines Charakters auf seinen Initiative Bonuswert. Überschreibt die bisherige Maximum Einstellung.",
+    "SETTINGS.SLMethod" : "Methode zur EG Bestimmung",
+    "SETTINGS.SLMethodHint" : "Stell ein wie die EG bei Proben im Spiel berechnet werden.",
+    "SETTINGS.SLDefault" : "Standard",
+    "SETTINGS.SLFast" : "Schnelle EG Berechnung",
+    "SETTINGS.SLDOS" : "Grade des Erfolgs",
+    "SETTINGS.FastSL" : "Schnelle EG Berechnung",
+    "SETTINGS.FastSLHint" : "Erfolgt nach der im Grundregelwerk auf Seite 152 beschriebenen Methode.",
+    "SETTINGS.TestsAbove100" : "Proben über 100%",
+    "SETTINGS.TestsAbove100Hint" : "Nutze die optionalen Regeln wie auf Seite 151 des Grundregelwerks beschrieben für Würfe über 100%. Bei einem gelungenen Wurf erhält man pro vollen 10%, die ein Spielwert oder Fähigkeitswert 100% übersteigt, +1 EG.",
+    "SETTINGS.AutomaticSuccess": "Automatischer Erfolg",
+    "SETTINGS.AutomaticSuccessHint": "Alle Proben sind erfolgreich, sofern sie gleich oder unter diese Zahl erwürfeln.",
+    "SETTINGS.AutomaticFailure": "Automatischer Fehlschlag",
+    "SETTINGS.AutomaticFailureHint": "Alle Proben schlagen fehl sofern gleich oder über dieser Nummer gewürfelt wird.",
+    "SETTINGS.CriticalsFumblesAllTests" : "Kritische Erfolgen und Patzer bei alles Proben.",
+    "SETTINGS.CriticalsFumblesAllTestsHint" : "Einen Pasch (11,22,usw.) bei Proben zu würfeln erzeugt einen verblüffenden Erfolg oder verblüffendes Scheitern.",
+    "SETTINGS.ExtendedTests" : "Erweiterte Würfe und 0 EG",
+    "SETTINGS.ExtendedTestsHint" : "Würfelt man bei einer Erweiterten Probe eine +/- 0  resultiert dies in einem +1/-1 Ergebnis. Siehe dazu Seite 155 GRW.",
+    "SETTINGS.ChannelingNegativeSL": "Magie Kanalisieren und Negative Erfolgsgrade",
+    "SETTINGS.ChannelingNegativeSLHint": "Eine negativen Erfolgsgrad zu in einer Kanalisierungs Probe zu würfeln resultiert in einem +0 EG. Damit kein EG Abgezogen wird, von dem bisherigen Erfolg.",
+    "SETTINGS.TestDialogAutoPopulate" : "Probendialogfenster automatisch ausfüllen",
+    "SETTINGS.TestDialogAutoPopulateHint" : "Diese Einstellung lässt Probendialogfenster automatisch mit Informationen befüllen. Als Beispiel: Das tragen einer Waffe mit dem Merkmal Defensiv führt dazu, dass automatisch der EG Bonus bei Probendiaglogfenstern für Nahkampfwaffenproben eingetragen wird. Dies passiert dann nur, sofern der entsprechende Charakter nicht am Zug ist (z.B. weil er angegriffen wird). Dies passiert auch bei Waffen mit den Merkmalen Akkurat oder Unpräzise (Hier allerdings nur wenn der Charakter am Zug ist).",
+    "SETTINGS.TestDialogDefaultDifficulty" : "Standard Schwierigkeiten der Proben außerhalb des Kampfes",
+    "SETTINGS.TestDialogDefaultDifficultyHint" : "Setzt die Standard Schwierigkeit von Proben außerhalb von Kämpfen auf Durchschnittlich (+20). Während Kämpfen oder ist diese Option nicht angewählt, ist die Standard Schwierigkeit Herausfordernd (+0). In jedem Fall kann die Schwierigkeit in dem jeweiligen Probendialogfenster geändert werden.",
+    "SETTINGS.NpcAverageChar" : "Setze durchschnittliche NPC Charakteristika fest.",
+    "SETTINGS.NpcAverageCharHint" : "Durch die Eingabe eines Werts für eine gewisse Spezies für einen NPC werden deren Eigenschaften automatisch auf den Durchschnittswert für die Spezies gesetzt.",
+    "SETTINGS.PartialChannelling" : "Teilweises Kanalisieren",
+    "SETTINGS.PartialChannellingHint" : "Eine geläufige Hausregel, die die Flexibilität des Kanalisierens verbessert. Anstatt dass die EG den erforderlichen Zauberwert erreichen müssen, kann der Zauber sofort gewirkt werden, wobei die bisher erreichten EG mit dem erforderlichen Zauberwert verrechnet werden. So wird die Magie Probe in diesem Moment leichter.",
+    "SETTINGS.RoundSummary" : "Zeige am  Rundenende das Dialogfenster für die Zustände der Teilnehmer",
+    "SETTINGS.RoundSummaryHint" : "Wenn eine Kampfrunde endet, wird das Dialogfenster über die Zustände der Teilnehmer angezeigt.",
+    "SETTINGS.StatusTurnStart" : "Zeige das Dialogfenster über die Zustände des Teilnehmer zu beginn dessen Runde.",
+    "SETTINGS.StatusTurnStartHint" : "Wenn ein Kampfteilnehmer seine Runde startet, wird dessen Status angezeigt (Zustände und Modifikationen). Diese Anzeige ist identisch mit der die gezeigt wird, wenn man den Teilnehmer mit der rechten Maustaste anklickt.",
+    "SETTINGS.FocusTurnStart" : "Kamerafokus zum Start des Zuges.",
+    "SETTINGS.FocusTurnStartHint" : "Zu beginn des Zuges schwenkt die Kamera auf den entsprechenden Teilnehmer.",
+    "SETTINGS.HideTestData" : "Verstecke Proben Daten",
+    "SETTINGS.HideTestDataHint" : "SL Proben zeigen in der Chatnachricht keine empfindlichen NPC Daten.",
+    "SETTINGS.PlayerBrowser" : "Zugang von Spielern zum Browser",
+    "SETTINGS.PlayerBrowserHint" : "Erlaube den Spielern den Zugang zum Item Browser.",
+    "SETTINGS.AdvantageBonus" : "Vorteils Bonus",
+    "SETTINGS.AdvantageBonusHint" : "Stelle die Höhe des Bonus ein, die ein Vorteil bringt.",
+    "SETTINGS.UIACrits" : "Nutze die Modifikatoren für Kritische Treffer aus dem Erweiterungsband Up In Arms",
+    "SETTINGS.UIACritsHint" : "Modifiziere die kritischen Treffer wie im Erweiterungsband Up In Arms auf Seite 81 beschrieben",
+    "SETTINGS.UIACritsMod" : "Menge an Modifikatoren für kritische Treffer",
+    "SETTINGS.UIACritsModHint" : "Ändere die Menge der möglichen Modifikationen von kritischen Treffern wie im Erweiterungsband Up In Arms auf Seite 81 beschrieben",
+    "SETTINGS.UIAShields" : "Up In Arms Schild Eigenschaften",
+    "SETTINGS.UIAShieldsHint" : "Ändere die Eigenschaften der Schilde wie im Erweiterungsband Up In Arms auf Seite 90 beschrieben.",
+    "SETTINGS.UIABleeding" : "Up In Arms Zustand Bluten",
+    "SETTINGS.UIABleedingHint" : "Ändere den Bluten Zustand wie im Erweiterungsband Up In Arms auf Seite 80 beschrieben",
+    "SETTINGS.WeaponLength" : "Waffenlänge",
+    "SETTINGS.WeaponLengthHint" : "Nutze die Waffenlänge um,wie im Grundregelwerk auf Seite 297 beschrieben, Modifikatoren hinzuzufügen.",
+    "SETTINGS.SoundEffects" : "Sound Effekt Pfad",
+    "SETTINGS.SoundEffectsHint" : "Stelle den Pfad zu den Soundeffekten ein um verschiedene passende Sounds einzufügen.",
+    "SETTINGS.CustomCursor" : "Warhammer Cursor",
+    "SETTINGS.CustomCursorHint" : "Nutze einen Mauscursor im Warhammer Stil. (Neuladen zum anwenden, erfordert die entsprechenden Cursor Dateien im Ordner systems/wfrp4e/ui/cursors).",
+    "SETTINGS.AutoFillAdv" : "Automatisches berücksichtigen von Vorteilen",
+    "SETTINGS.AutoFillAdvHint" : "Übernimmt automatisch die gesammelten Vorteile und überträgt sie in das Probendialogfenster. Schalte die Einstellung aus, wenn deine Hausregeln dies anders handhaben.",
+    "SETTINGS.LimitEquippedWeapons" : "Maximum an ausgerüsteten Waffen",
+    "SETTINGS.LimitEquippedWeaponsHint" : "Limitiere die Anzahl von ausgerüsteten Waffen. Erlaube zwei Einhandwaffen oder eine Zweihandwaffe.",
+    "SETTINGS.ThrowMoney" : "Wirf Geld",
+    "SETTINGS.ThrowMoneyHint" : "(Erfordert das Modul Dice So Nice) Wirft Münzen wenn der payment/credit Chatbefehl genutzt wird.",
+    "SETTINGS.RangeAutoCalculation" : "Automatische Berücksichtigung von Reichweitemodifikatoren",
+    "SETTINGS.RangeAutoCalculationHint" :  "Füllt das Probendialogfenster für Fernkampf automatisch mit den entsprechenden Reichweitenmodifikatoren basierend auf der Entfernung der beiden Tokens.",
+    "SETTINGS.PlayerExperienceEditing" : "Ändern von Erfahrungspunkten der Spieler",
+    "SETTINGS.PlayerExperienceEditingHint" :  "Spieler dürfen ihre Erfahrungspunkte im Charakterbogen selbst ändern.",
+    "SETTINGS.UnofficialGrimoire" : "Inoffizielle Grimoire Magie",
+    "SETTINGS.UnofficialGrimoireHint" : "Regeln die vom Inoffiziellen Grimoire inspiriert worden sind.(siehe Wiki: <ahref='https://github.com/moo-man/WFRP4e-FoundryVTT/wiki/Homebrew-Rules#magic-insiperd-by-unofficial-grimoire'>here</a>)",
+    "SETTINGS.UseGroupAdvantage" : "Nutze Gruppenvorteile",
+    "SETTINGS.UseGroupAdvantageHint" : "Addiere die jeweiligen Vorteile der Spieler und der Gegner zu Gruppenvorteilen (Wie im Erweiterungsband Up im Arms beschrieben). Dazu muss der Akteur entweder einem Spieler zugeteilt oder als freundlich markiert sein. Andernfalls zählt der Akteur zu der Gegnergruppe.",
+    "Configure": "Konfiguriere",
+
+    "SETTINGS.TABLE_species" : "Spezies",
+    "SETTINGS.TABLE_minormis" : "Leichter Kontrollverlust",
+    "SETTINGS.TABLE_majormis" : "Starker Kontrollverlust",
+    "SETTINGS.TABLE_mutatephys" : "Physische Mutation",
+    "SETTINGS.TABLE_mutatemental" : "Mentale Korruption",
+    "SETTINGS.TABLE_oops" : "Oops!",
+    "SETTINGS.TABLE_wrath" : "Zorn der Götter",
+    "SETTINGS.TABLE_doom" : "Unkenruf",
+    "SETTINGS.TABLE_critarm" : "Kritischer Treffer - Arm",
+    "SETTINGS.TABLE_critleg" : "Kritischer Treffer - Beine",
+    "SETTINGS.TABLE_crithead" : "Kritischer Treffer - Kopf",
+    "SETTINGS.TABLE_critbody" : "Kritischer Treffer - Körper",
+
+    "SETTINGS.Moo": "Moo Man's Hausregeln",
+    "SETTINGS.MooHint": "Ausgewählte Änderungen, bei denen ich glaube, dass sie das Spiel verbessern. Die hier aufgezählten Änderungen sind nur die, welche die im Foundry Code verarbeitet werden können.<br><br>Die gesamte Liste kann hier eingesehen werden<ahref='https://github.com/moo-man/WFRP4e-FoundryVTT/wiki/Homebrew-Rules'>Wiki Page.</a><br> Beachte bitte, dass diese Änderungen darauf ausgelegt sind, dass alle Änderungen zusammen genutzt werden.<br>Feedback ist immer erwünscht. Nutze dafür bitte <ahref='https://github.com/moo-man/WFRP4e-FoundryVTT/discussions/categories/moo-s-house-rules'>Github Discussion Board</a>.",
+    "SETTINGS.MooAdvantage" : "Vorteile",
+    "SETTINGS.MooAdvantageHint" : "Anstatt +10 pro Vorteil auff deinen Wert zu bekommen erhälst du +1 EG pro Vorteil auf eine erfolgreiche Probe.",
+    "SETTINGS.MooDifficulty" : "Optionen für Probenschwierigkeit",
+    "SETTINGS.MooDifficultyHint" : "Die Schwierigkeitsoptionen werden symmetrisch.",
+    "SETTINGS.MooCritsFumbles" : "Moo Patzerregeln",
+    "SETTINGS.MooCritsFumblesHint" : "Moo Patzerhinweise",
+    "SETTINGS.MooConditions" : "Zustandsänderungen",
+    "SETTINGS.MooConditionsHint" : "Ändert verschiedene Zustandsbeschreibungen",
+    "SETTINGS.MooConditionTriggers" : "Auslösen von Zuständen",
+    "SETTINGS.MooConditionTriggersHint" : "Zustände werden am Ende des Zuges des jeweiligen Charakters ausgelöst und nicht erst am Rundenende.",
+    "SETTINGS.MooCritModifiers" : "Modifikatoren bei Kritischen Verletzungen",
+    "SETTINGS.MooCritModifiersHint" : "Wenn du Schaden über die 0 Wunden hinaus erhältst, addiere oder subtrahiere für jeden Punkt der Differenz zu deinem Widerstands Bonus 10 zu der Kritischen Verletzungstabelle.<br><br>Beispiel: Ich habe 4 Wunden übrig bei 50 Widerstand. Ich bekomme 12 Schaden. Das bedeutet 8 Wunden unter 0. Mit einem Widerstands Bonus von 5, würde es eine +30 auf das Würfelergebnis für die Kritische Verletzung bedeuten.<br><br> Beispiel: Ich habe noch 4 Wunden übrig, bei einem Widerstand von 50. Ich bekomme 5 Schaden. Das bedeutet 1 Wunde unter 0. Mit einem Widerstands Bonus von 5 bedeutet das eine -40 auf das Würfelergebnis auf die Kritische Verletzung",
+    "SETTINGS.MooSLDamage" : "Schadensberechnung bei Vergleichsproben",
+    "SETTINGS.MooSLDamageHint" : "Die Schadensberechnung bei Vergleichsproben basiert nur auf den EG des Angreifers und nicht mehr auf der Differenz zwischen den Würfen von Angreifer und Verteidiger.",
+    "SETTINGS.MooRangedDamage" : "Modifikator für Fernkampfschaden",
+    "SETTINGS.MooRangedDamageHint" : "Der Schaden bei Fernkampfangriffen wird durch die Zehnerstelle der Modifikatoren entweder verringert oder erhöht. Beispiel: Modifikatoren betragen +20 = -2 Schaden, -30 = +3 Schaden",
+    "SETTINGS.MooMagicAdvantage" : "Änderungen bei Vorteilen im Bereich Magie",
+    "SETTINGS.MooMagicAdvantageHint" : "Vorteile werden bei Kanalisieren Proben angewendet, jedoch nicht mehr bei Zauberwürfen. Man erhält aber weiterhin Vorteile durch Zauberwürfe.",
+    "SETTINGS.MooOvercasting" : "Ausgaben für Zauber verstärken",
+    "SETTINGS.MooOvercastingHint" : "Die für Zauber verstärken ‘genutzten’ EG verringern den Schaden des Zaubers um 2 und ist einfacher zu Widerstehen.",
+    "SETTINGS.MooCatastrophicMiscasts" : "Katastrophaler Kontrollverlust",
+    "SETTINGS.MooCatastrophicMiscastsHint" : "Fügt die Tabelle für Katastrophalen Kontrollverlust hinzu. Ändert die bestehenden Tabellen. Dazu kommt, dass bei einer gewürfelten 100 das Kontrollverlust Level um 1 steigt.",
+    "SETTINGS.MooCriticalChannelling" : "Kritisches Kanalisieren",
+    "SETTINGS.MooCriticalChannellingHint" : "Wenn du erfolgreich einen Zauber nach einem Kritischen Kanalisieren wirkst addierst du EG in Höhe des Zauberwertes. Diese zusätzlichen EG können nicht zum Verstärken von Zaubern genutzt werden. Sollte die Zauber Probe fehlschlagen, erleidest zu einen Kontrollverlust oder erhöhst deinen Kontrollverlust um 1 Level.",
+    "SETTINGS.MooCastAfterChannelling" : "Wirken nach dem Kanalisieren",
+    "SETTINGS.MooCastAfterChannellingHint" : "Beim Wirken eines kanalisierten Zaubers zählt eine fehlgeschlagene Zauber Probe als Unterbrechung. Ist die Probe erfolgreich behältst du die kanalisierten EG",
+    "SETTINGS.MooPenetrating" : "Werte für Rüstungsbrechend",
+    "SETTINGS.MooPenetratingHint" : "Gibt die Option einen festen Wert der Eigenschaft Rüstungsbrechend zuzuweisen. Durchschlagend X - Die Waffe ignoriert X Rüstungspunkte (Ist kein Wert zugeteilt, wird automatisch der Wert 2 als Standard gesetzt)",
+    "SETTINGS.MooQualities" : "Neue Qualitäten",
+    "SETTINGS.MooQualitiesHint" : "Fügt die Qualitäten Einfach und Momentum hinzu.",
+    "SETTINGS.MooShieldAP" : "Rüstungspunkte von Schilden",
+    "SETTINGS.MooShieldAPHint" : "Schildpunkte und Kritische Abschwächung (siehe unten) werden nur hinzugefügt bei erfolgreicher Verteidigungs Probe.",
+    "SETTINGS.MooCriticalMitigation" : "Kritische Abschwächung ",
+    "SETTINGS.MooCriticalMitigationHint" : "(Anstelle von Kritische Verletzung ablenken) Nach einem kritischen Treffer wird der Wurf auf die Kritische Verletzungstabelle um jeden Rüstungspunkt an der Trefferzone um 10 reduziert. Sinkt das Wurfergebnis dadurch unter 0 wird keine kritische Verletzung erlitten. Die Rüstungspunkte werden an der Stelle dann um 1 Punkt reduziert. Dies gilt nur, wenn der Angreifer zielt.",
+    "SETTINGS.MooRangeBands" : "Modifikatoren für Reichweitenbereich",
+    "SETTINGS.MooRangeBandsHint" : "Fernkampfwaffen haben eine optimale Reichweite, abhängig von ihrem Reichweitenbereich. Wird ein Ziel anvisiert, welches nicht in diesem Bereich liegt, erhält der Schütze Nachteile auf Basis der Entfernung zum Ziel. Sieh dazu das oben verlinkte Wiki für mehr Details.",
+    "SETTINGS.MooSizeDamage" : "Größe und Berechnung des Schadens",
+    "SETTINGS.MooSizeDamageHint" : "Der Schadens Bonus basiert auf absoluter Größe und nicht auf der Größe im Verhältnis der Akteure zueinander. (Siehe das oben verlinkte Wiki)",
+    "SETTINGS.MooHomebrewItems" : "Item Änderungen",
+    "SETTINGS.MooHomebrewItemHint" : "Ändert verschiedene Items (Inklusive von die Anwendung obiger Regeln). Siehe das oben verlinkte Wiki. **Warnung: Nur Empfohlen mit einem neuen Spiel und den meisten obigen Regeln aktiviert.**",
+    "SETTINGS.useWoMOvercast" : "Zauber verstärken nach dem Erweiterungsband Winde der Magie",
+    "SETTINGS.useWoMOvercastHint" : "Nutze die Regeln zum Zauber verstärken wie in dem Erweiterungsband Winde der Magie auf Seite 23 beschrieben.",
+    "SETTINGS.useWoMChannelling" : "Kanalisierungsregeln nach dem Erweiterungsband Winde der Magie",
+    "SETTINGS.useWoMChannellingHint" : "Nutze die Regeln zum Kanalisieren wie im Erweiterungsband Winde der Magie auf Seite 22 beschrieben.",
+    "SETTINGS.useWoMInfluences" : "Nutze die Regeln zu bösartigen Einflüssen aus dem Erweiterungsband Winde der Magie",
+    "SETTINGS.useWoMInfluencesHint" : "Nutze die Regeln zu bösartigen Einflüssen aus dem Erweiterungsband Winde der Magie wie auf Seite 22 beschrieben.",
+    "SETTINGS.ChannellingIngredients" : "Ingredienzen zum Kanalisieren",
+    "SETTINGS.ChannellingIngredientsHint" : "Ingredienzen fügen ihren Bonus auch den Proben zum Kanalisieren hinzu.",
+    "SETTINGS.Menu" : {
+        "TableSettings" : "Einstellung der Würfeltabellen",
+        "TableSettingsLabel" : "Konfiguriere die Einstellungen der Würfeltabellen",
+        "TableSettingsHint" : "Stelle ein welche Würfeltabelle genutzt wird, sofern es mehrere Tabellen mit dem gleichen Schlüssel existieren.",
+
+        "HouseRules" : "Hausregeln",
+        "HouseRulesLabel" : "Konfiguriere Hausregeln",
+        "HouseRulesHint" : "Einstellungen für bekannte Hausregeln"
+    },
+
+  "MOO.Prone":  "<br><br><b>Moo's Hausregeln</b>: Du gilst als einen Reichweitenbereich weiter entfernt wenn dich jemand mit einem Fernkampfangriff anvisiert.",
+    "MOO.Broken": "Du bist verängstigt, besiegt, panisch oder fest davon überzeugt, dass du sterben wirst. In deinem Zug muss deine Bewegung und deine Aktion genutzt werden, um so weit zu fliehen wie möglich, bis du ein gutes Versteck außerhalb der Sichtweite des Gegners findest. Danach kannst du deine Aktion auf Fähigkeiten anwenden, mit denen du dich besser verstecken kannst. Du erhältst einen Nachteil von -10 auf alle Proben, die nicht rennen oder verstecken beinhalten. <br><br>Du kannst nicht dafür würfeln, den Demoralisiert-Zustand zu überwinden, solange du an einen Gegner gebunden bist (siehe Seite 159). Sobald du nicht länger gebunden bist, kannst du am Ende jeder Runde mit einem Besonnenheits-Wurf versuchen, einen Demoralisiert-Zustand zu überwinden, wobei jeder EG einen weiteren Demoralisiert-Zustand entfernt und die Schwierigkeit von den Umständen abhängt. Es ist leichter, sich zu fangen, wenn man hinter ein paar Fässern hockt, die eine Straße weit von der Gefahr entfernt sind (durchschnittlich, +20), als wenn man nur drei Meter von einem gewaltigen Dämonen entfernt steht, der nach deinem Blut brüllt (sehr schwer, -30).<br><br>Wenn du eine komplette Runde damit verbringst, dich außer Sicht jedes Feindes zu verstecken, entfernst du 1 Demoralisiert-Zustand. <br><br><strike>Sobald alle Demoralisiert-Zustände entfernt wurden, erhältst du 1 Erschöpft-Zustand.</strike>.",
+    "MOO.Bleeding": "Du blutest sehr stark. Am Ende jeder Runde verlierst du 1 LP, unabhängig von deinen Modifikatoren. Zusätzlich erleidest du einen Abzug von -10 bei allen Würfen gegen Blutfäule, Leichte Infektionen und Schwärende Wunden (siehe Seite 186). Wenn du 0 LP erreichst, wirst du umgehend @Zustand[Bewusstlos] Zudem hast du nun am Ende der Runde für jeden Blutend-Zustand eine Chance von 10% zu sterben. Mit 3 Blutend-Zuständen würdest du also bei einem Wurf von 01-30 an Blutverlust sterben. Wenn du bei diesem Wurf einen Pasch würfelst, setzt langsam die Gerinnung ein und du verlierst 1 Blutend-Zustand. Du kannst nicht wieder zu Bewusstsein kommen, solange nicht alle Blutend-Zustände beseitigt wurden (siehe Verwundungen auf Seite 172). <br><br>Ein Blutend-Zustand kann durch einen gelungenen Heilen-Wurf entfernt werden, wobei jeder EG einen zusätzlichen Blutend-Zustand beseitigt.Auch Zauber oder Gebete, die LP wiederherstellen, entfernen einen Blutend-Zustand pro geheiltem LP.<br><br>Sobald alle Blutend-Zustände beseitigt wurden, erhältst du @Zustand[Erschöpft].",
+    "MOO.Penetrating": "Diese Waffe durchdringt Rüstungen besonders gut und ignoriert (Wert) Rüstungspunkte.",
+    "MOO.Simple": "Einfache Waffen können mit der Fähigkeit Nahkampf (Basic) ohne nachteile genutzt werden.",
+    "MOO.Momentum": "Diese Waffen sind schwer und benötigen Schwung, um effektiv geführt zu werden. Sie bekommen diese Eigenschaft wenn der Nutzer einen Vorteil hat.",
+    "MOO.Items": "Hausregeln & Anpassungen wurden dem Kompendium hinzugefügt. Siehe in der Konsole nach für Details.",
+    "MOO.CriticalChanelling": "EG Bonus für Kritisches Kanalisieren",
+    "MOO.FailedCast": "Das fehlschlagen von Zauber Proben während der Kanalisierung zählt als Unterbrechung.",
+
+    "SHEET.Close": "Schließen",
+    "SHEET.Configure": "Konfigurations Bogen",
+    "SHEET.Token": "Token Konfiguration",
+    "SHEET.Import": "Importieren",
+    "SHEET.Post": "Im Chat posten",
+    "SHEET.NestedWarning": "Du kannst keinen Behälter tiefer als die vierte Verschachtelung hinzufügen.",
+    "SHEET.LocationWarning": "Entferne den Behälter bevor du dessen Ort änderst",
+    "SHEET.SkillMissingWarning": "Die Fähigkeit welche für die Aktion Einkommen genutzt wird wurde nicht bei diesem Akteur gefunden",
+    "SHEET.NonCurrentCareer": "Dies ist nicht deine aktuelle Karriere.",
+    "SHEET.AddSkillTitle": "Füge Karriere Fähigkeit hinzu",
+    "SHEET.AddSkillPrompt": "Möchtest du diese Fähigkeit hinzufügen?",
+    "SHEET.AddTalentTitle": "Füge Karriere Talent hinzu",
+    "SHEET.AddTalentPrompt": "Möchtest du dieses Talent hinzufügen? (Kostet 100 EP)",
+    "SHEET.RefundXPTitle": "Erhalte EP zurück?",
+    "SHEET.RefundXPPrompt": "Möchtest du die Erfahrungspunkte zurückerstatten?",
+    "SHEET.CareerSkill": "Ändere Karriere Fähigkeit",
+    "SHEET.CareerSkillPrompt": "Du änderst die Spezialisierung einer Fähigkeit deiner aktuellen Karriere. Willst du diese Änderung auf deine aktuelle Karriere übertragen?",
+    "SHEET.CareerSkillNotif": "Ändere {oldName} zu {newName} in {career}.",
+    "SHEET.LoadingSkills": "Lädt Fähigkeiten",
+    "SHEET.SkillSpecialization": "Fähigkeitsspezialisierung",
+    "SHEET.SkillSpecializationText": "Wähle eine Spezialisierung, wenn du keine Auswahl triffst, trage eine manuell ein.",
+    "SHEET.SkillSpecializationEnter": "Trage eine Fähigkeitsspezialisierung ein",
+    "SHEET.SortItems": "Sortiere Gegenstände",
+    "SHEET.ArmourDamaged": "Rüstung nimmt 1 Schaden",
+    "SHEET.ArmourRepaired": "Rüstung wurde um 1 repariert",
+    "SHEET.ThrowingAmmoError": "Die Wurfmunitionsgruppe ist für andere Waffen gedacht, die Wurfwaffen als Munition verwenden. Wurfwaffen selbst verwenden im Allgemeinen die Kategorie Keine",
+    "SHEET.GroupAdvantage": "Gruppen Vorteil",
+    "SHEET.Expand": "Erweitern",
+    "SHEET.Collapse": "Einklappen",
+    "SHEET.TemporaryEffectHint": "Diese aktiven Effekte stammen vom besitzenden Akteur. Um sie zu bearbeiten, nutze das Charakterblatt des Akteurs.",
+    "SHEET.ExperienceLog": "Erfahrungs Log",
+    "Sheet.RollIncome": "Würfel dein Einkommen",
+    "SHEET.ItemSheetEditableDisabled": "Bearbeiten dieses Items ist, während des effektes von {effects} gerade nicht möglich. Deaktiviere oder lösch diesen Effekt auf den entsprechenden Akteur.",
+    "SHEET.AlterName": "Name ändern",
+    "SHEET.Prepend": "voranstellen",
+    "SHEET.Append": "anhängen",
+    "SHEET.SkillName": "Fähigkeiten Name",
+    "SHEET.TalentName": "Talent Name",
+    "SHEET.SpecialisationAbbrev": "Spez.",
+    "SHEET.TemplateSpecialisationTooltip": "Wieviele Spezialisierungen gewählt werden sollen. (z.B. \"Nahkampf\" und \"2\" entspricht \"Nahkampf (beliebige zwei)\")",
+    "SHEET.TemplateGroupTooltip": "Das bereitstellen einer Gruppennummer wird die Option geben, zwischen beliebigen Items mit derselben Gruppennummer zu wählen.",
+
+    "LOG.MemorizedSpell": "Eingeprägt {name}",
+    "LOG.GainPrayer": "Erhalte {name}",
+    "LOG.CareerChange": "Karriere wechsel: {career}",
+
+    "SHEET.MeleeWeaponHeader": "Nahkampf Waffe(n)",
+    "SHEET.RangedWeaponHeader": "Fernkampf Waffe(n)",
+    "SHEET.ArmourAP": "Rüstungspunkte",
+    "SHEET.ArmourPenalties": "Rüstungs Mali",
+    "SHEET.ShieldAP": "Schildpunkte",
+    "SHEET.TB": "Zähigkeit Bonus",
+    "SHEET.CreateItem": "Erstelle Gegenstand",
+    "SHEET.PostItem": "Gegenstand im Chat posten",
+    "SHEET.EditItem": "Bearbeite Gegenstand",
+    "SHEET.Dropdown": "Dropdown Gegenstand",
+    "SHEET.DeleteItem": "Lösche Gegenstand",
+    "SHEET.RemoveItem": "Entferne Gegenstand",
+    "SHEET.Encumbrance": "Traglast",
+    "SHEET.EncCount": "Traglastzähler",
+    "SHEET.MaxEnc": "Max Traglast",
+    "SHEET.VeryEnc": "Sehr beladen",
+    "SHEET.Encumbered": "Überladen",
+    "SHEET.UnEnc": "Unbelastet: Keine Modifikatoren",
+    "SHEET.EncAbbrev": "Bel.",
+    "SHEET.QtyAbbrev": "Menge",
+    "SHEET.CountEncOn": "Klicke, um die Belastung dieses Behälters nicht mitzuzählen (z.B. eines Karrens).",
+    "SHEET.CountEncOff": "Klicke, um die Belastung dieses Behälters mitzuzählen (z.B. eines getragenen Rucksacks).",
+    "SHEET.CountEncTT": "Füge diese Belastung der Traglast des Charakters hinzu. (abwählen, wenn es nicht getragen wird (z.b. weil es in einem Karren liegt)",
+    "SHEET.PettySpell": "Niedere Magie",
+    "SHEET.LoreSpell": "Arkane Zauber",
+    "SHEET.CN": "Zauberwert",
+    "SHEET.SL": "Kanalisierte Erfolgsgrade",
+    "SHEET.CareerToolTip": "Markiere eine Karriere als 'Aktuell', um diesen Bereich zu füllen.",
+    "SHEET.CharAbbrev": "Spielw.",
+    "SHEET.AdvAbbrev": "Steig.",
+    "SHEET.BonusChar": "Der Bonus des ausgewählten Spielwerts wird zu der Berechnung des Schadens hinzugefügt.",
+    "SHEET.Offhand": "Nebenhand",
+    "Off-hand": "Nebenhand",
+    "Loaded": "Geladen",
+    "SHEET.Qualities": "Q:",
+    "SHEET.Flaws": "M:",
+    "SHEET.Or": "OR",
+    "SHEET.WeaponDamage": "Schaden an der Waffe",
+    "SHEET.ArmourCurrent": "aktuelle",
+    "SHEET.ArmourMax": "Max",
+    "SHEET.NewExtendedTest": "Neue Erweiterte Probe",
+    "SHEET.NewTrapping": "Neue Ausrüstung",
+    "SHEET.NewCritical": "Neue Kritische Verletzung",
+    "SHEET.NewInjury": "Neue Verletzung",
+    "SHEET.DoesDamage": "schadet",
+    "SHEET.DamageValue": "Schadenswert",
+    "SHEET.Dismount": "Absitzen",
+    "SHEET.RemoveMount": "Entferne Reittier",
+    "SHEET.RemoveAttacker": "Entferne Angreifer",
+    "SHEET.CannotDeleteItemEffect": "Dieser Effekt wird von einem Gegenstand dieses Akteurs verursacht. Lösche den Gegenstand oder den Effekt vom Gegenstands-Bogen.",
+    "SHEET.CannotDeleteCrewEffect": "Dieser Effekt wird von einem Fahrzeug verursacht auf dem sich dieser Akteur befindet. Du musst den Effekt von dem Fahrzeug löschen.",
+    "SHEET.Attacker": "Angreifer",
+    "SHEET.LocationAP": "Zonen RP",
+    "SHEET.AppliedTemplates": "Angewandte Vorlagen",
+    "SHEET.NewSkillHint": "Gib den Namen der neuen Fähigkeit ein und wähle ihre Eigenschaft.",
+
+    "ACTOR.BasicSkillsTitle": "Basisfähigkeit hinzufügen",
+    "ACTOR.BasicSkillsPrompt": "Basisfähigkeit hinzufügen?",
+    "ACTOR.PreparationError": "Etwas ist schief gelaufen bei der Vorbereitung der Akteursdaten:",
+    "ACTOR.AddBasicSkills": "Basisfähigkeit hinzufügen",
+    "ACTOR.ImportStatBlock": "Importiere Stat Block",
+    "ACTOR.SpentExp": "Gib {amount} an Erfahrungspunkte für {reason} aus.",
+    "ACTOR.AdvancementError": "Nicht genug Erfahrungspunkte für {action}{item}.",
+    "ACTOR.ErrorImprove": "verbessern",
+    "ACTOR.ErrorAdd": "hinzufügen",
+    "ACTOR.ClearMount": "Entferne Reittier",
+
+    "ITEM.PenniesValue": "Wert (in d)",
+    "ITEM.MeleeDamage": "Nahkampf Schaden",
+    "ITEM.RangedDamage": "Fernkampf Schaden",
+    "ITEM.TwoHanded": "Zweihändig",
+    "ITEM.WeaponDamaged": "<b>Waffe wurde um {damage} ‘Punkte beschädigt</b>",
+    "ITEM.ShieldDamaged": "<b>Beschädigt</b> - Schildpunkte wurden um {damage} Punkte reduziert.",
+    "ITEM.TrappingType": "Ausrüstungsart",
+    "ITEM.MutationType": "Mutationsart",
+    "ITEM.CountOwnerEnc": "Zählt zur Traglast des Besitzers?",
+    "ITEM.ArmourType": "Rüstungsart",
+    "ITEM.AmmunitionType": "Munitionsart",
+    "ITEM.AmmunitionGroup": "Munitionsgruppe",
+    "ITEM.ConsumesAmmo": "Verbraucht Munition",
+    "ITEM.ConsumeAmmoTT": "Wenn angewählt und die Munitionsart ist keine, wird die Anzahl des Items verringert.",
+    "ITEM.CountEnc": "Zähl Traglast",
+    "ITEM.SkillModifier": "Fähigkeitsmodifikator?",
+    "ITEM.SkillModifierTT": "Zeige den Modifikator bei den Nachteilen im Fähigkeitenfenster an.",
+    "ITEM.PrayerType": "Gebetsart",
+    "ITEM.TalentMax": "Talentmaximum",
+    "ITEM.TalentTests": "Talent Probe",
+    "ITEM.IsGrouped": "Gruppiert",
+    "ITEM.CostModifier": "EP Kosten Modifikator",
+    "ITEM.CostModifierTT": "Wende einen Modifikator auf die EP Kosten an, wenn du diese Fähigkeit steigern möchtest.",
+    "ITEM.ReloadingWeapon": "Nachladen {weapon}",
+    "ITEM.Reloading": "Nachladen",
+    "ITEM.CreateReloadTest": "Erstelle eine Erweiterte Nachladen {weapon}-Probe",
+    "ITEM.ReloadError": "Es konnte keine verbundene Erweiterte Nachladen-Probe gefunden werden.",
+    "ITEM.ReloadFinish": "Erweiterte Nachladen-Probe abgeschlossen",
+    "ITEM.VehicleMod": "Modifikator",
+    "ITEM.ModeOverride": "Waffenart ändern",
+    "ITEM.ModeOverrideTT": "Grundsätzlich sind Waffen entweder Nah- oder Fernkampf zugeordnet. Je nach Ihrer Waffengruppe. Dies kann hier geändert werden.",
+    "ITEM.CargoType": "Art der Fracht",
+    "ITEM.UnitPrice": "Stückpreis",
+    "ITEM.CargoQuality": "Qualität",
+    "ITEM.Origin": "Herkunft",
+    "ITEM.OptimalRange": "Optimale Entfernung",
+    "ITEM.Ritual": "Ritual",
+    "ITEM.RandomVortex": "Zufälliger Vortex",
+    "ITEM.Standard": "Standard",
+    "ITEM.TestSkill": "Fähigkeitsprobe",
+    "ITEM.Roles": "Würfe",
+    "ITEM.VitalRoles": "Vital Roles",
+    "ITEM.LearningXP": "Erlerne EP",
+    "as weapon": "als Waffe",
+    "half weapon": "halbe Waffe",
+    "third weapon": "drittel Waffe",
+    "quarter weapon": "viertel Waffe",
+    "twice weapon": "doppelte Waffe",
+
+    "Basic": "Grundlegend",
+    "Advanced": "Fortgeschritten",
+    "Qualities": "Qualitäten",
+    "QualitiesOr": "or",
+    "SkillsOr": "or",
+    "Flaws": "Makel",
+    "Location": "Standort",
+    "Penalty": "Malus",
+    "Penalties": "Mali",
+    "PenaltyHint": "Mit Komma getrennt sofern mehrere eintreten (-20 Heimlichkeit, -10 Wahrnehmung)",
+    "Max": "Max",
+    "Tests": "Proben",
+    "Specification": "Spezifikation",
+    "Price": "Preis",
+    "Encumbrance": "Traglast",
+    "Availability": "Verfügbarkeit",
+    "Special": "Spezial",
+    "Special Ammo": "Spezialmunition",
+    "Specialization": "Spezialisierung",
+    "Reach": "Reichweite",
+    "Contraction": "Übertragung",
+    "Incubation": "Inkubation",
+    "IncubationPlaceholder": "Text zur Krankheitsinkubation",
+    "Duration": "Dauer",
+    "DurationPlaceholder": "Text zur Krankheitsdauer",
+    "Diagnosed": "Diagnostiziert",
+    "DiagnosedTT": "Umschalten sofern die Krankheit für den Spieler sichtbar sein soll.",
+    "Symptoms": "Symptome",
+    "Permanent": "Permanent",
+    "Status": "Status",
+    "Status Tier": "Statusstufe",
+    "Status Standing": "Statusrang",
+    "Class": "Klasse",
+    "Group": "Gruppe",
+    "Personal Details": "Persönliche Details",
+    "Characteristics": "Eigenschaften",
+    "Characteristic": "Eigenschaft",
+    "Main": "Hauptseite",
+    "Skills": "Fähigkeiten",
+    "Skill": "Fähigkeit",
+    "Skill Type": "Fähigkeitsart",
+    "Talents": "Talente",
+    "Talent": "Talent",
+    "Times Taken": "Stufe",
+    "Combat": "Kampf",
+    "Magic": "Magie",
+    "Religion": "Religion",
+    "Trappings": "Ausrüstung",
+    "Notes": "Notizen",
+    "Income": "Einkommen",
+    "Wounds": "Lebenspunkte",
+    "RestRecover": "Rasten & Genesen",
+    "Modifier": "Modifikator",
+    "Modifiers": "Modifikatoren",
+    "Range": "Entfernung",
+    "Target": "Ziel",
+    "Damage": "Schaden",
+    "Ammunition": "Munition",
+    "Magic Missile": "Magisches Geschoss",
+    "Lore": "Lehre",
+    "Lore Effect": "Effekte der Lehre",
+    "SPELL.Lore": "Lehre:",
+    "CN": "Zauberwert",
+    "SL": "EG",
+    "SuccessLevels": "EG",
+    "Wearable": "Tragbar",
+    "Choose": "Wähle",
+    "Roll": "Wurf",
+    "Advantage": "Vorteil",
+    "None": "Kein",
+    "NoneAmmo": "Keine",
+    "Free": "Frei",
+    "Armour": "Rüstung",
+    "Mutation": "Mutation",
+    "Mutations": "Mutationen",
+    "Injury": "Verletzung",
+    "Injuries": "Verletzungen",
+    "Criticals": "Kritische Verletzungen",
+    "Equipped": "Ausgerüstet",
+    "Worn": "Getragen",
+    "Blessing": "Segen",
+    "Miracle": "Wunder",
+    "Physical": "Physisch",
+    "Mental": "Mental",
+    "Success": "Erfolg",
+    "Cast": "Wirken",
+    "Channel": "Kanalisieren",
+    "Test": "Probe",
+    "TestPlaceholder": "z.B. \"Nahkampf (Standard)\", \"Fernkampf (Schießpulver)\", \"Ausdauer\"",
+    "SkillTest": "{skill}-Probe",
+    "CharTest": "{char}-Probe",
+    "WeaponTest": "Waffen-Probe",
+    "CastingTest": "Zauber-Probe",
+    "ChannellingTest": "Kanalisieren-Probe",
+    "PrayerTest": "Gebets-Probe",
+    "Opposed": "Vergleichend",
+    "Failure": "Fehlschlag",
+    "Astounding": "Erstaunlicher",
+    "Impressive": "Beeindruckender",
+    "Marginal": "Marginal",
+    "Critical": "Kritischer Treffer",
+    "Critical Wound": "Kritische Wunde",
+    "Critical Wounds": "Kritischer Wunden",
+    "Experience": "Erfahrung",
+    "Spent": "Spent",
+    "Corruption": "Korrumpierung",
+    "Fumble": "Patzer",
+    "Misfire": "Fehlzündung",
+    "Unopposed": "nicht vergleichend",
+    "Right": "Rechts",
+    "Left": "Links",
+    "Head": "Kopf",
+    "Body": "Körper",
+    "Right Arm": "Rechter Arm",
+    "Left Arm": "Linker Arm",
+    "Primary Arm": "Hauptarm",
+    "Secondary Arm": "Nebenarm",
+    "Right Leg": "Rechtes Bein",
+    "Left Leg": "Linkes Bein",
+    "Arms": "Arme",
+    "Legs": "Beine",
+    "Spell": "Zauber",
+    "Total": "Gesamt",
+    "Carries": "Carries",
+    "Memorized": "Eingeprägt",
+    "Initial": "Anfänglich",
+    "Advances": "Vorteile",
+    "Current": "Aktuell",
+    "Complete": "Vollständig",
+    "Movement": "Bewegungsreichweite",
+    "Move": "Bewegung",
+    "Walk": "Gehen",
+    "Run": "Rennen",
+    "Swim": "Schwimmen",
+    "Fortune": "Glück",
+    "Fate": "Schicksal",
+    "Resolve" : "Mut",
+    "Resilience" : "Zähigkeit",
+    "Career" : "Karriere",
+    "Careers" : "Karrieren",
+    "Level" : "Level",
+    "Biography" : "Biografie",
+    "Personal Ambitions" : "Persönliche Ambitionen",
+    "Party Ambitions" : "Gruppen Ambitionen",
+    "Short Term" : "Kurzzeit",
+    "Long Term" : "Langzeit",
+    "Motivation" : "Motivation",
+    "Psychology" : "Psychologie",
+    "Disease" : "Krankheit",
+    "Diseases" : "Krankheiten",
+    "GM Notes" : "SL Notizen",
+    "Blessed By" : "Gesegnet von",
+    "Sin" : "Sünde",
+    "Species" : "Volk",
+    "Subspecies" : "Untervolk",
+    "Gender" : "Geschlecht",
+    "Career Level" : "Karriereweg",
+    "Career Group" : "Karrieregruppe",
+    "Career Class" : "Karriereklasse",
+    "Career Tier" : "Karrierestufe",
+    "Earning Skill" : "Fähigkeit zum Geld verdienen",
+    "Age" : "Alter",
+    "CharacterHeight" : "Größe",
+    "Weight" : "Gewicht",
+    "Hair Colour" : "Haarfarbe",
+    "Eye Colour" : "Augenfarbe",
+    "Distinguishing Mark" : "Merkmale",
+    "Star Sign" : "Sternzeichen",
+    "Basic Skills" : "Grundfähigkeiten",
+    "Grouped & Advanced Skills" : "Gruppierte & Ausbaufähigkeiten",
+    "Creature Traits" : "Kreatureneigenschaften",
+    "Creature Trait" : "Kreatureneigenschaft",
+    "Creature Overview" : "Kreaturenübersicht",
+    "Trained Skills" : "Geschulte Fähigkeiten",
+    "Traits" : "Eigenschaft",
+    "Randomize Attributes" : "Zufällige Spielwerte",
+    "RANDOMIZER.C": "C",
+    "RANDOMIZER.S": "S",
+    "RANDOMIZER.T": "T",    
+    "Character Name" : "Name des Charakters ",
+    "Extra" : "Extra",
+    "Exp" : "Exp",
+    "Details" : "Details",
+    "Attributes" : "Spielwerte",
+    "Reroll" : "Neu Würfeln",
+    "Description" : "Beschreibung",
+    "Overcast" : "Zauber verstärken",
+    "Other" : "Andere",
+    "Category" : "Kategorie",
+    "God" : "Gott",
+    "Value" : "Wert",
+    "AoE" : "AoE",
+    "Radius" : "Radius",
+    "Extendable Duration" : "Erweiterbare Dauer",
+    "Extendable AoE" : "Erweiterbarer AoE",
+    "Extendable AoE Tooltip" : "Erlaubt dem betenden übrige EG für eine Erweiterung des AoE Bereiches auszugeben.",
+    "ExtDurHint" : "Wenn der Zauber enden sollte, kannst du eine Willenskraft-Probe ablegen. Ist diese erfolgreich verlängerst du die Dauer um +1 Runde.",
+    "Rollable" : "Würfelbar",
+    "Roll Characteristic" : "Würfel Merkmal",
+    "Bonus Characteristic" : "Bonus Markmal",
+    "Weapon Group" : "Waffengruppe",
+    "Type" : "Art",
+    "Container" : "Container",
+    "Money" : "Geld",
+    "Prayer" : "Gebet",
+    "Trait" : "Eigenschaft",
+    "Protects" : "Schützt",
+    "AllowXPSpending" : "Zeige Steigerungsanzeige",
+    "TooltipAllowXPSpending" : "Zeige die Steigerungsanzeige egal welche Karriere, um eine automatische EP Verteilung zu ermöglichen.",
+    "TooltipSkillModifier" : "Setze einen beliebigen Bonus oder Malus für die Fähigkeit.",
+    "Extended Test" : "Erweiterte Probe",
+    "Extended Tests" : "Erweiterte Proben",
+    "Target SL" : "Ziel EG",
+    "Hide Test" : "Probe ausblenden",
+    "Hide Progress" : "Fortschritt ausblenden",
+    "Negative SL Possible" : "Negative EG sind möglich",
+    "Failing Decreases Progress" : "Fehlschlag reduziert den Fortschritt",
+    "Effects" : "Effekte",
+    "Mount": "Reittier",
+    "Corruption&Mutation": "Korrumpierung & Mutationen",
+    "Social Group": "Soziale Gruppe",
+    "the associated Threat": "die verbundene Gerfahrt",
+    "Sense": "Sinn",
+    "the Terrain": "das Gelände",
+    "chosen Lore": "gewähltes Wissen ",
+    "Charging": "Ansturm",
+    "Players": "Spieler",
+    "Enemies": "Gegner",
+    "From Effect" : "vom Effekt",
+    "Owner" : "Besitzer",
+
+    "BREAKDOWN.Base" : "Base",
+    "BREAKDOWN.AttackerBase": "Attacker Base",
+    "BREAKDOWN.Dice" : "Würfel",
+    "BREAKDOWN.OpposedSL" : "Vergleichende EG",
+    "BREAKDOWN.Multiplier" : "Multiplikator",
+    "BREAKDOWN.Ignored" : "Ignoriert",
+    "BREAKDOWN.Minimum1" : "Minimum 1 Wunde",
+    "BREAKADOWN.UserEntry" : "Nutzereintrag",
+    "BREAKDOWN.Penetrating" : "Rüstungsbrechend - Ignoriere {ignored} ({item})",
+    "BREAKDOWN.Zzap" : "Zzap! - Ignoriere {ignored}",
+    "BREAKDOWN.Weakpoints" : "Schwachstellen - Ignoriere {ignored} ({item})",
+    "BREAKDOWN.Partial" : "Teilweise - Ignoriere {ignored} ({item})",
+    "BREAKDOWN.Undamaging" : "<strong>Stumpf</strong>: {originalAP} RP * 2 = {modifiedAP}",
+    "BREAKDOWN.Moo" : "Moo Haus Regeln",
+    "BREAKDOWN.PenetratingMoo" : "Rüstungsbrechend - Ignoriere {ignored}",
+    "BREAKDOWN.ShieldMoo" : "Fehlgeschlagende Verteidigung - Ignoriere Schild RP ({ignored})",    
+
+    "BROWSER.Button" : "Item Browser",
+    "BROWSER.ItemCategories" : "Item Kategorien",
+    "BROWSER.IncludeWorld" : "Enthält Welt Items?",
+    "BROWSER.FilterOptions" : "Filter Optionen",
+    "BROWSER.ModifiesDamage" : "Modifiziert Schaden",
+    "BROWSER.ModifiesRange" : "Modifiziert Reichweite",
+    "BROWSER.ItemList" : "Item Liste",
+    "BROWSER.LoadingBrowser" : "Lade Browser...",
+    "BROWSER.Created" : "Erstellt {num} Items",
+
+    "On Completion": "Nach Abschluss",
+    "ExtendedTest.None" : "Keiner",
+    "ExtendedTest.Reset" : "Reset",
+    "ExtendedTest.Remove" : "Entferne",
+    "Completed": "Abgeschlossen",
+    "ExtendedError1": "Bitte gib eine positive Zahl für das Ziel der Erweiterten Probe ein",
+    "ExtendedError2": "Kann keine passendes Merkmal oder Fähigkeit finden: {name}",
+
+    "XP": "EP",
+    "EXP": "EXP",
+
+    "CHARGEN.Title" : "Charakter Generator",
+    "CHARGEN.Stages" : "Stufen",
+    
+    "CHARGEN.StageSpecies" : "Volk",
+    "CHARGEN.StageCareer" : "Karriere",
+    "CHARGEN.StageAttributes" : "Spielwerte",
+    "CHARGEN.StageSkillsTalents" : "Fähigkeiten & Talente",
+    "CHARGEN.StageTrappings" : "Ausrüstung",
+    "CHARGEN.StageDetails" : "Details",
+
+    "CHARGEN.StageTitle.Species" : "Bestimme dein Volk.",
+    "CHARGEN.StageTitle.Career" : "Würfel für eine Karriere.",
+    "CHARGEN.StageTitle.Attributes" : "Bestimme deine Spielwerte",
+    "CHARGEN.StageTitle.SkillsTalents" : "Weitere Fähigkeiten deines Volkes und deiner Karriere.",
+    "CHARGEN.StageTitle.Trappings" : "Erhalte die Ausrüstung deiner Karriere",
+    "CHARGEN.StageTitle.Details" : "Details deines Charakters",
+
+    "CHARGEN.Species.SelectSpecies" : "Wähle ein Volk",
+    "CHARGEN.Species.SelectSubSpecies" : "Wähle eine Herkunft",
+    "CHARGEN.Species.NoSubspecies" : "Keine Herkunft verfügbar.",
+    "CHARGEN.Species.ChooseSpecies" : "Alternativ kannst du ein Volk auswählen. Dafür erhältst du keine Bonus Erfahrungspuntke.",
+    "CHARGEN.Species.ExtraSpeciesOptions" : "Extra Optionen des Volkes",
+    "CHARGEN.Species.RandomTalents" : "{num} Zufällige Talente",
+
+    "CHARGEN.Career.ChooseCareer" : "Wähle {name}",
+    "CHARGEN.Career.ReplacementsAvailable" : "Ersetzen ist möglich",
+    "CHARGEN.Career.ReplacementsAvailableDescription" : "Basierend auf deinen erwürfelten Karrieren sind diese alternativen optionen wählbar.",
+    "CHARGEN.Career.RollAgain" : "´Würfel erneut für zwei weitere Wahlmöglichkeiten, jedoch weniger EP.",
+    "CHARGEN.Career.KeepRolling" : "Würfel weiter (keine Extra Erfahrung)",
+    "CHARGEN.Career.DragDrop" : "Ansonsten kannst du auch eine Karriere aus dem Kompendium per drag and drop hierherziehen. (Keine EP)",
+    "CHARGEN.Career.LoadingCareers" : "Lade Karrieren...",
+
+
+    "CHARGEN.Attributes.Reroll" : "Erneut Würfeln",
+    "CHARGEN.Attributes.Allocate" : "Zuweisen",
+    "CHARGEN.Attributes.Rearrange" : "Neuanordnen",
+    "CHARGEN.Attributes.Allocation" : "Zuweisung",
+    "CHARGEN.Attributes.NotHappy" : "Bist du nicht zufrieden damit?",
+    "CHARGEN.Attributes.Instructions" : "Ziehe die gewürfelten Werte, um sie neu anzuordnen (Wenn du das tust, gibt es nur +25 EP). Oder du kannst nochmal Würfeln und dafür keine EP mehr bekommen. Alternativ kannst du 100 Punkte auf die Spielwerte verteilen wie du möchtest (Dafür bekommst du dann keine EP).",
+    "CHARGEN.Attributes.AllocationPoints" : "Verteile 100 Punkte auf die Spielwerte (min: 4 max: 18)",
+    "CHARGEN.Attributes.AllocationSpent" : "Du hast {spent} ausgegeben",
+    "CHARGEN.Attributes.ExtraPoints" : "Verteile Extra Punkte ({points} übrig)",
+    "CHARGEN.Attributes.CharacteristicAdvances" : "Verteile 5 Steigerungen auf deine markierten Karriere Spielwerte",
+
+    "CHARGEN.SkillsTalents.SkillAdvances" : "Wähle 3 Fähigkeiten aus die 5 Steigerungen erhalten und 3 Fähigkeiten die 3 Steigerungen erhalten. Zieh die jeweiligen Fähigkeiten per drag and drop in die jeweiligen Felder.",
+    "CHARGEN.SkillsTalents.NumAdvances" : "{num} Steigerungen",
+    "CHARGEN.SkillsTalents.SpeciesTalents" : "Wähle und Würfel deine Talente",
+    "CHARGEN.SkillsTalents.RandomTalents" : "Würfel {count} zufällige Talente",
+    "CHARGEN.SkillsTalents.CareerSkills" : "Verteile 40 Punkte auf deine Karriere Fähigkeiten  ({points} übrig)",
+    "CHARGEN.SkillsTalents.CareerTalent" : "Wähle 1 Talent deiner Karriere",
+    "CHARGEN.SkillsTalents.ReplaceTalentDialog.Title" : "Ersetze Talent",
+    "CHARGEN.SkillsTalents.ReplaceTalentDialog.Content" : "<p>Möchtest du {talent} mit {replacement} austauschen?</p>",
+    "CHARGEN.SkillsTalents.Traits" : "Merkmale",
+
+    "CHARGEN.RerollDuplicateTalent" : "Doppelte Talente kannst du neu würfeln",
+    "CHARGEN.AdditionalRandomTalent" : "Zusätzliches zufälliges Talent",
+    "CHARGEN.XAdditionalRandomTalents" : "{x} zusätzliche zufällige Talente",
+
+    "CHARGEN.Trappings.ClassTrappings" : "Ausrüstung deiner Klasse",
+    "CHARGEN.Trappings.CareerTrappings" : "Ausrüstung deiner Karriere",
+    "CHARGEN.Trappings.MissingTrappings" : "Fehlende Ausrüstung",
+    "CHARGEN.Trappings.MissingTrappingsDescription" : "<p>Diese Ausrüstungsgegenstände wurden nicht gefunden. Du kannst die Blanko Ausrüstung behalten oder sie entfernen. <strong>Achtung: </strong> Es ist empfohlen, dass du die Ausrüstung entfernst und manuell (Items aus dem Kompendium hier reinziehen per drag and drop)</p><p><strong>z.B.</strong> Entferne die Fehlende <em>Armbrust und 12 Bolzen</em> und füge aus dem Kompendium eine Armbrust und Bolzen Items manuell hinzu.</p>",
+    "CHARGEN.Trappings.AddedTrappings" : "Hinzugefügte Ausrüstung",
+    "CHARGEN.Trappings.DragDrop" : "Drag and drop alle andere Ausrüstung",
+    "CHARGEN.Trappings.Keep" : "Behalte",
+    "CHARGEN.Trappings.Remove" : "Entferne",
+    "CHARGEN.Trappings.RollIncome" : "Würfel dein Startvermögen",
+
+    "CHARGEN.Details.ShortTermAmbitions" : "Kurzfristige Ambition",
+    "CHARGEN.Details.LongTermAmbitions" : "Langfristige Ambition",
+    "CHARGEN.Details.Eyes" : "Augen",
+    "CHARGEN.Details.Hair" : "Haare",
+    "CHARGEN.Details.Male" : "Männlich",
+    "CHARGEN.Details.Female" : "Weiblich",
+
+    "CHARGEN.Message.Start" : "<p><b>{user}</b> hat die Charaktererschaffung gestartet!</p>",
+    "CHARGEN.Message.Rolled" : "<p>Würfelt: <b>{rolled}</b>!</p>",
+    "CHARGEN.Message.RerolledDuplicateTalent" : "<p>Neu gewürfeltes doppeltes Talent: <b>{rolled}</b>!</p>",
+    "CHARGEN.Message.Chosen" : "<p>Wählt: <b>{chosen}</b>!</p>",
+    "CHARGEN.Message.RolledCharacteristics" : "<p>Würfelt Spielwerte</p>",
+    "CHARGEN.Message.ReRolledCharacteristics" : "<p>Würfelt Spielwerte neu</p>",
+    "CHARGEN.Message.SwappedCharacteristics" : "<p>Spielwert {ch1} mit {ch2} getauscht.</p>",
+    "CHARGEN.Message.AllocateCharacteristics" : "<p>Hat die Zuweisung von Spielwerten begonnen </p>",
+    "CHARGEN.Message.Created" : "<p><b>{name}</b> wurde erschaffen!",
+    "CHARGEN.Message.ReplacedTalent" : "<p>Ersetzte <b>{talent}</b> mit <b>{replacement}</b>!</p>",
+    "CHARGEN.Message.Income" : "<p><b>Startvermögen:</b> {quantity} {name}</p>",
+
+    "CHARGEN.NoGMWarning" : "Um einen Charakter zu erschaffen muss entweder eine SL eingeloggt sein oder den Spieler muss die 'Erlaubnis neue Akteure zu erschaffen' gegeben worden sein.",
+    "CHARGEN.UseExistingData" : "Nutze bestehende Daten",
+    "CHARGEN.UseExistingDataContent" : "Es wurden Daten einer vorhergehenden Charaktererschaffung gefunden. Möchtest du diese fortführen? ",
+    "CHARGEN.ERROR.StageStart" : "Kann diesen Abschnitt nicht starten: Du musst erst den Abschnitt {stage} abschließen.",
+    "CHARGEN.ERROR.StageAlreadySubmitted" : "Abschnitt ist bereits abgeschlossen und kann nicht mehr erneut abgeschlossen werden.",
+    "CHARGEN.ERROR.SpeciesSubmit" : "Du musst ein zufälliges Volk erwürfeln oder ein Volk auswählen um diesen Abschnitt abzuschließen.",
+    "CHARGEN.ERROR.CareerSubmit" : "Du musst eine zufällige Karriere erwürfeln oder eine auswählen um diesen Abschnitt abzuschließen.",
+    "CHARGEN.ERROR.MetaAllocation" : "Die Steigerungen der Schicksals- & Zähigkeitspunkte darf die Extra Punkte nicht überschreiten.",
+    "CHARGEN.ERROR.CharacteristicAllocation" : "Die Spielwerte dürfen zusammen nicht 100 Punkte überschreiten",
+    "CHARGEN.ERROR.CharacteristicAllocationBounds" : "Es dürfen einem Spielwert nicht weniger als 4 oder mehr als 18 Punkte zugeordnet werden",
+    "CHARGEN.ERROR.CharacteristicAdvances" : "Die Steigerungen der Karrierespielwerte dürfen 5 Punkte nicht überschreiten",
+    "CHARGEN.ERROR.SpeciesSkillAdvancements" : "Du darfst nur 3 Fähigkeiten enthalten",
+    "CHARGEN.ERROR.SpeciesTalentsNotRolled" : "Zufalls Talente wurden nicht gewürfelt",
+    "CHARGEN.ERROR.SpeciesTalentsNotChosen" : "Wähle zwischen möglichen Talenten deines Volks",
+    "CHARGEN.ERROR.CareerTalentNotChosen" : "Wähle ein Karriere Talent",
+    "CHARGEN.ERROR.CareerSkillAllocation" : "Du kannst nicht mehr als 40 Punkte auf deine Karriere Fähigkeiten verteilen!",
+    "CHARGEN.ERROR.CareerSkillAllocationBounds" : "Du darfst nicht mehr als 10 Punkte auf eine einzige Fähigkeit verteilen!",
+    "CHARGEN.ERROR.ClassTrappingsNotFound" : "Ausrüstung für {class} wurde nicht gefunden",
+    "CHARGEN.ERROR.Create" : "Fehler beim Erstellen des Akteurs: {error}",
+    "CHARGEN.ERROR.CareerItem" : "Es können keine Stufe 1 Karriere Items gefunden werden: {career}",
+    "CHARGEN.ERROR.CareerItems" : "{num} Karriere Items konnten nicht gefunden werden (von {careers})",
+    "CHARGEN.ERROR.SpeciesTable" : "Es konnte keine importierte Tabelle für Völker gefunden werden. Prüfe die <strong>Tabellen Einstellungen</strong> in den Systemeinstellungen, um sicherzugehen, dass die entsprechende Tabelle korrekt ist. Wenn keine Tabelle registriert wurde, erstell sie manuell oder importiere eine. Die Nutzung von <a href='https://moo-man.github.io/WFRP4e-FoundryVTT/pages/premium.html#initializiation'>Initialization</a> wird diese für dich importieren.",
+    "CHARGEN.ERROR.TalentsTableNotFound" : "Es konnte keine Tabelle für zufällige Talente '{key}' for {species} ({subspecies}) gefunden werden",
+
+    "DIALOG.CastOrChannel" : "Zaubern oder Kanalisieren",
+    "DIALOG.CastChannel" : "Möchtest du diesen Zauber wirken oder ihn Kanalisieren?",
+    "DIALOG.ChannelSkill" : "Kanalisieren",
+    "DIALOG.MalignantInf" : "Bösartiger Einfluss",
+    "DIALOG.MalignantInfTT" : "Füge einen Kontrollverlust hinzu wenn der Wurf eine 8 enthält.",
+    "DIALOG.ChannelUntilReady" : "Kanalisiere bis zum Ende",
+    "DIALOG.ChannelUntilReadyToolTip" : "Die Kanalisierung dieses Zaubers wird bis zum Erfolg oder Kontrollverlust fortgesetzt",
+    "Delete Confirmation" : "Entferne Bestätigung",
+    "DIALOG.DeleteItem" : "Möchtest du dieses Item wirklich entfernen?",
+    "DIALOG.SLBonus" : "EG Bonus",
+    "DIALOG.SuccessBonus" : "Erfolgsbonus",
+    "DIALOG.TalentBonus" : "Talent Boni",
+    "DIALOG.DialogModifiers" : "Dialog Modifikatoren",
+    "DIALOG.Details" : "Details",
+    "DIALOG.SLBonusTT" : "Ein EG der immer hinzugefügt oder abgezogen wird (z.B. Defensiv).",
+    "DIALOG.SuccessBonusTT" : "Ein EG der nur auf Erfolge angewandt wird (z.B. Talente).",
+    "DIALOG.BonusTT" : "Liste möglicher Boni",
+    "DIALOG.RollMode" : "Wurf Modus",
+    "DIALOG.Extensions" : "Erweiterungen",
+    "DIALOG.CastSkill" : "Zauberfähigkeit",
+    "DIALOG.HitLocation" : "Enthält ein Wurf auf die Trefferzonentabelle",
+    "DIALOG.TableModifier" : "Tabellenmodifikator",
+    "DIALOG.Min1" : "Minimum 1",
+    "DIALOG.Charging" : "Anstürmen",
+    "DIALOG.TableLookup" : "Tabellensuche",
+    "DIALOG.DualWielding" : "beidhändiges Führen",
+    "DIALOG.BeginCharacterCreation" : "Starte Charaktererschaffung?",
+    "DIALOG.DifficultyStep" : "Schwierigkeitsgrad",
+    "DIALOG.AdvantageUpdate" : "Vorteile des Akteurs wurden aktualisiert",
+    "DIALOG.MutateTitle" : "Auflösung von Körper und Geist - {test} Probe",
+    "DIALOG.CorruptionTitle" : "Einfluss der Korrumpierung",
+    "DIALOG.CorruptionContent" : "Wie kann {name} der Korrumpierung widerstehen?",
+    "DIALOG.CorruptionTestTitle" : "Einfluss der Korrumpierung - {test} Probe",
+    "DIALOG.VehicleActorSelect" : "Wähle einen Akteur, der diese Waffe verwenden soll.",
+    "DIALOG.ActorSelection" : "Wähle einen Akteur",
+    "DIALOG.ShowTable" : "Sichtbarkeitstabelle",
+    "DIALOG.ShowTableHint": "Zeige den Spielern die Tabelle in der Seitenleiste und über den Chatbefehl /table menu",
+    "DIALOG.LinkCareer" : "Verknüpfe Karriere",
+    "DIALOG.LinkCareerContent" : "Verknüpfe {new} mit {old}? Dieser Vorgang wird die Fähigkeiten von {old} in {new} hinzufügen. Behält alle Spezialisierungen in der vorherigen Karriere.",
+    "Show" : "Zeigen",
+    "Hide" : "Ausblenden",
+    "ExpChange" : "Erfahrungspunkte Ändern",
+    "ExpChangeHint": "Gib einen Grund für die Änderung der EP an.",
+    "RevertExperience": "Erfahrungspunkte zurücksetzen",
+    "DIALOG.RevertExperience" : "Erfahrungspunkte zurücksetzen?",
+    "DIALOG.UseIngredient": "Wähle wie du deine Ingredienzen nutzen willst (sofern verfügbar)",
+    "DIALOG.UseIngredientTooltip": "Du kannst deinen Zauber durch eine deiner passenden Ingredienzen fokussieren, bevor du ihn wirkst. Ingredienzen reagieren unterschiedlich, dies hängt davon ab, wie du den Zauber durch sie fokussierst. Bevor du den Zauber wirken kannst, musst du auswählen, ob du die Ingredienz für mehr Macht oder für mehr Kontrolle des Zaubers einsetzt. Die Ingredienzen werden verbraucht, auch wenn der Zauber fehlschlägt. <br/> Ingredienzen der Macht: Wird dies während einer Kanalisieren-Probe eingesetzt, werden die bei einem Erfolg generierten EG verdoppelt. (siehe Überkanalisieren). Wird dies während einer Zauber-Probe genutzt, darfst du deinen Würfel umdrehen und eins von beiden Ergebnissen wählen.  Ist der Einerstellen Würfel danach höher als dein Willenskraftbonus, entweichen die Winde der Magie deiner Kontrolle und es gibt einen leichten Kontrollverlust. <br/> Ingredienzen der Kontrolle: Wenn du diese während einer Zauber-Probe oder Kanalisieren-Probe benutzt werden Sie das Ziel von Magie, die außer Kontrolle gerät. Reduziere dann die Schwere des Kontrollverlusts um eine Stufe: z.B. einen Katastrophalen Kontrollverlust zu einem Schweren Kontrollverlust, Schwer zu leicht, leicht zu keinem Kontrollverlust.",
+    "DIALOG.OverchannellingTooltip" : "Wenn du einen Zauber kanalisiert, entweichen überschüssige Energien harmlos, sobald du den Zauberwert erreichst. Nach der Probe kannst du entscheiden, die überschüssigen EG zu behalten, um diese nach dem Wirken für Verstärkungen des Zaubers zu nutzen. (Beispiel: Bianca kanalisiert einen Zauber mit dem Zauberwert von 3 und erreicht 7 EG; Sie entscheidet sich dafür, die überschüssigen 4 EG für Verstärkungen des Zaubers zu nutzen nachdem Sie ihn gewirkt hat.) Diese zusätzliche Macht ist aber natürlich nicht kostenlos. Wenn die Zauber-Probe fehlschlägt, verlierst du sämtliche magische Energie und erleidest einen leichten Kontrollverlust. Dazu kommt, dass alle Paschwürfe und alle Zahlen mit einer 0 (100, 99, 90, 88 etc.) über deiner Kanalisieren-Probe oder Sprachen (Magick)-Probe als Patzer.  Alle Kritischen Erfolge und Patzer zählen bei diesen Proben stattdessen als schwere Kontrollverluste. ",
+    "DIALOG.Quickcasting" : "Schnelles Zaubern",
+    "DIALOG.QuickcastingTooltip" : "Wenn du deine Bewegungs- und Freieaktionen aufgibst, kannst du diese Runde eine schnelle Kanalisierung durchführen und den Zauber auch direkt in der gleichen Runde wirken. Da du dich sehr abhetzt, werden alle Kontrollverluste um eine Stufe erhöht (z.B. Leicht zu Schwer, Schwer zu Katastrophal). ",
+    "DIALOG.EnterQuantity" : "Menge eingeben?",
+    "DIALOG.PostQuantity" : "Poste Menge",
+    "DIALOG.PostQuantityContent" : "Wie häufig darf dieses Item abgerufen werden? Für uneingeschränkt leer lassen.",
+    "Post": "Post",
+    "DIALOG.MemorizeSpell" : "Zauber einprägen",
+    "DIALOG.MemorizeSpellContent" : "Diesen Zauber einzuprägen kostet {xp} EP.",
+    "DIALOG.Advancement" : "Steigerungskosten",
+    "DIALOG.AdvancementContent" : "Bestätige oder Bearbeite die Kosten für diese Steigerung.",
+    "DIALOG.GainPrayer" : "Erhalte Wunder",
+    "DIALOG.GainPrayerContent" : "Dieses Wunder zu erhalten kostet {xp} EP.",
+    "DIALOG.ErrorMustSelectItem" : "Du musst mindestens 1 Item auswählen",
+    "DIALOG.ItemDialog" : "Item Dialog",
+    "DIALOG.ChoosePassenger" : "Wähle Passagier",
+
+    "CHAT.Quickcasting" : "Schnelles Zaubern",
+    "CHAT.CareerChoose" : "Wähle deine Karriere",
+    "CHAT.DamageError" : "Fehler beim berechnen des Schadens:",
+    "CHAT.DamageAppliedError" : "Keine Schadenswerte! Stell sicher, dass der Angreifer einen schadensverursachenden Gegenstand benutzt, wie z.b. eine Waffe.",
+    "CHAT.DamageAppliedErrorTiring" : "Schaden kann nicht automatisch verarbeitet werden (Wahrscheinlich auf Grund von Ermüdung, oder die Waffe/das Merkmal wurde nicht richtig eingerichtet.)",
+    "CHAT.DamageApplied" : "Schaden wurde angewendet",
+    "CHAT.ApplyDamageBasic" : "@DAMAGE Schaden an <b>{name}</b> verursacht",
+    "CHAT.ApplyHack" : "Wende Durchschlagend an",
+    "CHAT.CriticalDeflection" : "Kritische Verletzungen ablenken",
+    "CHAT.DamageShield" : "Schild",
+    "CHAT.CriticalsNullified" : "Kritische Treffer annuliert",
+    "CHAT.DamageAP" : "Schaden 1 RP auf",
+    "CHAT.ScatterTarget" : "T",
+    "CHAT.ScatterNote" : "Achtung:Die Entfernung darf nicht mehr als die Hälfte der Entfernung zwischen dir und dem Ziel betragen",
+    "CHAT.ScatterYou" : "Vor deinen Füßen",
+    "CHAT.ScatterThem" : "Vor den Füßen deines Ziels",
+    "Overcasts" : "Zauber Verstärken",
+    "CHAT.OvercastReset" : "Zurücksetzen des Zauber Verstärken",
+    "CHAT.GrimoireMiscast" : "Grimoire Kontrollverlust",
+    "CHAT.ChooseFrom" : "Wähle aus",
+    "CHAT.MustChoose" : "Du musst auswählen",
+    "CHAT.CritCast" : "Wenn der Zauber Schaden verursacht, fügt er zusätzlich noch eine kritische Verletzung (siehe Seite 172).",
+    "CHAT.TotalPower" : "Der Zauber wirkt, unabhängig von seinem ZW und deinen EG, kann aber mit einem Gegenzauber gebannt werden.",
+    "CHAT.UnstoppableForce" : "Wenn du genug EG erreicht hast, um deinen Zauber zu wirken, kann er nicht mit einem Gegenzauber gebannt werden.",
+    "CHAT.ColumnPrompt" : "Wähle eine Spalte für den Wurf aus",
+    "CHAT.CriticalWoundsApplied" : "Wunden wurden hinzugefügt",
+    "CHAT.OpposedWonAgainst" : "gewinnt gegen",
+    "CHAT.By" : "von",
+    "CHAT.EditItem" : "Bearbeite Item",
+    "CHAT.Haggle" : "Feilschen",
+    "CHAT.HaggleHint" : "Ändere den Preis für den Gegenstand um +/-10%",
+    "CHAT.CorruptingInfluence" : "Einfluss der Korrumpierung",
+    "CHAT.Resist" : "Widerstehen",
+    "CHAT.ContextualMenu" : "Auf dieser Karte könnte ein Kontextmenü vorhanden sein (rechtsklick).",
+    "CHAT.EditTest" : "Bearbeite Probe",
+    "CHAT.OpposedTest" : "Vergleichsprobe",
+    "CHAT.RemovedConditions" : "Entferne ein <b>{condition}</b> Zustand von <b>{name}</b>",
+    "CHAT.AutoWitchcraftMiscast" : "Hexerei - Würfel automatische auf die Tabelle für Leichten Kontrollverlust.",
+    "CHAT.WitchcraftMiscast" : "Hexerei - Erhalte 1 Korrumpierung wenn du auf einen Kontrollverlust würfelst.",
+    "CHAT.MalignantInfluence" : "Kontrollverlust aufgrund bösartiger Einflüsse",
+    "CHAT.PowerIngredientMiscast" : "Kontrollverlust aufgrund der Verwendung von Macht Ingredienzen - Nummer 8 bei umgedrehten Würfen.",
+    "CHAT.ChannellingMiscast" : "Zauber schlägt nach Kanalisierung fehl",
+    "CHAT.OverchannellingMiscast" : "Kontrollverlust nach Überkanalisierung",
+    "CHAT.FumbleMiscast": "Kontrollverlust nach Patzer",
+    "CHAT.TotalPowerMiscast" : "Kontrollverlust auf Grund von Totaler Energie",
+    "CHAT.CritCastMiscast" : "Kontrollverlust auf Grund von Kritischem Erfolg",
+    "CHAT.CritChannelMiscast" : "Kontrollverlust auf Grund von Kritischen Kanalisierungserfolg.",
+    "CHAT.ModifiersBreakdown" : "Modifiers Breakdown",
+    "Size" : "Größe",
+    "CHAT.ChannelledSL" : "Kanalisierte EG",
+    "CHAT.VortexMove": "Random Vortex Movement",
+    "CHAT.CausesFear" : "<b>{actor}</b> verursacht {fear} bei {target}<br>",
+    "CHAT.Fear" : "Furcht",
+    "CHAT.FearReminder" : "Diese Akteure sind aktuell von <b>Furcht</b> betroffen und können eine Probe ablegen, um diese abzuschütteln.",
+    "CHAT.InjuryFinish" : "{injury} Verletzung überstanden.",
+    "CHAT.InjuryError": "Kann {injury} nicht vermindern, da es sich nicht um eine Nummer handelt.",
+    "Minor Infections" : "Leichte Infektionen",
+    "CHAT.InfectionReminder" : "Diese Akteure haben Kritische Wunden erhalten und müssen eine <b>Sehr Leichte (+60) Ausdauer Probe</b> bestehen oder erhalten eine @UUID[Compendium.wfrp4e-core.items.1hQuVFZt9QnnbWzg]{Minor Infection}.",
+    "CHAT.DiseaseIncubation" : "{disease} Inkubation abgeschlossen",
+    "CHAT.DiseaseDuration" : " Die Dauer von {duration} {unit} hat begonnen.",
+    "CHAT.DiseaseRollError" : "Beim Würfeln für die Inkubationszeit oder Dauer der Krankheit ist ein Fehler aufgetreten.",
+    "CHAT.DiseaseFinish" : "{disease} Erkrankung überstanden",
+    "CHAT.LingeringExtended" : " Langanhaltend: Dauer wird verlängert um {roll} Tage.",
+    "CHAT.LingeringFestering" : " Langanhaltend: entwickle eine eiternde Wunde.",
+    "CHAT.LingeringRot" : " Langanhaltend: entwickle eine Blutfäule.",
+    "CHAT.ApplyTT" : "GMs: Wähle Token zum anwenden. \nPlayers: zum ausgewählten Spieler zugefügt",
+    "CHAT.Terror" : "Entsetzen",
+    "CHAT.Apply" : "anwenden",
+    "CHAT.Place" : "Place",
+    "CHAT.ApplyCondition" : "Wende Zustand {condition} an",
+    "CHAT.ApplyError" : "Du darfst diesen Effekt nicht anwenden.",
+    "CHAT.EditError" : "Du hast keine Erlaubnis diese Chatnachricht zu ändern.",
+    "CHAT.Experience" : "Vergebe Erfahrung",
+    "CHAT.EndCombat" : "Erinnerungen zum Ende des Kampfes",
+    "CHAT.Receive" : "Erhalte",
+    "CHAT.PostError" : "Du musst eine positive Zahl eingeben.",
+    "CHAT.PostMoreThanHave" : "Du kannst nicht mehr posten als du hast.",
+    "CHAT.PostQuantityReduced" : "Menge wird um {num} reduziert.",
+    "CHAT.NoMoreLeft" : "No more Credit instances left.",
+    "CHAT.ExpReceived" : "erhalte <b>{amount}</b> Erfahrungspunkte aufgrund von <b>{reason}</b>.",
+    "CHAT.ExpReceivedNoReason" : "Erhalte <b>{amount}</b> Erfahrungspunkte.",
+    "CHAT.DiseasesRules" : "<br>Die Regeln zur Krankheitsübertragung findest du bei den Krankheiten.",
+    "CHAT.CorruptionTest" : "<br><b>Klicke auf den Korrumpierungslink um eine Probe auf Korrumpierung zu starten.</b>",
+    "CHAT.CorruptionFail" : "<b>{name}</b> erhält {number} Korrumpierung.",
+    "CHAT.DissolutionTitle" : "Auflösung von Körper und Geist",
+    "CHAT.Dissolution" : "Während die Verderbtheit deine Seele verwüstet, flüstert der verzerrende Atem des Chaos in deinem Inneren und verleiht deinem Fleisch entweder eine frische, neue Form oder zerbricht deine Psyche mit exquisitem Wissen, dass du nie wieder verlernen kannst.",
+    "CHAT.CorruptionLoses" : "<b>{name}</b> verliert {number} Korrumpierung.",
+    "CHAT.CorruptionReroll" : "<b>{name}</b> würfelt Korrumpierung erneut. Mit dem neuen Ergebnis ändert sich der Wert auf {number} Korrumpierung.",
+    "CHAT.MutateTable" : "Würfel auf die Korrumpierungstabelle:",
+    "CHAT.MutateSuccess" : "Du hast es geschafft der Korrumpierung zu widerstehen. Fürs erste!.",
+    "CHAT.TestModifiers.WeaponLength" : "-10 Malus für <b>{attacker}</b> weil er die kürzere Waffe hat.",
+    "CHAT.TestModifiers.FastWeapon" : "Malus für die Verteidigung gegen eine schnelle Waffe.",
+    "CHAT.TestModifiers.DefendingLarger" : "EG Malus für das parieren einer größeren Kreatur.",
+    "CHAT.TestModifiers.AttackingLarger" : "Angriff auf eine größere Kreatur.",
+    "CHAT.TestModifiers.ShootingSizeModifier" : "Schuss auf ein Ziel der größe: {size}.",
+    "CHAT.TestModifiers.AttackerMountLarger" : "Bonus für den Angriff von einem größeren Reittier.",
+    "CHAT.TestModifiers.DefenderMountLarger" : "Malus für den Angriff auf einen Reiter, der auf einem größeren Reittier sitzt.",
+    "CHAT.TestModifiers.SlowDefend" : "Der Angreifer hat eine langsame Waffe",
+    "CHAT.TestModifiers.WrapDefend" : "Der Angreifer hat eine umwickelnde Waffe",
+    "CHAT.TestModifiers.IgnoreDefenderMountLarger" : "Ignoriert den Malus für Angriffe auf Reiter auf grund der Reichweite der Waffe.(Erweiterungsband Up In Arms).",
+    "CHAT.SpreadPointBlank" : "Kernschussweite: Schaden erhöht um {damage}",
+    "CHAT.SpreadExtreme" : "Extrem: Schaden reduziert um {damage}",
+    "CHAT.CrewTest" : "Besatzungs-Probe",
+    "CHAT.NoCrewWithRole" : "Keine Besatzung mit Rolle!",
+    "CHAT.RoleNotFound" : "Rolle <strong>{role}</strong> wurde nicht gefunden!",
+    "CHAT.TotalSL" : "Gesamte EG",
+    "CHAT.Vital" : "Vital",
+    "CHAT.CrewTestVital" : "Crew Test (Vital)",
+    "CHAT.AttackerTooSmallDamage" : "Angreifer ist zu klein um das Fahrzeug anzugreifen.",
+    "CHAT.VehicleTBTooltipMultiply" : "{number} × TB",
+    "CHAT.VehicleTBTooltipSubtract" : "TB - {number}",
+    "CHAT.CommandLine.Help.Commands" : "Tabellen,Zustände,Waffenmerkmale,Charakter Erschaffung,Namensgenerator,Verfügbarkeits-Probe,Bezahle,Erhalte,Korrumpierung,Reise,Erfahrung",
+    "CHAT.CommandLine.Help.Label.Command" : "Kommando",
+    "CHAT.CommandLine.Help.Label.Example": "Beispiel",
+    "CHAT.CommandLine.Help.Label.Note": "Notiz",
+    "CHAT.CommandLine.Help.Tables.Title" : "Tabellen",
+    "CHAT.CommandLine.Help.Tables.Usage.Command" : "/table <table-name> <column> <modifier>",
+    "CHAT.CommandLine.Help.Tables.Usage.Example" : "<br>/table critarm +20<br>/table career human",
+    "CHAT.CommandLine.Help.Tables.Usage.Note" : "/table <anything-unrecognized> will pull up the table help menu",
+    "CHAT.CommandLine.Help.Conditions.Title" : "Conditions",
+    "CHAT.CommandLine.Help.Conditions.Usage.Command" : "/cond <condition-name>",
+    "CHAT.CommandLine.Help.Conditions.Usage.Example" : "<br>/cond ablaze<br>/cond unconsc",
+    "CHAT.CommandLine.Help.Conditions.Usage.Note" : "will match the closest spelling condition and display it (eg. /cond abl == /cond ablaze)",
+    "CHAT.CommandLine.Help.Properties.Title" : "Item Properties",
+    "CHAT.CommandLine.Help.Properties.Usage.Command" : "/prop <property-name>",
+    "CHAT.CommandLine.Help.Properties.Usage.Example" : "<br>/prop impact<br>/prop shoddy",
+    "CHAT.CommandLine.Help.Properties.Usage.Note" : "will match the closest spelling condition and display it (eg. /prop acc == /prop accurate)",
+    "CHAT.CommandLine.Help.CharacterGeneration.Title" : "Character Generation",
+    "CHAT.CommandLine.Help.CharacterGeneration.Usage.Command" : "/char",
+    "CHAT.CommandLine.Help.CharacterGeneration.Usage.Example" : "/char",
+    "CHAT.CommandLine.Help.CharacterGeneration.Usage.Note" : "Begins character generation",
+    "CHAT.CommandLine.Help.NameGeneration.Title" : "Name Generation",
+    "CHAT.CommandLine.Help.NameGeneration.Usage.Command" : "/name",
+    "CHAT.CommandLine.Help.NameGeneration.Usage.Example" : "<br>/name dwarf<br>/name helf male<br>/name welf female",
+    "CHAT.CommandLine.Help.NameGeneration.Usage.Note" : "Generates a name in chat (Also accessible by clicking the <Name> label on a an NPC or creature sheet)",
+    "CHAT.CommandLine.Help.AvailabilityTest.Title" : "Availability Test",
+    "CHAT.CommandLine.Help.AvailabilityTest.Usage.Command" : "/avail",
+    "CHAT.CommandLine.Help.AvailabilityTest.Usage.Example" : "<br>/avail town common<br>/avail city exotic",
+    "CHAT.CommandLine.Help.AvailabilityTest.Usage.Note" : "rolls an availability test to determine the availability and the stock of an item.",
+    "CHAT.CommandLine.Help.Pay.Title" : "Pay",
+    "CHAT.CommandLine.Help.Pay.Usage.Command" : "/pay",
+    "CHAT.CommandLine.Help.Pay.Usage.Example" : "<br>/pay 3gc2bp<br>/pay 10bp450ss",
+    "CHAT.CommandLine.Help.Pay.Usage.Note" : "This command offers 3 options: <ul><li><strong>/pay amount</strong>: (If GM) Display a chat card for all users, with a button for them to pay, or (if Player) pay the amount specified by the user's assigned actor. Example: /pay 12gc2bp</li><li><strong>/pay amount player_name </strong>: GM only. Display a chat card for the designated player only.</li><li><strong>/pay amount actor_name</strong>: GM only. Automatically reduces the money of the designated actor with the amount. Only a part of the actor name can be used, if the actor's name is Kastor Lieberung, then you can write /pay 12ss kastor. If the actor has a connected player, a chat card will ask him to approve the command. If the actor is not owned by a player (or the player is not connected), the amount is deduced automatically.</li></ul>",
+    "CHAT.CommandLine.Help.Credit.Title" : "Credit",
+    "CHAT.CommandLine.Help.Credit.Usage.Command" : "/credit",
+    "CHAT.CommandLine.Help.Credit.Usage.Example" : "<br>/credit 3gc2bp<br>/credit 10bp450ss each<br>/credit 1bp420ss John<br>/credit 1gc12ss Kastor Lieberung",
+    "CHAT.CommandLine.Help.Credit.Usage.Note" : "This command is GM only. An amount of money entered by the GM will be sent to actors/players, with the following options: <ul><li><strong>/credit amount split (default)</strong>: Display as chat card for all users, with a button for them to receive payment. Example: /credit 12gc2bp</li><li><strong>/credit amount player_name</strong>: Display a chat card for the designated player only.</li><li><strong>/credit amount actor_name </strong>: Automatically adds money to the designated actor. Only a part of the actor name can be used, so if the actor's name is Kastor Lieberung, then you can write /credit 12ss kastor.</li></ul>",
+    "CHAT.CommandLine.Help.Corruption.Title" : "Corruption",
+    "CHAT.CommandLine.Help.Corruption.Usage.Command" : "/corruption",
+    "CHAT.CommandLine.Help.Corruption.Usage.Example" : "<br>/corruption minor<br>/corruption moderate",
+    "CHAT.CommandLine.Help.Corruption.Usage.Note" : "Use this to prompt your players to roll against corrupting influences.",
+    "CHAT.CommandLine.Help.Exp.Title" : "Experience",
+    "CHAT.CommandLine.Help.Exp.Usage.Command" : "/exp",
+    "CHAT.CommandLine.Help.Exp.Usage.Example" : "<br>/exp 50<br>/exp 100 Defeating the boss",
+    "CHAT.CommandLine.Help.Exp.Usage.Note" : "Use this to reward exp to your players. Their exp log will automatically be filled out with the reason given.",
+    "CHAT.CommandLine.Help.Travel.Title" : "Travel",
+    "CHAT.CommandLine.Help.Travel.Usage.Command" : "/travel",
+    "CHAT.CommandLine.Help.Travel.Usage.Example" : "<br>/travel<br>/travel Altdorf Kemperbad",
+    "CHAT.CommandLine.Help.Travel.Usage.Note" : "Based off of the <a href='http://www.gitzmansgallery.com/docs/Travel%20Distances%20in%20the%20Empire.pdf'>Travel Distances in the Empire</a> PDF.",
+    "CHAT.CommandLine.Help.Link" : "See the <a href={link}>Wiki</a> for more information on the features in this system",
+    "Commands" : "Commands",
+
+    "ErrorSpeciesSkills" : "Konnte die Fähigkeiten für dieses Volk nicht hinzufügen",
+    "ErrorSpeciesTalents" : "Konnte die Talente für dieses Volk nicht hinzufügen",
+    "ErrorCriticalWound" : "Fehler beim hinzufügen des Wundenwerts",
+    "ErrorDamageCalc" : "Fehler beim berechnen des Schadens",
+    "ErrorOpposed" : "Die Vergleichsprobe konnte nicht beendet werden",
+    "ErrorMacroItemMissing" : "Dein zugewiesener Akteur hat kein Item mit diesem Namen",
+    "ErrorNoAmmo" : "Keine Munition!",
+    "ErrorNotLoaded" : "Nicht geladen - Nachladen",
+    "ErrorLimitedWeapons" : "Du kannst keine weiteren Waffen mehr ausrüsten.",
+    "ErrorDamagePermission" : "Du hast keine Erlaubnis diesem Akteur Schaden hinzuzufügen.",
+    "ErrorArmourDamagePermission" : "Du hast keine Erlaubnis diesem Akteur Rüstungsschaden hinzuzufügen.",
+    "ErrorNoArmourToDamage" : "Keine Rüstung vorhanden die Schaden nehmen könnte.",
+    "ErrorTokenMount" : "Reittiertoken erfordern, dass du diese Szene mit dem Reittier betrachtest.",
+    "ErrorMountNotFound" : "Fehler beim abrufen des Reittiers. Versuche das Reittier nochmal zu entfernen.",
+    "ErrorCharAssigned" : "Keinem Charakter zugewiesen. Schau ins Spielerkonfigurationsmenü um einen Charakter zuzuweisen.",
+    "ErrorMoneyConvert" : "Zum Geldwechseln musst du die Ursprungswährung (z.B. Goldkronen) und die Zielwährung (z.B. Silberschilling) angeben.",
+    "ErrorTarget": "Wähle ein Ziel um den Effekt anzuwenden.",
+    "ErrorExp": "Wähle einen Token aus um diesem Erfahrungspunkte zu geben.",
+    "ErrorMultExp": "hat die Belohnung bereits erhalten.",
+    "WarnUnlinkedMount" : "Ein nicht verknüpftes Reittier auf einem verknüpften Akteur wird nicht empfohlen",
+    "ErrorCorruption": "Ungültige Korrumpierungsart",
+
+    "INCOME.YouEarn" : "Du verdienst",
+    "INCOME.Failure" : "Du hast eine richtig miese Woche und verdienst garnichts (oder das Geld wurde dir gestohlen oder ähnliches).",
+
+    "ROLL.CastingSuccess" : "Zaubern erfolgreich",
+    "ROLL.CastingFailed" : "Zaubern fehlgeschlagen",
+    "ROLL.ChannelFailed" : "Kanalisieren fehlgeschlagen",
+    "ROLL.ChannelSuccess" : "Kanalisieren erfolgreich",
+    "ROLL.TotalPower" : "Totale Energie",
+    "ROLL.UnstoppableForce" : "Unaufhaltsame Macht",
+    "ROLL.CritCast" : "Kritischer Erfolg beim Zaubern",
+    "ROLL.CritChannel" : "Kritischer Erfolg beim Kanalisieren",
+    "ROLL.MinorMis" : "Leichter Kontrollverlust",
+    "ROLL.MajorMis" : "Schwerer Kontrollverlust",
+    "ROLL.CatastrophicMis" : "Katastrophaler Kontrollverlust",
+    "ROLL.PrayRefused" : "Gebet abgelehnt",
+    "ROLL.PrayGranted" : "Gebet gewährt",
+    "ROLL.Wrath" : "Zorn der Götter",
+    "ROLL.CancelOppose" : "Vergleichs-Probe abbrechen",
+    "ROLL.HitLocation" : "Trefferzone",
+    "ROLL.OpposedStart" : "startet eine Vergleichs-Probe!",
+    "ROLL.Targeting" : "<b>{attacker}</b> zielt auf <b>{defender}</b>",
+    "ROLL.MisfireText1" : "Deine Waffe explodiert! Dein",
+    "ROLL.MisfireText2" : "Hauptarm erleidet Schaden.",
+    "ROLL.Reverse" : "Würfelwurf umgedreht",
+    "ROLL.AstoundingSuccess" : "Verblüffender Erfolg",
+    "ROLL.ImpressiveSuccess" : "Beeindruckender Erfolg",
+    "ROLL.Success" : "Erfolg",
+    "ROLL.MarginalSuccess" : "Knapper Erfolg",
+    "ROLL.AstoundingFailure" : "Verblüffendes Scheitern",
+    "ROLL.ImpressiveFailure" : "Beeindruckendes Scheitern",
+    "ROLL.Failure" : "Scheitern",
+    "ROLL.MarginalFailure" : "Knappes Scheitern",
+    "ROLL.SizeCausedSuccess" : "Größenmodifikatoren führen zu einem Erfolg: EG wird +0",
+    "ROLL.HitAnotherEngagedTarget": "<b>Oops! Du hast das falsche Ziel getroffen, wähle einen zufälligen, gebundenen Akteur aus und wende den Schaden an.</b>",
+    "ROLL.CalledShot" : "Gezielter Schuss",
+
+    "WFRP4E.Reach.Personal" : "Kernschussreichweite",
+    "WFRP4E.Reach.VShort" : "Sehr Kurz",
+    "WFRP4E.Reach.Short" : "Kurz",
+    "WFRP4E.Reach.Average" : "Durchschnitt",
+    "WFRP4E.Reach.Long" : "Lang",
+    "WFRP4E.Reach.VLong" : "Sehr Lang",
+    "WFRP4E.Reach.Massive" : "Extrem",
+
+    "WFRP4E.ArmourType.SLeather" : "Weiches Leder",
+    "WFRP4E.ArmourType.BLeather" : "Gekochtes Leder",
+    "WFRP4E.ArmourType.Mail" : "Kette",
+    "WFRP4E.ArmourType.Plate" : "Platte",
+    "WFRP4E.ArmourType.Other" : "Andere",
+    "WFRP4E.ArmourType.OtherMetal" : "Andere (Metall)",
+
+    "WFRP4E.Availability.Special" : "Spezial",
+    "WFRP4E.Availability.Common" : "Verbreitet",
+    "WFRP4E.Availability.Scarce" : "Knapp",
+    "WFRP4E.Availability.Rare" : "Selten",
+    "WFRP4E.Availability.Exotic" : "Exotisch",
+
+    "MARKET.Village" : "Dorf",
+    "MARKET.Town" : "Kleinstadt",
+    "MARKET.City" : "Stadt",
+    "MARKET.AvailabilityTest" : "Verfügbarkeits-Probe",
+    "MARKET.AvailWrongCommand": "Falsche Parameter. Erwartete Parameter: Verfügbarkeit [Verbreitet,Knapp,Selten,Exotisch]<br><br>Siedlungsgröße [Dorf,Kleinstadt,Stadt]<br>(opt.) Wurfmodifikator",
+    "MARKET.AvailCommandExample": "Beispiel: /avail Dorf Selten 10",
+    "MARKET.SettlementSize" : "Siedlungsart:",
+    "MARKET.Rarity" : "Verfügbarkeit:",
+    "MARKET.InStock": "Auf Lager:",
+    "MARKET.QuantityAvailable": "Verfügbare Menge:",
+    "MARKET.RollForAvailability" : "Wurf auf Verfügbarkeit",
+    "MARKET.SelectSettlementSize" : "Wähle die Größe der Siedlung:",
+    "MARKET.PayForItem" : "Zahle",
+    "MARKET.ReceiveCredit" : "Erhalte",
+    "MARKET.Exchange" : "Consolidate (Fewest coins)",
+    "MARKET.Abbrev.GC" : "GK",
+    "MARKET.Abbrev.SS" : "SS",
+    "MARKET.Abbrev.BP" : "MG",
+    "MARKET.PayCommand" : "Hat gezahlt!",
+    "MARKET.PayRequest" : "Zahle!",
+    "MARKET.CreditCommand" : "Verdienstantwort",
+    "MARKET.CreditRequest" : "Erhalte",
+    "MARKET.d": "d",
+    "MARKET.CreditCommandNotAllowed" : "Nur die Spielleitung darf dieses Kommando verwenden.",
+    "MARKET.PaidBy" : "Gezahlt von:",
+    "MARKET.PaidFor": "<b>Gekauft:</b> {product}",
+    "MARKET.For": "für",
+    "MARKET.ReceivedBy" : "Erhalten von:",
+    "MARKET.MoneyTransactionWrongCommand" : "Falscher Syntax. Bitte formuliere dein Kommando wie in den folgenden Beispielen:",
+    "MARKET.PayCommandExample" : "/pay 3gc2bp<br>/pay 450bp<br>/pay 2ss12bp4gc<br>/pay 1gc John<br>/pay 12ss Kastor Lieberung",
+    "MARKET.CreditCommandExample" : "/credit 3gc2bp<br>/credit 450bp each<br>/credit 2ss12bp4gc split<br>/credit 2ss John<br>/credit 12gc Kastor Lieberung",
+    "MARKET.CantFindMoneyItems" : "Fehler! Kann kein Geld (GK/SS/MG) im Inventar finden.",
+    "MARKET.NotEnoughMoney" : "<br> Du hast nicht genug Geld um dafür zu bezahlen.<br>",
+    "MARKET.MoneyNeeded" : "Geld benötigt:",
+    "MARKET.MoneyAvailable": "Geld verfügbar:",
+    "MARKET.Paid": "<b>Zahlung:</b> {number1} GK {number2} SS {number3} MG",
+    "MARKET.Credit": "<b>Verdienst:</b> {number1} GK {number2} SS {number3} MG",
+    "MARKET.RequestMessageForSplitCredit": "Der Gesamtbetrag {initialAmount} wird auf die {activePlayerNumber} Spieler wie folgt aufgeteilt:",
+    "MARKET.RequestMessageForEachCredit": "Der Gesamtbetrag {initialAmount}  wird an jeden der {activePlayerNumber} Spieler wie folgt ausgegeben:",
+    "MARKET.NoPlayers": "No active players in the game session.",
+    "MARKET.NoMatchingPlayer": "No matching player name found.",    
+    "MARKET.CreditToUser": "The amount of money {initialAmount} is sent to user {userName}.",
+    "MARKET.NotifyNoActor": "No Character is selected or associated with the current user",
+    "MARKET.NotifyUserMustBePlayer": "Must be a player to click on PAY",
+    "MARKET.ItemAdded" : "{item} added to {actor}",
+    "Post Quantity" : "Post Quantity",
+
+    "WFRP4E.TrappingType.Weapon" : "Weapons",
+    "WFRP4E.TrappingType.Armour" : "Armour",
+    "WFRP4E.TrappingType.Money" : "Money",
+    "WFRP4E.TrappingType.Ammunition" : "Ammunition",
+    "WFRP4E.TrappingType.Container" : "Container",
+    "WFRP4E.TrappingType.ClothingAccessories" : "Clothing and Accessories",
+    "WFRP4E.TrappingType.FoodDrink" : "Food and Drink",
+    "WFRP4E.TrappingType.ToolsKits" : "Tools and Kits",
+    "WFRP4E.TrappingType.BooksDocuments" : "Books and Documents",
+    "WFRP4E.TrappingType.TradeTools" : "Trade Tools and Workshops",
+    "WFRP4E.TrappingType.DrugsPoisonsHerbsDraughts" : "Drugs, Poisons, Herbs, and Draughts",
+    "WFRP4E.TrappingType.Ingredient" : "Ingredient",
+    "WFRP4E.TrappingType.Ingredients" : "Ingredients",
+    "WFRP4E.TrappingType.Misc" : "Miscellaneous",
+    "WFRP4E.TrappingType.Cargo" : "Cargo",
+    "SECTION.Passengers" : "Passengers",
+
+    "WFRP4E.EncumbrancePenalties.Encumbered" : "–1 Movement (min: 3), –10 Agility, +1 Travel Fatigue",
+    "WFRP4E.EncumbrancePenalties.VeryEnc" : "–2 Movement (min: 2), –20 Agility (min: 10), +2 Travel Fatigue",
+    "WFRP4E.EncumbrancePenalties.MaxEnc" : "You're not moving.",
+
+    "WFRP4E.ConditionName.Ablaze" : "Ablaze",
+    "WFRP4E.ConditionName.Bleeding" : "Bleeding",
+    "WFRP4E.ConditionName.Blinded" : "Blinded",
+    "WFRP4E.ConditionName.Broken" : "Broken",
+    "WFRP4E.ConditionName.Deafened" : "Deafened",
+    "WFRP4E.ConditionName.Entangled" : "Entangled",
+    "WFRP4E.ConditionName.Fatigued" : "Fatigued",
+    "WFRP4E.ConditionName.Poisoned" : "Poisoned",
+    "WFRP4E.ConditionName.Prone" : "Prone",
+    "WFRP4E.ConditionName.Stunned" : "Stunned",
+    "WFRP4E.ConditionName.Surprised" : "Surprised",
+    "WFRP4E.ConditionName.Unconscious" : "Unconscious",
+    "WFRP4E.ConditionName.Grappling" : "Grappling",
+    "WFRP4E.ConditionName.Fear" : "Fear",
+    "WFRP4E.ConditionName.Engaged": "Engaged",
+    "WFRP4E.ConditionName.Dead" : "Dead",
+
+    "WFRP4E.LocationsTable": "Hit Location",
+    "WFRP4E.Locations.head": "Head",
+    "WFRP4E.Locations.body": "Body",
+    "WFRP4E.Locations.rArm": "Right Arm",
+    "WFRP4E.Locations.lArm": "Left Arm",
+    "WFRP4E.Locations.rLeg": "Right Leg",
+    "WFRP4E.Locations.lLeg": "Left Leg",
+    "WFRP4E.Locations.arm": "Arm",
+    "WFRP4E.Locations.leg": "Leg",
+    
+    "WFRP4E.ScatterTable": "Scatter",
+    "WFRP4E.Scatter.TopLeft": "Top Left",
+    "WFRP4E.Scatter.TopMiddle": "Top Middle",
+    "WFRP4E.Scatter.TopRight": "Top Right",
+    "WFRP4E.Scatter.CenterLeft": "Center Left",
+    "WFRP4E.Scatter.CenterRight": "Center Right",
+    "WFRP4E.Scatter.BottomLeft": "Bottom Left",
+    "WFRP4E.Scatter.BottomMiddle": "Bottom Middle",
+    "WFRP4E.Scatter.BottomRight": "Bottom Right",
+    "WFRP4E.Scatter.AtYourFeet": "At your feet",
+    "WFRP4E.Scatter.AtTargetFeet": "At the target's feet",
+
+    "WFRP4E.MagicLores.petty": "Petty",
+    "WFRP4E.MagicLores.beasts": "Beasts",
+    "WFRP4E.MagicLores.death": "Death",
+    "WFRP4E.MagicLores.fire": "Fire",
+    "WFRP4E.MagicLores.heavens": "Heavens",
+    "WFRP4E.MagicLores.metal": "Metal",
+    "WFRP4E.MagicLores.life": "Life",
+    "WFRP4E.MagicLores.light": "Light",
+    "WFRP4E.MagicLores.shadow": "Shadow",
+    "WFRP4E.MagicLores.hedgecraft": "Hedgecraft",
+    "WFRP4E.MagicLores.witchcraft": "Witchcraft",
+    "WFRP4E.MagicLores.daemonology": "Daemonology",
+    "WFRP4E.MagicLores.necromancy": "Necromancy",
+    "WFRP4E.MagicLores.undivided" : "Undivided",
+    "WFRP4E.MagicLores.nurgle": "Nurgle",
+    "WFRP4E.MagicLores.slaanesh": "Slaanesh",
+    "WFRP4E.MagicLores.tzeentch": "Tzeentch",
+
+    "WFRP4E.MagicWind.petty": "None",
+    "WFRP4E.MagicWind.beasts": "Ghur",
+    "WFRP4E.MagicWind.death": "Shyish",
+    "WFRP4E.MagicWind.fire": "Aqshy",
+    "WFRP4E.MagicWind.heavens": "Azyr",
+    "WFRP4E.MagicWind.metal": "Chamon",
+    "WFRP4E.MagicWind.life": "Ghyran",
+    "WFRP4E.MagicWind.light": "Hysh",
+    "WFRP4E.MagicWind.shadow": "Ulgu",
+    "WFRP4E.MagicWind.hedgecraft": "None",
+    "WFRP4E.MagicWind.witchcraft": "None",
+    "WFRP4E.MagicWind.daemonology": "Dhar",
+    "WFRP4E.MagicWind.necromancy": "Dhar",
+    "WFRP4E.MagicWind.undivided": "Dhar",
+    "WFRP4E.MagicWind.nurgle": "Dhar",
+    "WFRP4E.MagicWind.slaanesh": "Dhar",
+    "WFRP4E.MagicWind.tzeentch": "Dhar",
+
+    "WFRP4E.prayerTypes.blessing": "Blessing",
+    "WFRP4E.prayerTypes.miracle": "Miracle",
+
+    "WFRP4E.mutationTypes.physical": "Physical",
+    "WFRP4E.mutationTypes.mental": "Mental",
+
+    "WFRP4E.hitLocationTables.hitloc": "Standard",
+    "WFRP4E.hitLocationTables.snake": "Snake-Like",
+    "WFRP4E.hitLocationTables.spider": "Spider-Like", 
+    
+    "WFRP4E.effectApplication.actor" : "Actor",
+    "WFRP4E.effectApplication.item" : "Item",
+    "WFRP4E.effectApplication.equipped" : "When Item equipped",
+    "WFRP4E.effectApplication.apply" : "Apply with targeting",
+    "WFRP4E.effectApplication.damage" : "Apply when Item applies damage",
+
+    "WFRP4E.applyScope.actor" : "Actor",
+    "WFRP4E.applyScope.item" : "Item",
+
+    "WFRP4E.TogglePassengers" : "Toggle Passengers",
+
+    "CONDITION.Apply" : "Apply {condition}",
+    "CONDITION.ApplyError" : "You cannot apply condition effects to this actor",
+    "Formula": "Formula",
+    "BleedUnc": "<b>{name}</b> falls unconscious!",
+    "BleedRoll": "Bleeding Roll",
+    "Rolled": "Rolled",
+    "BleedFail": "<b>{name}</b> dies from blood loss!",
+    "BleedCrit": "<b>{name}'s</b> blood clots a little and loses 1 Bleeding Condition",
+    "TookDamage": "Took {damage} damage",
+
+    "Wounds Healed" : "Wounds Healed",
+    "ITEM.LoreEffectPlaceholder" : "Override default Lore Effect",
+    "ITEM.ChannelOverride" : "Channel Override",
+    "ITEM.ChannelPlaceholder" : "Override default Channelling skill to use.",
+    "Casting Number" : "Casting Number",
+    "ITEM.DefaultDifficulty" : "Default Difficulty.",
+    "ITEM.Progress" : "Progress",
+    "ITEM.DiceRoll" : "Dice Roll",
+    "ITEM.AddSL" : "Add SL",
+    "ITEM.ValuePerOvercast" : "Value/Overcast",
+    "ITEM.ExtraOvercasting" : "Extra Overcast Option",
+    "Label" : "Label",
+    "ITEM.SkillOverride" : "Skill Override",
+    "ITEM.CastSkillOverride" : "Cast Skill Override",
+    "ITEM.AttackType" : "Attack Type",
+    "ITEM.Maximum" : "Maximum",
+    "CHAR.WS": "Weapon Skill",
+    "CHAR.BS": "Ballistic Skill",
+    "CHAR.S": "Strength",
+    "CHAR.T": "Toughness",
+    "CHAR.I": "Initiative",
+    "CHAR.Ag": "Agility",
+    "CHAR.Dex": "Dexterity",
+    "CHAR.Int": "Intelligence",
+    "CHAR.WP": "Willpower",
+    "CHAR.Fel": "Fellowship",
+
+    "CHARAbbrev.WS": "WS",
+    "CHARAbbrev.BS": "BS",
+    "CHARAbbrev.S": "S",
+    "CHARAbbrev.T": "T",
+    "CHARAbbrev.I": "I",
+    "CHARAbbrev.Ag": "Ag",
+    "CHARAbbrev.Dex": "Dex",
+    "CHARAbbrev.Int": "Int",
+    "CHARAbbrev.WP": "WP",
+    "CHARAbbrev.Fel": "Fel",
+
+    "CHARBonus.WS": "Weapon Skill Bonus",
+    "CHARBonus.BS": "Ballistic Skill Bonus",
+    "CHARBonus.S": "Strength Bonus",
+    "CHARBonus.T": "Toughness Bonus",
+    "CHARBonus.I": "Initiative Bonus",
+    "CHARBonus.Ag": "Agility Bonus",
+    "CHARBonus.Dex": "Dexterity Bonus",
+    "CHARBonus.Int": "Intelligence Bonus",
+    "CHARBonus.WP": "Willpower Bonus",
+    "CHARBonus.Fel": "Fellowship Bonus",
+    "Bonus" : "Bonus",
+
+    "ToughnessDesc": "Toughness",
+    "TBRed": "TB",
+
+    "NAME.Armour" : "Armour",
+    "NAME.Hardy" : "Hardy",
+    "NAME.Small" : "Small",
+    "NAME.Mindless" : "Mindless",
+    "NAME.Construct" : "Construct",
+    "NAME.Swarm" : "Swarm",
+    "NAME.Size" : "Size",
+    "NAME.Ward" : "Ward",
+    "NAME.TraitWeapon" : "Weapon",
+    "NAME.TraitRanged" : "Ranged",
+    "NAME.TraitArmour" : "Armour",
+    "NAME.Unstable" : "Unstable",
+    "NAME.Infighter" : "In–fighter",
+    "NAME.DeadeyeShot" : "Deadeye Shot",
+    "NAME.StrikeToStun" : "Strike to Stun",
+    "NAME.Arcane" : "Arcane",
+    "SPEC.Tiny" : "Winzig",
+    "SPEC.Little" : "Klein",
+    "SPEC.Small" : "Zierlich",
+    "SPEC.Average" : "Normal",
+    "SPEC.Large" : "Groß",
+    "SPEC.Enormous" : "Enorm",
+    "SPEC.Monstrous" : "Monströs",
+
+    "NAME.BP" : "Messinggroschen",
+    "NAME.SS" : "Silberschilling",
+    "NAME.GC" : "Goldkrone",
+
+    "NAME.BPPlural" : "Messinggroschen",
+    "NAME.SSPlural" : "Silberschillinge",
+    "NAME.GCPlural" : "Goldkronen",
+
+    "TIER.Gold" : "Gold",
+    "TIER.Silver" : "Silber",
+    "TIER.Brass" : "Messing",
+
+    "TABLE.ConvertTable" : "Convert to WFRP4e Table",
+    "TABLE.Lookup" : "Lookup: ",
+    "TABLE.Cancel" : "Roll: {result} - canceled",
+    "TABLE.Key" : "Table Key",
+    "TABLE.Column" : "Tabellenspalte",
+
+    "NAME.AA" : "Äthergespür",
+    "NAME.AcuteSense" : "Scharfer Sinn",
+    "NAME.Ambi" : "Beidhändigkeit",
+    "NAME.Amphibious" : "Amphibisch",
+    "NAME.AnimalCare" : "Tierpflege",
+    "NAME.AnimalTraining" : "Abrichten",
+    "NAME.ArcaneMagic" : "Arkane Magie (Lehre)",
+    "NAME.Art" : "Kunst",
+    "NAME.AS" : "Sicherer Schuss",
+    "NAME.Athletics" : "Athletik",
+    "NAME.Bribery" : "Bestechen",
+    "NAME.Champion" : "Champion",
+    "NAME.Channelling" : "Kanalisieren",
+    "NAME.ChaosMagic" : "Chaosmagie (Lehre)",
+    "NAME.Charm" : "Charme",
+    "NAME.CharmAnimal" : "Tiere bezirzen",
+    "NAME.Climb" : "Klettern",
+    "NAME.ConsumeAlcohol" : "Zechen",
+    "NAME.Cool" : "Besonnenheit",
+    "NAME.Corruption" : "Korrumpierend",
+    "NAME.Daemonic" : "Dämonisch",
+    "NAME.DarkVision" : "Dunkelsicht",
+    "NAME.Disease" : "Krankheit",
+    "NAME.Distract" : "Ablenken",
+    "NAME.Dodge" : "Ausweichen",
+    "NAME.Doomed" : "Unkenruf",
+    "NAME.Drive" : "Fahren",
+    "NAME.DualWielder" : "Beidhändiger Angriff",
+    "NAME.Endurance" : "Ausdauer",
+    "NAME.Entertain" : "Unterhalten",
+    "NAME.Ethereal" : "Ätherisch",
+    "NAME.Etiquette" : "Etikette",
+    "NAME.Evaluate" : "Schätzen",
+    "NAME.FastHands" : "Flinke Finger",
+    "NAME.Fear" : "Angst",
+    "NAME.FearExtendedTest" : "Erweiterte Angst Probe",
+    "NAME.Flight" : "Fliegen",
+    "NAME.Frenzy" : "Raserei",
+    "NAME.FuriousAssault" : "Rasender Angriff",
+    "NAME.Gamble" : "Glücksspiel",
+    "NAME.Gossip" : "Klatsch",
+    "NAME.Haggle" : "Feilschen",
+    "NAME.Heal" : "Heilen",
+    "NAME.ID" : "Instinktive Aussprache",
+    "NAME.Improvised" : "Improvisierte Waffe",
+    "NAME.Infected" : "Infiziert",
+    "NAME.Intimidate" : "Einschüchtern",
+    "NAME.Intuition" : "Intuition",
+    "NAME.Language" : "Sprache",
+    "NAME.Leadership" : "Anführen",
+    "NAME.Lingering" : "Andauernd",
+    "NAME.Lore" : "Wissen",
+    "NAME.Luck" : "Glückspilz",
+    "NAME.MagicalSense" : "Magiegespür",
+    "NAME.MagicResistanceTalent" : "Magieresistenz",
+    "NAME.MagicResistanceTrait" : "Magieresistenz",
+    "NAME.Melee" : "Nahkampf",
+    "NAME.MeleeBrawling" : "Nahkampf (Waffenlos)",
+    "NAME.Navigation" : "Navigation",
+    "NAME.NightVision" : "Nachtsicht",
+    "NAME.Ogre" : "Oger",
+    "NAME.OutdoorSurvival" : "Überleben",
+    "NAME.Perception" : "Wahrnehmung",
+    "NAME.Perform" : "Artistik",
+    "NAME.PettyMagic" : "Niedere Magie",
+    "NAME.PickLock" : "Schlösser öffnen",
+    "NAME.Play" : "Musizieren",
+    "NAME.Pray" : "Beten",
+    "NAME.PS" : "Reine Seele",
+    "NAME.Ranged" : "Fernkampf",
+    "NAME.Research" : "Nachforschen",
+    "NAME.Resistance" : "Resistenz",
+    "NAME.Resolute" : "Entschlossen",
+    "NAME.Ride" : "Reiten",
+    "NAME.Riposte" : "Riposte",
+    "NAME.Robust" : "Hart im Nehmen",
+    "NAME.Row" : "Rudern",
+    "NAME.Sail" : "Segeln",
+    "NAME.Savant" : "Fachwissen",
+    "NAME.Schemer" : "Intrigant",
+    "NAME.SeaLegsTalent" : "Seemannsgang",
+    "NAME.SecondSight" : "Zweites Gesicht",
+    "NAME.SecretSigns" : "Geheimzeichen",
+    "NAME.SetTrap" : "Fallen stellen",
+    "NAME.Slayer" : "Slayer",
+    "NAME.SleightOfHand" : "Fingerfertigkeit",
+    "NAME.SMB" : "Mächtiger Schlag",
+    "NAME.Stealth" : "Heimlichkeit",
+    "NAME.Stomp" : "Niedertrampeln",
+    "NAME.Stride" : "Geschwind",
+    "NAME.Strider" : "Trittsicher (Gelände)", 
+    "NAME.StrongBack" : "Starker Rücken",
+    "NAME.StrongMinded" : "Willensstärke",
+    "NAME.Sturdy" : "Stämmig",
+    "NAME.Swim" : "Schwimmen",
+    "NAME.Terror" : "Terror",
+    "NAME.Track" : "Track",
+    "NAME.Trade" : "Beruf",
+    "NAME.Trickriding" : "Kunstreiter",
+    "NAME.Unarmed" : "Waffenlos",
+    "NAME.Undead" : "Untot",
+    "NAME.WarWizard" : "Kampfzaubererer",
+    "NAME.Witch" : "Hexer",
+
+    "SPEC.Any": "Irgendeine",
+    "SPEC.Basic" : "Standard",
+    "SPEC.Cavalry" : "Kavallerie",
+    "SPEC.Fencing" : "Fechten",
+    "SPEC.Brawling" : "Waffenlos",
+    "SPEC.Flail" : "Flegel",
+    "SPEC.Parry" : "Parade",
+    "SPEC.Polearm" : "Stangenwaffe",
+    "SPEC.TwoHanded" : "Zweihändig",
+    "SPEC.Blackpowder" : "Schießpulver",
+    "SPEC.Bow" : "Bogen",
+    "SPEC.Crossbow" : "Armbrust",
+    "SPEC.Entangling" : "Fesselnd",
+    "SPEC.Engineering" : "Technicus",
+    "SPEC.Explosives" : "Explosiv",
+    "SPEC.Sling" : "Schleuder",
+    "SPEC.Throwing" : "Werfen",
+    "SPEC.Vehicle" : "Fahrzeug",
+    "SPEC.Magick" : "Magick",
+    "SPEC.Horse" : "Pferd",
+    "SPEC.Urban" : "Stadt",
+    "SPEC.Rural" : "Ländlich",
+    "SPEC.Underground" : "Untergrund",
+    "SPEC.Sing" : "Singen",
+    "SPEC.Singing" : "Singend",
+    "SPEC.Eltharin" : "Elthárin",
+    "SPEC.Cathayan" : "Cathayanisch",
+    "SPEC.Lute" : "Laute",
+    "SPEC.Sight" : "Sicht",
+    "SPEC.Hearing" : "Höhren",
+    "SPEC.Smell" : "Riechen",
+
+
+    "SHEET.CharacterSheet" : "Charakterbogen",
+    "SHEET.NPCSheet" : "NSC Bogen",
+    "SHEET.CreatureSheet" : "Kreaturenbogen",
+    "SHEET.VehicleSheet" : "Fahrzeugbogen",
+    "SHEET.CharacterSheetNoTheme" : "Charakterbogen (Kein Motiv)",
+    "SHEET.NPCSheetNoTheme" : "NSC Bogen (Kein Motiv)",
+    "SHEET.CreatureSheetNoTheme" : "Kreaturenbogen (Kein Motiv)",
+    "SHEET.VehicleSheetNoTheme" : "Fahrzeugbogen (Kein Motiv)",
+
+    "SHEET.DupPrompt" : "Möchtest du dieses item duplizieren?",
+    "SHEET.DupTitle" : "Dupliziere item",
+    "SHEET.SplitPrompt" : "Please enter the amount to to split off",
+    "SHEET.SplitTitle" : "Teile Item",
+    "Split" : "Teile",
+    "Invalid Quantity" : "Ungültige Anzahl",
+    "SHEET.SwitchToSkills" : "Wechsle zu Fähigkeiten",
+    "SHEET.SwitchToExtendedTests" : "Wechsel zur Erweiterten Probe",
+    "SHEET.TemporaryEffects" : "Temporäre Effekte",
+    "SHEET.PassiveEffects" : "Passive Effekte",
+    "SHEET.DisabledEffects" : "Ausgeschaltete Effekte",
+    "SHEET.AppliedEffects" : "Hinzugefügte Effekte",
+    "SHEET.Source" : "Quelle",
+    "SHEET.AdvanceDiseases" : "Fortschritt Krankheiten",
+    "SHEET.ApplyToTarget" : "Zum Ziel hinzufügen",
+    "SHEET.Target" : "Ziel",
+    "SHEET.ToggleEffect" : "Zwischen Effekten schalten",
+    "SHEET.Additional" : "Zusätzlich",
+    "SHEET.OtherCost": "Andere Kosten",
+    "SHEET.OtherCostPlaceholder": "formula oder Nummer",
+    "SHEET.ApplyEffect" : "Füge {effect} hinzu",
+    "SHEET.InvokeEffect" : "Aktiviere {effect}",
+    "SHEET.ExpChange" : "Ausgebene / Totale Änderung",
+    "Reason" : "Grund",
+    "SHEET.TotalSpentExp" : "Ausgegebene / Totale Wert",
+    "SHEET.CharacteristicCurrent" : "Aktuell",
+    "SHEET.ExperienceCurrent" : "Aktuell",
+    "SHEET.CareerCurrent" : "Aktuell",
+    "New" : "Neu",
+    "SHEET.ToggleTraits" : "Zwischen Kreaturen Eigenschaft(en) schalten",
+    "SHEET.Unarmed": "Waffenlos",
+    "SHEET.Dodge": "Ausweichen",
+    "SHEET.Improvised": "Improvisiert",
+    "SHEET.Stomp": "Niedertrampeln",
+    "SHEET.GenerateName" : "Generiere Name",
+    "SHEET.Randomize" : "Zufällig",
+    "SHEET.UnusedQualitiesHint" : "Du hast nicht die passende Fähigkeit um diese Qualität zu nutzten.",
+
+    "DISEASE.IncubationFinished" : "{disease} Inkubation abgeschlossen. ",
+
+    "ERROR.ParseDisease": "Konnte Krankheits Wurf nicht aufliedern (parse).",
+    "ERROR.ParseInjury": "Konnte Verletzungs Wurf nicht aufgliedern (parse)",
+    "ERROR.ParseSpell": "Error: Konnte Zauberschaden nicht aufgliedern (parse). Siehe Konsole (F12) für Details",
+    "ERROR.Parser": "Konnte {name} nicht finden",
+    "ERROR.NoSkill": "Konnte keine Fähigkeit (oder Spezialisierung von) {skill} im Kompendium oder der Welt finden.",
+    "ERROR.NoTalent": "Konnte kein Talent (oder spezialisierung von) {talent} im Kompendium oder der Welt finden",
+    "ERROR.SpellLore": "Du kannst nicht die Lehre des Zaubers editieren während er von einem Akteur besessen wird.",
+    "ERROR.Column": "Bitte Spalte auf den gewürfelt wird definieren",
+    "ERROR.Table": "Tabelle {key} nicht gefunden. Falls diese Tabelle aus einem offiziellen Modul ist, bitte aus dem Kompendium importieren.",
+    "ERROR.Found": "{name} konnte nicht gefunden werden",
+    "ERROR.Species": "Konnte Speziesname nicht finden {name}",
+    "ERROR.Experience": "Erfahrungswerte müssen nummerisch sein.",
+    "ERROR.ID": "ID für {name} existiert bereits in der Sammlung. Diesem Dokument wurde eine einzigartige ID gegeben.",
+    "ERROR.Opposed": "Brauche beide Proben, Angreifer und Verteidiger um ein Vergleichendes Ergebnis zu berechnen",
+    "ERROR.CannotUseArm" : "Cannot use arm!",
+    "ERROR.NoOwnedCrew" : "Dir gehörte keine Fahrzeugbesatzung die zu dieser Rolle gehören.",
+    "WARNING.Target": "Wähle ein Ziel um den Effekt hinzuzufügen.",
+    "WARNING.ActorTest": "Akteur Proben Klassen werden nicht mehr genutzt. Bitte verwende ‘roll()’ direkt auf dem Proben Objekt.",
+    "APPLYREQUESTGM": "Hinzufügen Effekt Anfrage zur SL gesendet",
+    "APPLYREQUESTOWNER": "Hinzufügen Effekt Befehl zum Besitzer gesendet",
+    "EFFECT.Applied" : "{name} hinzugefügt zu",
+    "ERROR.EFFECT": "Error beim ausführen von Effekt {effect}, Bitte die Konsole (F12) überprüfen",
+    "ERROR.AMMO_MODS": "Munitions '{type}' Wert kann nicht gelöst werden, abbruch. Überprüde die Konsole (F12) für Details.",
+    "SinReduced": "Sünde reduziert um 1",
+    "TargetingCancelled": "Zielauswahl abgebrochen: Vergleicht bereits eine Probe",
+    "ERROR.Property": "WFRS4e Würfe müssen den Item Besitz definieren",
+    "ERROR.Speaker": "WFRS4e Würfe müssen einen Sprecher definieren",
+    "GroupAdvantageNoCombatant" : "Dieser Akteur muss Teil eines Kampfes sein um den Gruppen Vorteil anzupassen.",
+    "AutoFillAdvantageDisabled" : "'Auto Vorteile Auffüllen Einstellung ausgeschaltet disabled",
+    "GroupAdvantageUpdated" : "Gruppen Vorteil angepasst. Spieler: {players} | Gegner: {enemies}",
+    "ERROR.PrayerAoEOvercast" : "Gebets Wirkungsbereich kann nicht overcast werden",
+    "ERROR.EffectNotFound" : "Effekt nicht gefunden bei Proben Item",
+    "ERROR.StandardTraitsOnVehicle" : "Kann keine Standard Eigenschaften zu einem Fahrzeug hinzufügen",
+    "ERROR.VehicleTraitsOnStandard" : "Kann keine Fahrzeug Eigenschaften zu diesem Akteur hinzufügen",
+    "ERROR.NoAvailableActors" : "Keine verfügbaren Akteure im Besitz zur Auswahl!",
+    "ERROR.SkillAlreadyExists" : "Eine Fähigkeit mit diesem Namen existiert bereits bei diesem Akteur",
+
+    "Item Properties": "Item Qualitäten",
+    "PROPERTY.Group": "Gruppe",
+    "PROPERTY.GroupDescription": "Gib den Qualitäten die gleiche Gruppennummer um zwischen ihnen zu wechseln (wie ‘Durchschlagend’ oder ‘Durchbohrend’",
+    "PROPERTY.Accurate": "Akkurat",
+    "PROPERTY.Blackpowder": "Schwarzpulver",
+    "PROPERTY.Blast": "Radius",
+    "PROPERTY.Bulky": "Unhandlich",
+    "PROPERTY.Damaging": "Verwundend",
+    "PROPERTY.Dangerous": "Gefährlich",
+    "PROPERTY.Defensive": "Defensiv",
+    "PROPERTY.Distract": "Ablenkend",
+    "PROPERTY.Durable": "Haltbar",
+    "PROPERTY.Entangle": "Fesselnd",
+    "PROPERTY.Fast": "Schnell",
+    "PROPERTY.Fine": "Edel",
+    "PROPERTY.Hack": "Durchschlagend",
+    "PROPERTY.Impact": "Wuchtig",
+    "PROPERTY.Impale": "Durchbohrend",
+    "PROPERTY.Imprecise": "Unpräzise",
+    "PROPERTY.Lightweight": "Leicht",
+    "PROPERTY.Magical": "Magisch",
+    "PROPERTY.Penetrating": "Rüstungsbrechend",
+    "PROPERTY.Pistol": "Pistole",
+    "PROPERTY.Practical": "Praktisch",
+    "PROPERTY.Precise": "Präzise",
+    "PROPERTY.Pummel": "Betäubend",
+    "PROPERTY.Reload": "Nachladen",
+    "PROPERTY.Repeater": "Repetierend",
+    "PROPERTY.Shield": "Schild",
+    "PROPERTY.Shoddy": "Schäbig",
+    "PROPERTY.Slow": "Langsam",
+    "PROPERTY.Tiring": "Ermüdend",
+    "PROPERTY.TrapBlade": "Klingenfänger",
+    "PROPERTY.Ugly": "Hässlich",
+    "PROPERTY.Unbalanced": "Unbalanced",
+    "PROPERTY.Unbreakable": "Unzerbrechlich",
+    "PROPERTY.Undamaging": "Stumpf",
+    "PROPERTY.Unreliable": "Unzuverlässig",
+    "PROPERTY.Wrap": "Umwickelnd",
+    "PROPERTY.Custom": "Benutzerdefiniert",
+    "PROPERTY.CustomHint": "FORMAT - {type} 1: {type} 1 Beschreibung | {type} 2 (Bewertung) : {type} 2 Beschreibung | etc.",
+    "PROPERTY.SlashAlert": "<b>Slash Property</b>: Verursache @Condition[Bleeding] bei Kritischer Wunde, kann {value} Vorteile ausgeben um eine weitere zu verursachen.",
+    "Simple": "Einfach",
+    "Momentum": "Momentum",
+
+    "PROPERTY.Flexible": "Flexibel",
+    "PROPERTY.Impenetrable": "Undurchdringlich",
+    "PROPERTY.Partial": "Partiell",
+    "PROPERTY.Weakpoints": "Schwachpunkte",
+
+    "PROPERTIES.TraitWarning": "Manche Qualitäten/Makel können nicht den Merkmalen, Nachladen, Schwarzpulver, Repetierend, Schild, Haltbar, Edel, Leicht, Unhandlich hinzugefügt werden",
+
+    "WFRP4E.BPandEng": "Schießpulver und Technikus",
+    "WFRP4E.Bow": "Bogen",
+    "WFRP4E.Crossbow": "Armbrust",
+    "WFRP4E.Sling": "Schleuder",
+    "WFRP4E.Vehicle": "Fahrzeug",
+
+    "ITEM.IsSpec": "Ist Spezialisierung",
+    "ITEM.NoSpec": "Keine Spezialisierung",
+
+    "Instant": "Direkt",
+
+    "AP": "RP",
+    "Scatter": "Streuung",
+    "yard": "yard",
+    "yards": "yards",
+    "Ammo": "Munition",
+    "yds": "yds",
+    "NAME.CombatReflexes": "Kampfreflexe",
+
+    "FORTUNE.Use": "Glückspunkt genutzt",
+    "FORTUNE.UsageRerollText": "{character} nutze einen Glückspunkt um eine gescheitete Probe neu zu würfeln.",
+    "FORTUNE.PointsRemaining": "Glückspunkte übrig:",
+    "FORTUNE.UsageAddSLText": "{character} verwendete einen Glückspunkt um + 1 EG hinzufügen. Die Probe wurde angepasst.",
+
+    "DARKDEAL.Use": "Nimm einen dunklen Pakt",
+    "DARKDEAL.UsageText": "{character} nahm einen dunklen Pakt und wurde ein neu würfeln gewährt, für +1 Verderbnis.",
+
+    "OPPOSED.DefenderWins": "<b>{defender}</b> gewinnt gegen <b>{attacker}</b> mit {EG} EG",
+    "OPPOSED.AttackerWins": "<b>{attacker}</b> gewinnt gegen <b>{defender}</b> mit {EG} EG",
+    "ROLL.Misfire": "<b>Fehlzündung:</b> Deine Waffe explodiert! Nimm {damage} Schaden an deiner Haupthand.",
+    "OPPOSED.FailedRanged": "<b>Probe Misslungen</b>: Verliere automatisch Vergleichene Würfe",
+    "OPPOSED.Daemonic": "<b>Dämonisch</b>: Treffer ignoriert (Gewürfelt {roll})",
+    "OPPOSED.DaemonicRoll": "<b>Dämonischer Wurf</b>: {roll}",
+    "OPPOSED.Ward": "<b>Schutz</b>: Treffer ignoriert (Gewürfelt {roll})",
+    "OPPOSED.WardRoll": "<b>Schutzwurf</b>: {roll}",
+
+    "CHATOPT.ApplyDamage": "Wende Schaden an",
+    "CHATOPT.ApplyDamageNoAP": "Wende  Schaden an (Ignore AP)",
+    "CHATOPT.ApplyDamageNoTB": "Wende Schaden an (Ignore TB)",
+    "CHATOPT.ApplyDamageNoTBAP": "Wende Schaden an (Ignore TB and AP)",
+    "CHATOPT.UseFortuneReroll": "Nutze einen Glückspunkt um neu zu würfeln",
+    "CHATOPT.UseFortuneSL": "Nutze einen Glückspunkt um +1 EG hinzuzufügen",
+    "CHATOPT.DarkDeal": "Mache einen dunklen Pakt um neu zu würfeln (+1 Verderbnis)",
+    "CHATOPT.StartOpposed": "Start Widersetzung",
+    "CHATOPT.DefendOpposed": "Verteidige Widersetzung",
+    "CHATOPT.CompleteUnopposed": "Schließe alle Nicht Widersetzten ab",
+    "CHATOPT.ApplyAllDamage": "Füge allen Schaden hinzu",
+    "CHATOPT.Reroll": "Neu würfeln",
+    "CHATOPT.TotalPower": "Total Power",
+    "CHATOPT.EditTest": "Bearbeiten Probe",
+
+    "TRAVEL.TravelMessageBase": "Von <b>{from}</b> nach<b>{to}</b> : ",
+    "TRAVEL.TravelMessageRoad": "<br><b>Straße</b> : {road_distance} Meilen<br>&nbsp;&nbsp;Mit der Kutsche : {road_days} Tage, Risiko ist {road_danger_string}<br>&nbsp;&nbsp;Mit schwerem Pferd : {road_horse_heavy_days} Tage, Risiko ist {road_danger_string}<br>&nbsp;&nbsp;Mit schnellem Pferd : {road_horse_fast_days} Tage, Risiko ist {road_danger_string}<br>&nbsp;&nbsp;Zu Fuß : {road_feet_days} Tage, Risiko ist {road_danger_feet_string}",
+    "TRAVEL.TravelMessageRiver": "<br><b>Fluss</b> : {river_distance} Meilen<br>&nbsp;&nbsp;Mit dem Boot : {river_days} Tage, Risiko ist {river_danger_string}",
+    "TRAVEL.TravelMessageSea": "<br><b>Meer</b> : {sea_distance} Meilen<br>&nbsp;&nbsp;Mit dem Boot : {sea_days} Tage, Risiko ist {sea_danger_string}",
+    "TRAVEL.TownPrompt": "Wähle eine Zielstadt",
+    "TRAVEL.TownOriginPrompt": "Wähle eine Abfahrtstadt",
+    "TRAVEL.DangerVeryLow": "Sehr niedrig",
+    "TRAVEL.DangerLow": "Niedrig",
+    "TRAVEL.DangerMedium": "Medium",
+    "TRAVEL.DangerHigh": "Hoch",
+    "TRAVEL.DangerVeryHigh": "Sehr hoch",
+    "TRAVEL.Helper": "Die Distanz basiert auf dem Dokument <i>Travel Distances in the Empire</i>, von <i>Jackdays</i>. Die Entfernung wurde anhand von historisch mittelalterlichen Dokumenten über Reisen überprüft. Die Flussrichtung von Flüssen wurde ebenso berücksichtigt.<br><b>Anwendung</b> : <b>/travel town</b> oderr <b>/travel town1 town2</b> oder <b>/travel</b>",
+
+    "TRADE.ManageCargo": "Bewältige Handel",
+    "TRADE.Encumbrance": "Belastung",
+    "TRADE.Modifier": "Modifikator zum hinzufügen (+/- X%)",
+    "TRADE.Price": "Momentaner Preis",
+    "TRADE.CargoTitle": "Da ist Fracht von <b> {name} </b> verfügbar in {town} !",
+    "TRADE.Quality": "Qualität",
+    "TRADE.MerchantData": "Die Fracht wird verkauft von <b>{name}</b>, einem {gender} {species} Händler (Feilschen: {haggle})",
+    "TRADE.MerchantTest": "<strong>Händler Probe</strong>: {EG} EG (Gewürfelt {roll})",
+    "TRADE.CreateCargoItem": "Erstelle Item",
+    "TRADE.Cancel": "Abbrechen",
+    "TRADE.CargoPrefix": "Fracht aus ",
+    "TRADE.CargoDescr": "Gekauft von <b>{name}</b> in {town}",
+    "TRADE.MerchantDataBuy": "<h2>Fracht Purchase</h2><b>{cargoName}</b><br><b>Enc:</b> {cargoSize}<br><b>Preis</b>: {cargoPrice} GK",
+    "TRADE.BuyCargo": "Kaufe diese Fracht!",
+    "TRADE.NotEnoughMoney": "Du hast nicht genug Geld um diese Fracht zu kaufen!",
+    "TRADE.CargoBought": "Fracht wurde gekauft von <b>{name}</b>",
+    "TRADE.CargoItemName": "Fracht von {name}",
+    "TRADE.NoCargoFound": "Es ist keine Fracht zum Kaufen in <b>{town}</b> verfügbar (Gewürfelt {rolls}).",
+
+    "TRADE.SettlementName": "Siedlungsname",
+    "TRADE.SettlementDetails": "Siedlungsdetails",
+    "TRADE.Surplus": "Überschuss",
+    "TRADE.Demand": "Bedarf",
+    "TRADE.Trade": "Handel",
+    "TRADE.River": "Fluss",
+    "TRADE.Maritime": "Maritim",
+    "TRADE.Settlement": "Siedlung",
+    "TRADE.Size": "Größe",
+    "TRADE.Wealth": "Reichtum",
+    "TRADE.Produces": "Produziert",
+    "TRADE.Season": "Saison",
+
+    "Cargo": "Fracht",
+    "Cost": "Preis",
+    "Length": "Länge",
+    "VEHICLE.yd": "yd",
+    "Motive Power": "Motive Power",
+    "VEHICLE.Type": "Fahrzeug Typ",
+    "VEHICLE.ModEncumbranceTT": "Belastung von den Modifikationen: {amt}",
+    "VEHICLE.CarryEncumbranceTT": "Belastung von der Ladung: {amt}",
+    "VEHICLE.CrewRoles": "Besatzung Rollen",
+    "VEHICLE.Crew": "Besatzung",
+    "VEHICLE.VehicleCrew": "Fahrzeugbesatzung",
+    "VEHICLE.Skill": "Fähigkeit",
+    "VEHICLE.Modifications": "Fahrzeug Modifikationen",
+    "VEHICLE.ModType": "Modifikations Typ",
+    "VEHICLE.TestNotFound": "Fähigkeit oder Eigenschaft nicht gefunden.",
+    "VEHICLE.TestNotPermitted": "Du hast keine Erlaubnis diese Probe durchzuführen.",
+    "VEHICLE.NoActor": "Bitte ordne einen Akteur der Rolle hinzu.",
+    "VEHICLE.RoleTest": "Rollen Probe",
+    "VEHICLE.RoleTestLabel": "Probe Kennzeichen",
+    "VEHICLE.EnterRoleName": "Gib einen Rollenname ein",
+    "VEHICLE.Handling": "Fahrzeugsteuerung",
+    "VEHICLE.HandlingTT": "Zähle die Probe dieser Rolle als Fahrzeugsteuerung-Probe",
+    "VEHICLE.HandlingNoPenalty": "Belastung unter maximum: Keine Mali.",
+    "VEHICLE.HandlingPenalty": "Steuerung Proben erleiden eine -{penalty} EG Strafe.",
+    "VEHICLE.CantUseActor": "Du hast nicht die Erlaubnis Proben mit diesem Akteur durchzuführen.",
+    "VEHICLE.NoActorOnBoard": "Dein zugeordneter Charakter ist nicht im Fahrzeug.",
+    "VEHICLE.Enabled": "Aktiviert",
+    "VEHICLE.PrimaryMode": "Hauptmodus",
+    "Vehicle Settings": "Fahrzeugeinstellungen",
+    "VEHICLE.Move": "Fahrzeugbewegung",
+    "VEHICLE.Sail": "Segel",
+    "VEHICLE.Oars": "Ruder",
+    "VEHICLE.S": "S",
+    "VEHICLE.O": "O",
+    "VEHICLE.Morale": "Moral",
+    "VEHICLE.VehicleMorale": "Fahrzeug Moral",
+    "VEHICLE.MoraleEffects": "Morale Effekte",
+    "VEHICLE.MoraleRolls": "Moral Würfeln",
+    "VEHICLE.NoMoraleModifiers": "Keine Aktive Moral Modifikatoren",
+    "VEHICLE.ManannsMood": "Manann's Laune",
+    "VEHICLE.ManannsMoodRolls": "Manann's Laune Würfeln",
+    "VEHICLE.NoManannsMoodModifiers": "Keine Aktive Launen Modifikatoren",
+    "VEHICLE.Change": "Wechseln",
+    "VEHICLE.Starting": "Starten",
+    "VEHICLE.Sources": "Moral",
+    "VEHICLE.Delete": "Diesen Eintrag löschen?",
+    "VEHICLE.CrewTests": "Besatzungs Proben",
+    "VEHICLE.NoSkill": "Dieser Akteur hat keine Fähigkeit die mit dieser Rolle genutzt werden kann",
+    "VEHICLE.ChooseSkill": "Wähle die Fähigkeit die du nutzt",
+    "VEHICLE.CollisionRating": "Collision Rating",
+    "VEHICLE.WeekLabel": "Wochen Kennzeichen",
+    "VEHICLE.LabelError": "Gib ein Kennzeichen für den Wurf ein",
+    "VEHICLE.Man": "Man.",
+    "VEHICLE.Custom": "Benutzerdefiniert",
+    "VEHICLE.SetValue": "Setze Wert",
+    "VEHICLE.SetValueToolTip": "Zu einem bestimmten Wert setzen statt zu würfeln.",
+    "VEHICLE.Roles": "Rollen ",
+    "VEHICLE.NewRole": "Neu Rolle",
+    "VEHICLE.AssignedActors": "Zugewiesene(r) Akteur(e)",
+    "VEHICLE.SellCargo": "Verkaufe Ladung",
+    "NewRole": "Neue Rolle",
+    "Add Encumbrance for Actors": "Belastung hinzufügen für Akteure",
+    "Submit": "Einreichen",
+    "Confirm": "Bestätigen",
+
+    "Actor Settings": "Akteur Einstellungen",
+
+    "BUTTON.PostBug": "Einen Groll einreichen",
+    "BUTTON.CharacterCreation": "Charakter Erschaffung",
+
+    "CAREER.LeaveComplete": "Eine abgeschlossene Karriere verlassen",
+    "CAREER.LeaveIncomplete": "Eine unabgeschlossene Karriere verlassen",
+    "CAREER.DifferentClass": "Einer anderen Klasse beitreten",
+    "CAREERAdvHint": "<p>Möchtest du diese Karriere Steigerung beim Akteur durchführen?",
+    "CAREERAdv": "Karriere Steigerung",
+    "CAREER.AddSkillError": "Etwas ging beim hinzufügen von Fähigkeit {skill} schief: {error}",
+    "CAREER.AddTalentError": "Etwas ging beim hinzufügen von Talent {talent} schief: {error}",
+    "CAREER.Loading": "Lädt Karrieren",
+
+    "EFFECT.TabWFRP": "WFRP",
+    "EFFECT.EffectType": "Effekt Typ",
+    "EFFECT.EffectApplication": "Effekt Anwendung",
+    "EFFECT.PreventDuplicate": "Verhindere Duplikats Effekte",
+    "EFFECT.DodgeMount": "Ausweichen auf einem Reittier",
+    "EFFECT.HideEffect": "Verbergen vor Spielern",
+    "EFFECT.SystemEffects": "System Effekte",
+    "EFFECT.SelectEffect": "Auswählen Effekt",
+    "EFFECT.Tooltip": "Effekte die Dialog values beeinflusst",
+    "EFFECT.Target": "Ziel: ",
+    "EFFECT.ReduceQuantityOption": "Verringere die Anzahl bei benutzung",
+    "EFFECT.QuantityError": "Nicht ausreichende Anzahl",
+    "New Effect": "Neuer Effekt",
+    "EFFECT.Prevent": "Verhindert das hinzufügen des {name} Effekts: Effekt existiert bereits",
+    "EFFECT.TestsToAffect": "Probe zur beeinflussung von",
+    "EFFECT.AffectTheSourceOfFearName": "Probe um {name} zu beeinflussen",
+    "EFFECT.AffectTheSourceOfFear": "Probe um die Quelle der Furcht zu beeinflussen",
+    "EFFECT.Encumbrance": "Belastung",
+    "EFFECT.ColdExposure": "Kälte ausgesetzt",
+    "EFFECT.HeatExposure": "Hitze ausgesetzt",
+    "EFFECT.Thirst": "Durst",
+    "EFFECT.Starvation": "Verhungern",
+    "EFFECT.Infighting": "Handgemenge",
+    "EFFECT.OnDefensive": "In der Defensive",
+    "EFFECT.DualWielder": "Zweiwaffen Kämpfer",
+    "EFFECT.ConsumeAlcohol": "Zechen",
+    "EFFECT.MarienburghersCourage": "Marienburger Courage",
+    "EFFECT.TestsRelatedToHearing": "Probe mit Hören verbunden",
+    "EFFECT.TestsRelatedToMovementOfAnyKind": "Probe ist mit Bewegung jeglicher Art verbunden",
+    "EFFECT.TestsRelatedToSight": "Probe ist verbunden mit Sicht",
+    "EFFECT.ShooterEngagedError": "Du kannst keine Fernkampf Angriffe im Nahkampf durchführen, außer du bist mit einer Fernkampfwaffe mit der Qualität Pistole bewaffnet.",
+    "EFFECT.ShooterEngaged": "Schütze ist gebunden im Nahkampf - Kein Reichweiten Modifikator",
+    "EFFECT.ShootingAtEngagedTarget": "Ziel gebunden im Nahkampf",
+    "EFFECT.Applying": "Füge Hinzu {name}",
+    "EFFECT.NotSelf": "Nicht zu sich selbst hinzufügen",
+    "EFFECT.DeletingEffectItems": "Lösche Effekt Item: {items}",
+    "EFFECT.PromptItem": "Abfrage Item",
+    "EFFECT.ItemFilters": "Item Filter",
+    "EFFECT.ItemChoice": "Item Wahl",
+    "EFFECT.CanBeAsync": "Das Skript kann async/await Schlüsselworte verwenden",
+    "EFFECT.BlackpowderShock": "Schießpulver Schock",
+    "EFFECT.CharacteristicsModifier": "Eigenschaft (Modifikator)",
+    "EFFECT.CharacteristicsInitial": "Eigenschaft (Initial)",
+    "EFFECT.CalculationBonusModifiers": "Kalkulations Bonus Modifikator",
+    "EFFECT.CalculationBonusModifier": "KBM",
+
+    "WFRP4E.MountButtonNotify": "Der Linke-Seite Akteur ({mounter}) ist auf den rechte-Seite Akteur aufgesessen ({mountee})",
+    "MountError": "Du kannst nur auf Kreaturen aufsitzen die gleich Groß oder größer sind.",
+
+    "minor": "gering",
+    "moderate": "Moderat",
+    "major": "Bedeutend",
+    "Minor": "Gering",
+    "Moderate": "Moderat",
+    "Major": "Bedeutend",
+    "CORRUPTION.Minor": "Gering",
+    "CORRUPTION.Moderate": "Moderat",
+    "CORRUPTION.Major": "Bedeutend",
+    "CORRUPTION.Exposure": "Verderbnis Aussetzung",
+    "Quantity": "Anzahl",
+    "Infinite": "Unendlich",
+    "Halved": "Halbiert",
+
+    "IngredientNone": "Keiner",
+    "IngredientPower": "Kraft",
+    "IngredientControl": "Kontrolle",
+    "ConsumedIngredient": "<p>Ingredienz verwendet</p>",
+    "Overchannelling": "Overchannelling",
+
+    "CondStatus": "Status",
+    "CondRound": "- Runde {round}",
+
+    "Hit Location Table": "Trefferzonen-Tabelle",
+
+    "Human": "Mensch",
+    "Dwarf": "Zwerg",
+    "Halfling": "Halbling",
+    "High Elf": "Hochelf",
+    "Wood Elf": "Waldelf",
+
+    "Difficulty": "Schwierigkeit",
+    "DIFFICULTY.VEasy": "Sehr Leicht (+60)",
+    "DIFFICULTY.Easy": "Leicht (+40)",
+    "DIFFICULTY.Average": "Durchschnittlich (+20)",
+    "DIFFICULTY.Challenging": "Herausfordernd (+0)",
+    "DIFFICULTY.Difficult": "Schwierig (-10)",
+    "DIFFICULTY.Hard": "Schwer (-20)",
+    "DIFFICULTY.VHard": "Sehr schwer (-30)",
+    "DIFFICULTY.Futile": "Aussichtslos (-40)",
+    "DIFFICULTY.Impossible": "Unmöglich (-50)",
+
+    "DIFFICULTYNAME.VEasy": "Sehr Leicht",
+    "DIFFICULTYNAME.Easy": "Leicht",
+    "DIFFICULTYNAME.Average": "Durchschnittlich",
+    "DIFFICULTYNAME.Challenging": "Herausfordernd",
+    "DIFFICULTYNAME.Difficult": "Schwierig",
+    "DIFFICULTYNAME.Hard": "Schwer",
+    "DIFFICULTYNAME.VHard": "Sehr schwer",
+    "DIFFICULTYNAME.Futile": "Aussichtslos",
+    "DIFFICULTYNAME.Impossible": "Unmöglich",
+
+    "DIFFICULTY.MooVEasy": "Sehr Leicht (+40)",
+    "DIFFICULTY.MooEasy": "Leicht (+30)",
+    "DIFFICULTY.MooDifficult": "Schwierig (-20)",
+    "DIFFICULTY.MooHard": "Schwer (-30)",
+    "DIFFICULTY.MooVHard": "Sehr schwer (-40)",
+    "DIFFICULTY.MooFutile": "Aussichtslos (-50)",
+    "DIFFICULTY.MooImpossible": "Unmöglich (-60)",
+
+    "Point Blank": "Kernschussweite",
+    "Short Range": "Kurze Reichweite",
+    "Normal": "Normale Reichweite",
+    "Long Range": "Lange Reichweite",
+    "Extreme": "Extreme Reichweite",
+
+    "Career Selector": "Karriere Wähler",
+    "SHEET.NoCareers": "Keine Karrieren gefunden",
+    "XP Cost": "EP Kosten",
+    "Select": "Auswählen",
+
+    "Species Characteristics": "Volkseigenschaften",
+    "SpecChar": "<p>Möchtest du diese Volkseigenschaften zum Akteur hinzufügen? ",
+
+    "Stat Block Parser": "Stat Block Parser",
+    "Possessions": "Besitz",
+
+    "Days": "Tage",
+    "Hours": "Stunden",
+    "Minutes": "Minuten",
+    "Seconds": "Sekunden",
+    "Treatment": "Behandlung",
+    "Round": "Runde",
+
+    "Morrslieb - Currently On ": "Morrslieb - Momentan An ",
+    "Morrslieb - Currently Off": "Morrslieb - Momentan Aus",
+    "Mask": "Maskieren",
+    "Unmask": "Demaskieren",
+
+    "Domain": "Domain",
+    "BUGREPORT.Contact": "Kontakt Info",
+    "BUGREPORT.ContactPlaceholder": "Discord Tag oder Email.",
+    "BUGREPORT.DescriptionPlaceholder": "What happened, how to reproduce, etc.",
+    "BUGREPORT.MatchingGrudges": "Has your grudge already been recorded?",
+    "BUGREPORT.Warning": "<b>Be aware</b>: This information is posted on the GitHub issues page, which is public, so Discord tag is preferred. Otherwise, contact me (<a href='mailto:russellt@cubicle7games.com'>Moo Man</a>) directly.",
+    "BUGREPORT.Updated": "<p>Alle WFRP4e packages up to date!</p>",
+    "BUGREPORT.NotUpdated": "<p>The Following WFRP4e packages are not up to date</p>",
+    "BUGREPORT.ManyModules": "You have non-WFRP4e modules activated, perhaps one of them is interfering?",
+    "GrudgePost": "The Longbeards have received your Grudge! See the console for a link.",
+    "GrudgeError": "The Longbeards grumble and refuse your submission. Please see console for details.",
+    "Something went wrong": "Something went wrong",
+    "BugReport.ErrorForm": "Please fill out the form",
+    "BugReport.ErrorName1": "Please include your Discord tag or email in the Name section.",
+    "BugReport.DiscordChange": "Reminder: Discord usernames are changing. If your username has changed, please use your new one.",
+    "BUGREPORT.AlertHint": "This report either wasn't reproducible or needs some more information. Click on the title to see details.",
+    "BUGREPORT.NeedsAttention": "NEEDS ATTENTION",
+    "BUGREPORT.Settled": "SETTLED",
+    "BUGREPORT.APiLimitReached": "You have reached GitHub's API usage limit. You will need to either wait an hour before submitting or submit it manually on the Github website.",
+    "BUGREPORT.LoadingIssues": "Lädt Issues",
+    "BUGREPORT.Troubleshooting": "Before submitting a report, please consult the <a href='https://moo-man.github.io/WFRP4e-FoundryVTT/pages/troubleshooting.html'>Troubleshooting</a> page.",
+
+    "UpdaterTitle": "Update {title} Content",
+    "Updater1": "This process will import new documents and overwrite previously imported documents with their content from the Compendium.",
+    "Updater2": "THIS MEANS ANY CHANGES YOU'VE MADE WILL BE OVERWRITTEN.",
+    "Updater3": "Anly use this if you've initialized this module previously.",
+    "UPDATER.OverwriteActors": "Überschreibe Akteure",
+    "UPDATER.OverwriteItems": "Überschreibe Items",
+    "UPDATER.OverwriteTables": "Überschreibe Tabellen",
+    "UPDATER.OverwriteJournals": "Überschreibe Journale",
+    "UPDATER.OverwriteScenes": "Überschreibe Szenen",
+    "UPDATER.Exclude": "Schließe Namensänderungen aus",
+    "UPDATER.ExcludeHint": "Checking this will not update documents if their names have been changed",
+    "UPDATER.Error": "You can only update if you've initialized this module at least once.",
+    "UPDATER.Notification": "Erstellte {created} und geupdatete {updated} Dokumenten von {name} - {version}",
+    "UPDATER.DeleteModuleContent": "Lösche Modulinhalte",
+    "UPDATER.DeleteModuleContentPrompt": "<p><strong>Warnung</strong>: Dies wir allen Inhalte löschen der mit dem <strong>{id}</strong> Modul verknüpft ist, dass in diese Welt importiert wurde.</p><p>Bist du sicher, dass du fortfahren willst?</p>",
+
+    "INIT.ResolveDuplicates": "Beseitige Duplikate",
+    "INIT.ResolveDuplicatesNote": "Diese Dokumente existieren bereits in der Welt. Möchtest du stattdessen die Daten vom initialisierten Modul einsetzen?<br><br> Ein bestätigtes Dokument wird die neuen Dateien einsetzen, unbestätigte werden keine Modifikationen durchgeführt.",
+
+    "SOCKET.SendingSocketRequest": "Sending Socket Request",
+
+    "WFRP4e Content Setup": "WFRP4e Content Setup",
+    "Setup": "Setup",
+    "WFRP4e Content Initialization": "WFRS4e Inhalt Initialisation",
+    "Initialization": "Initialization",
+    "Import or update the content from the WFRP4e Core Module": "Importiere / Update den Inhalt des WFRS4e Kernmoduls",
+
+    "WH": {
+        "TransferType": {
+            "Crew": "Crew"
+        },
+        "Models": {
+            "standard": {
+                "FIELDS": {
+                    "details": {
+                        "mainHand": {
+                            "label": "Haupthand",
+                            "hint": "Welche Hand als Haupthand vom System angesehen wird."
+                        },
+                        "hitLocationTable.value": {
+                            "label": "Trefferzonen-Tabelle",
+                            "hint": "Definiert eine eigene Trefferzonen-Tabelle, wenn der Akteur angegriffen wird."
+                        }
+                    },
+                    "settings": {
+                        "equipPoints": {
+                            "label": "Ausrüsten Punkte",
+                            "hint": "Limitiert ausgerüstete Waffen, 2 Punkte sind 2 'hände'"
+                        },
+                        "autoCalc": {
+                            "size": {
+                                "label": "Passe Token Größe an",
+                                "hint": "Passt die Token Größe an die Größe des Akteurs an."
+                            },
+                            "run": {
+                                "label": "Berechne Renngeschwindigkeit",
+                                "hint": "Standard Renngeschwindigkeit ist 4 × Bewegung"
+                            },
+                            "walk": {
+                                "label": "Berechne Gehgeschwindigkeit",
+                                "hint": "Standard Gehgeschwindigkeit ist 2 × Bewegung"
+                            },
+                            "wounds": {
+                                "label": "Berechne Lebenspunkte",
+                                "hint": "Standard max Lebenspunkte sind STB + (2 x WIB) + WKB (für durchschnittliche Größe)"
+                            },
+                            "criticals": {
+                                "label": "Berechne Kritische Wunden",
+                                "hint": "Standard Max Kritische Wunden ist WIB"
+                            },
+                            "corruption": {
+                                "label": "Berechne Korruption",
+                                "hint": "Standard Korruption Schwelle ist WIB +WKB"
+                            },
+                            "encumbrance": {
+                                "label": "Berechne Belastung",
+                                "hint": "Standard Belastungsschwelle ist STB + WIB"
+                            }
+                        }
+                    }
+                }
+            },
+            "vehicle": {
+                "FIELDS": {
+                    "vehicleType": {
+                        "label": "Fahrzeug Typ"
+                    },
+                    "details.hitLocationTable.value": {
+                        "label": "Trefferzonen-Tabelle",
+                        "hint": "Defines a custom hit location table for when this Actor is attacked."
+                    },
+                    "status.morale.transferEffects": {
+                        "label": "Transfer Morale Effects",
+                        "hint": "Apply morale effects to Actors on this vehicle."
+                    }
+                }
+            },
+            "ammunition": {
+                "FIELDS": {
+                    "ammunitionType.value": {
+                        "label": "Munitionsart",
+                        "hint": "Designates what types of Weapons can use this Ammunition"
+                    },
+                    "range.value": {
+                        "label": "Range",
+                        "hint": "Modifies the Range of the Weapon using this Ammunition. e.g. Add: +2, Subtract: -2, Multiply: *2, Divide: /2"
+                    },
+                    "damage.value": {
+                        "label": "Damage",
+                        "hint": "Modifies the Damage of the Weapon using this Ammunition. See Range examples above."
+                    },
+                    "damage.dice": {
+                        "label": "Würfel",
+                        "hint": "Füge einen Würfelwurf zum Schaden hinzu"
+                    },
+                    "special.value": {
+                        "label": "Spezial"
+                    }
+                }
+            },
+            "armour": {
+                "FIELDS": {
+                    "armorType.value": {
+                        "label": "Rüstungsart"
+                    },
+                    "AP": {
+                        "head": {
+                            "label": "Kopf"
+                        },
+                        "lArm": {
+                            "label": "Linker Arm"
+                        },
+                        "rArm": {
+                            "label": "Rechter Arm"
+                        },
+                        "lLeg": {
+                            "label": "Linkes Bein"
+                        },
+                        "rLeg": {
+                            "label": "Rechtes Bein"
+                        },
+                        "body": {
+                            "label": "Körper"
+                        }
+                    },
+                    "special.value": {
+                        "label": "Special",
+                        "hint": "Miscellaneous text that will show in the chat card."
+                    }
+                }
+            },
+            "career": {
+                "FIELDS": {
+                    "class.value": {
+                        "label": "Klasse"
+                    },
+                    "careergroup.value": {
+                        "label": "Karriere Gruppe"
+                    },
+                    "level.value": {
+                        "label": "Karriere Level"
+                    },
+                    "status": {
+                        "tier": {
+                            "label": "Stufe"
+                        },
+                        "standing": {
+                            "label": "Standing "
+                        }
+                    }
+                }
+            },
+            "cargo": {
+                "FIELDS": {
+                    "tradeType": {
+                        "label": "Trade Type"
+                    },
+                    "cargoType.value": {
+                        "label": "Ladungstyp"
+                    },
+                    "unitPrice.value": {
+                        "label": "Stück Preis"
+                    },
+                    "origin.value": {
+                        "label": "Herkunft"
+                    },
+                    "quality": {
+                        "value": {
+                            "label": "Qualität"
+                        }
+                    }
+                }
+            },
+            "container": {
+                "FIELDS": {
+                    "wearable.value": {
+                        "label": "Tragbar"
+                    },
+                    "carries.value": {
+                        "label": "Trägt"
+                    },
+                    "countEnc.value": {
+                        "label": "Zählt Belastung",
+                        "hint": "Addiere diese Belastung zur Belastung des Charakters (wähle es ab wenn es nicht herumgetragen wird z.B. mit einem Karren)"
+                    }
+                }
+            },
+            "disease": {
+                "FIELDS": {
+                    "contraction.value": {
+                        "label": "Übertragung"
+                    },
+                    "incubation.value": {
+                        "label": "Inkubation"
+                    },
+                    "duration.value": {
+                        "label": "Dauer"
+                    },
+                    "symptoms.value": {
+                        "label": "Symptome"
+                    },
+                    "permanent.value": {
+                        "label": "Permanente Folgen"
+                    }
+                }
+            },
+            "extendedTest": {
+                "FIELDS": {
+                    "SL.target": {
+                        "label": "Ziel EG"
+                    },
+                    "test.value": {
+                        "label": "Probe"
+                    },
+                    "difficulty.value": {
+                        "label": "Standard Schwierigkeit"
+                    },
+                    "negativePossible.value": {
+                        "label": "Negative EG möglich",
+                        "hint": "Erlaube den Fortschritt der Probe unter 0 zu fallen"
+                    },
+                    "failingDecreases.value": {
+                        "label": "Scheitern reduziert den Fortschritt",
+                        "hint": "Reduziere den Fortschritt bei gescheiterten Proben"
+                    },
+                    "completion.value": {
+                        "label": "Bei Abschluss",
+                        "hint": "Bei Abschluss, führe diese Aktion aus"
+                    },
+                    "hide.test": {
+                        "label": "Verstecke Proben",
+                        "hint": "Verstecke diese Probe vor den Spielern"
+                    },
+                    "hide.progress": {
+                        "label": "Verstecke Fortschritt",
+                        "hint": "Verstecke Proben Fortschritt vor den Spielern"
+                    }
+                }
+            },
+            "money": {
+                "FIELDS": {
+                    "coinValue.value": {
+                        "label": "Münzwert",
+                        "hint": "Wert des Münztyps (in Messinggroschen)."
+                    }
+                }
+            },
+            "skill": {
+                "FIELDS": {
+                    "advanced.value": {
+                        "label": "Fähigkeits Typ"
+                    },
+                    "grouped.value": {
+                        "label": "Spezialisierung"
+                    },
+                    "characteristic.value": {
+                        "label": "Eigenschaft"
+                    },
+                    "modifier.value": {
+                        "label": "Modifikator"
+                    },
+                    "advances.force": {
+                        "label": "Erzwinge Steigerungs Indikator",
+                        "hint": "Zeigt den Steigerungs Indikator, unabhängig von der Karriere, dies erlaubt dir die Nutzung von Erfahrung zu automatisieren."
+                    },
+                    "advances.costModifier": {
+                        "label": "EP Kosten Modifikator"
+                    }
+                }
+            },
+            "talent": {
+                "FIELDS": {
+                    "tests.value": {
+                        "label": "Proben"
+                    },
+                    "max.value": {
+                        "label": "Max"
+                    },
+                    "advances.force": {
+                        "label": "Erzwinge Steigerungs Indikator",
+                        "hint": "Zeigt den Steigerungs Indikator, unabhängig von der Karriere, dies erlaubt dir die Nutzung von Erfahrung zu automatisieren."
+                    }
+                }
+            },
+            "mutation": {
+                "FIELDS": {
+                    "modifier.value": {
+                        "label": "Modifikator"
+                    },
+                    "mutationType.value": {
+                        "label": "Mutations Typ"
+                    }
+                }
+            },
+            "critical": {
+                "FIELDS": {
+                    "wounds.value": {
+                        "label": "Wunden"
+                    },
+                    "prompt": {
+                        "label": "Abfrage Standort",
+                        "hint": "Fragt nach einem Standort, wenn es einem Akteur hinzugefügt wird."
+                    },
+                    "location.value": {
+                        "label": "Standort"
+                    }
+                }
+            },
+            "injury": {
+                "FIELDS": {
+                    "duration": {
+                        "value": {
+                            "label": "Dauer"
+                        },
+                        "permanent": {
+                            "label": "Permanent"
+                        }
+                    },
+                    "prompt": {
+                        "label": "Abfrage Standort",
+                        "hint": "Fragt nach einem linken oder rechten Standort wenn es einem Akteur hinzugefügt wird."
+                    },
+                    "location.value": {
+                        "label": "Standort"
+                    }
+                }
+            },
+            "prayer": {
+                "FIELDS": {
+                    "type.value": {
+                        "label": "Typ"
+                    },
+                    "god.value": {
+                        "label": "Gott"
+                    },
+                    "range.value": {
+                        "label": "Reichweite"
+                    },
+                    "duration.value": {
+                        "label": "Dauer"
+                    },
+                    "target": {
+                        "value": {
+                            "label": "Ziel"
+                        },
+                        "aoe": {
+                            "label": "Effekt Bereich"
+                        },
+                        "extendableAoE": {
+                            "label": "Erweiterbarer Effekt Bereich",
+                            "hint": "Kann der Effektbereich mit extra EG vergrößert werden?"
+                        }
+                    },
+                    "damage": {
+                        "value": {
+                            "label": "Formula"
+                        },
+                        "dice": {
+                            "label": "Würfel",
+                            "hint": "Addiere einen Würfelwurf zum Schaden"
+                        },
+                        "addSL": {
+                            "label": "Addiere EG",
+                            "hint": "Addiere EG zum Schadenswert"
+                        }
+                    },
+                    "overcast": {
+                        "enabled": {
+                            "label": "Extra Overcast Options"
+                        }
+                    }
+                }
+            },
+            "spell": {
+                "FIELDS": {
+                    "cn.value": {
+                        "label": "Casting Number"
+                    },
+                    "lore.value": {
+                        "label": "Lehre"
+                    },
+                    "skill.value": {
+                        "label": "Zaubern Fähigkeit"
+                    },
+                    "wind.value": {
+                        "label": "Kanalisieren Fähigkeit"
+                    },
+                    "ritual.value": {
+                        "label": "Ritual"
+                    },
+                    "ritual.xp": {
+                        "label": "Lern-EP"
+                    },
+                    "range.vortex": {
+                        "label": "Zufälliger Vortex"
+                    },
+                    "range.value": {
+                        "label": "Reichweite"
+                    },
+                    "duration.value": {
+                        "label": "Dauer"
+                    },
+                    "duration.extendable": {
+                        "label": "Verlängerbare Dauer",
+                        "hint": "Wenn der Zauber enden sollte, kannst du eine Willenskraft-Probe machen, um die Dauer um +1 zu verlängern."
+                    },
+                    "magicMissile.value": {
+                        "label": "Magische Geschosse"
+                    },
+                    "target": {
+                        "value": {
+                            "label": "Ziel"
+                        },
+                        "aoe": {
+                            "label": "Effekt Bereich"
+                        }
+                    },
+                    "damage": {
+                        "value": {
+                            "label": "Formula"
+                        },
+                        "dice": {
+                            "label": "Würfel",
+                            "hint": "Addiere einen Würfelwurf zum Schaden."
+                        }
+                    },
+                    "overcast": {
+                        "enabled": {
+                            "label": "Extra Overcast Options"
+                        }
+                    }
+                }
+            },
+            "trait": {
+                "FIELDS": {
+                    "category": {
+                        "label": "Kategorie"
+                    },
+                    "rollable": {
+                        "value": {
+                            "label": "Würfelbar"
+                        },
+                        "damage": {
+                            "label": "Macht Schaden"
+                        },
+                        "skill": {
+                            "label": "Fähigkeit"
+                        },
+                        "rollCharacteristic": {
+                            "label": "Wurf Eigenschaft"
+                        },
+                        "bonusCharacteristic": {
+                            "label": "Bonus Eigenschaft"
+                        },
+                        "dice": {
+                            "label": "Würfelwurf"
+                        },
+                        "defaultDifficulty": {
+                            "label": "Schwierigkeit"
+                        },
+                        "SL": {
+                            "label": "EG hinzufügen"
+                        },
+                        "attackType": {
+                            "label": "Angriffs Typ"
+                        }
+                    },
+                    "specification.value": {
+                        "label": "Spezifikation"
+                    }
+                }
+            },
+            "trapping": {
+                "FIELDS": {
+                    "trappingType.value": {
+                        "label": "Ausrüstungs Typ"
+                    }
+                }
+            },
+            "vehicleMod": {
+                "FIELDS": {
+                    "modType.value": {
+                        "label": "Modifikations Typ"
+                    }
+                }
+            },
+            "vehicleRole": {
+                "FIELDS": {
+                    "test": {
+                        "label": "Probe Fähigkeit"
+                    }
+                }
+            },
+            "vehicleTest": {
+                "FIELDS": {
+                    "roles": {
+                        "value": {
+                            "label": "Roles"
+                        },
+                        "vital": {
+                            "label": "Vital Roles"
+                        }
+                    },
+                    "handling": {
+                        "label": "Fahrzeugsteuerung"
+                    }
+                }
+            },
+            "weapon": {
+                "FIELDS": {
+                    "weaponGroup.value": {
+                        "label": "Waffengruppe"
+                    },
+                    "skill.value": {
+                        "label": "Fähigkeit"
+                    },
+                    "modeOverride.value": {
+                        "label": "Angriffsart"
+                    },
+                    "damage": {
+                        "value": {
+                            "label": "Formula"
+                        },
+                        "dice": {
+                            "label": "Würfel",
+                            "hint": "Addiere einen Würfelwurf zum Schaden."
+                        }
+                    },
+                    "reach": {
+                        "value": {
+                            "label": "Bereich"
+                        }
+                    },
+                    "range": {
+                        "value": {
+                            "label": "Reichweite"
+                        }
+                    },
+                    "ammunitionGroup": {
+                        "value": {
+                            "label": "Munitionsart"
+                        }
+                    },
+                    "consumesAmmo": {
+                        "value": {
+                            "label": "Verbraucht Munition"
+                        }
+                    },
+                    "twohanded": {
+                        "value": {
+                            "label": "Zweihändig"
+                        }
+                    },
+                    "special": {
+                        "value": {
+                            "label": "Spezial"
+                        }
+                    }
+                }
+            },
+            "template": {
+                "FIELDS": {
+                    "alterName": {
+                        "pre": {
+                            "label": "Alter Name Prefix"
+                        },
+                        "post": {
+                            "label": "Alter Name Suffix"
+                        }
+                    }
+                }
+            }
+        },
+        "Components": {
+            "Locational": {
+                "FIELDS": {
+                    "prompt": {
+                        "label": "Prompt Standort",
+                        "hint": "Prompt for a location when added to an Actor."
+                    },
+                    "location.value": {
+                        "label": "Location"
+                    }
+                }
+            }
+        }
+    }
+}
+
