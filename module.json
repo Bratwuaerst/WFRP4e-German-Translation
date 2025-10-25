@@ -1,0 +1,39 @@
+{
+  "id": "wfrp-4-e-german-translation",
+  "title": "WFRP 4 E German Translation",
+  "version": "1.0.0",
+  "compatibility": {
+    "minimum": "11",
+    "verified": "13"
+  },
+  "description": "<p>Übersetzung für das Warhammer Fantasy Rollenspielsystem 4 Edition.</p>",
+  "authors": [
+    {
+      "name": "Thomas",
+      "flags": {}
+    },
+    {
+      "name": "Simon",
+      "flags": {}
+    }
+  ],
+  "languages": [
+    {
+      "lang": "de",
+      "name": "Deutsch (German)",
+      "path": "lang/de.json"
+    }
+  ],
+  "flags": {
+    "canUpload": true
+  },
+  "relationships": {
+    "systems": [
+      {
+        "id": "wfrp4e",
+        "type": "system",
+        "compatibility": {}
+      }
+    ]
+  }
+}
