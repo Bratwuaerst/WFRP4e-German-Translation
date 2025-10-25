@@ -17,8 +17,7 @@
       "flags": {}
     }
   ],
-  "download": "https://github.com/Bratwuaerst/WFRP4e-German-Translation/archive/35a637dd34296eda4b5ff9cdb80495e5a7ff51a6.zip"
-  "languages": [
+    "languages": [
     {
       "lang": "de",
       "name": "Deutsch (German)",
@@ -28,6 +27,7 @@
   "flags": {
     "canUpload": true
   },
+    "download": "https://github.com/Bratwuaerst/WFRP4e-German-Translation/archive/35a637dd34296eda4b5ff9cdb80495e5a7ff51a6.zip"
   "relationships": {
     "systems": [
       {
