@@ -1,7 +1,7 @@
 {
   "id": "wfrp-4-e-german-translation",
   "title": "WFRP 4 E German Translation",
-  "version": "1.0.0",
+  "version": "0.0.1",
   "compatibility": {
     "minimum": "11",
     "verified": "13"
@@ -33,7 +33,10 @@
       {
         "id": "wfrp4e",
         "type": "system",
-        "compatibility": {}
+        "compatibility": {
+    "minimum": "7.0",
+    "verified": "7.0"
+  }
       }
     ]
   }
