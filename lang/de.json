@@ -964,7 +964,7 @@
     "CHAT.CommandLine.Help.Label.Example": "Beispiel",
     "CHAT.CommandLine.Help.Label.Note": "Notiz",
     "CHAT.CommandLine.Help.Tables.Title" : "Tabellen",
-    "CHAT.CommandLine.Help.Tables.Usage.Command" : "/table <table-name> <column> <modifier>",
+    "CHAT.CommandLine.Help.Tables.Usage.Command" : "/tabelle <table-name> <column> <modifier>",
     "CHAT.CommandLine.Help.Tables.Usage.Example" : "<br>/table critarm +20<br>/table career human",
     "CHAT.CommandLine.Help.Tables.Usage.Note" : "/table <anything-unrecognized> will pull up the table help menu",
     "CHAT.CommandLine.Help.Conditions.Title" : "Conditions",
