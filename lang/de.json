@@ -1645,7 +1645,7 @@
     "Instant": "Direkt",
 
     "AP": "RP",
-    "Scatter": "Streuung",
+    "Scatter": "Abweichung",
     "yard": "yard",
     "yards": "yards",
     "Ammo": "Munition",
@@ -1968,10 +1968,10 @@
     "BUGREPORT.LoadingIssues": "Lädt Issues",
     "BUGREPORT.Troubleshooting": "Before submitting a report, please consult the <a href='https://moo-man.github.io/WFRP4e-FoundryVTT/pages/troubleshooting.html'>Troubleshooting</a> page.",
 
-    "UpdaterTitle": "Update {title} Content",
-    "Updater1": "This process will import new documents and overwrite previously imported documents with their content from the Compendium.",
-    "Updater2": "THIS MEANS ANY CHANGES YOU'VE MADE WILL BE OVERWRITTEN.",
-    "Updater3": "Anly use this if you've initialized this module previously.",
+    "UpdaterTitle": "Update {title} Inhalt",
+    "Updater1": "Dieser Prozess importiert neue Dokumente und überschreibt zuvor importierte Dokumente mit ihrem Inhalt aus dem Kompendium.",
+    "Updater2": "Dies bedeutet, dass alle Änderungen, die du vorgenommen hast, überschrieben werden.",
+    "Updater3": "Verwende dies nur, wenn du dieses Modul zuvor initialisiert hast.",
     "UPDATER.OverwriteActors": "Überschreibe Akteure",
     "UPDATER.OverwriteItems": "Überschreibe Items",
     "UPDATER.OverwriteTables": "Überschreibe Tabellen",
@@ -1987,7 +1987,7 @@
     "INIT.ResolveDuplicates": "Beseitige Duplikate",
     "INIT.ResolveDuplicatesNote": "Diese Dokumente existieren bereits in der Welt. Möchtest du stattdessen die Daten vom initialisierten Modul einsetzen?<br><br> Ein bestätigtes Dokument wird die neuen Dateien einsetzen, unbestätigte werden keine Modifikationen durchgeführt.",
 
-    "SOCKET.SendingSocketRequest": "Sending Socket Request",
+    "SOCKET.SendingSocketRequest": "Sendet Socket Request",
 
     "WFRP4e Content Setup": "WFRP4e Content Setup",
     "Setup": "Setup",
@@ -2015,7 +2015,7 @@
                     "settings": {
                         "equipPoints": {
                             "label": "Ausrüsten Punkte",
-                            "hint": "Limitiert ausgerüstete Waffen, 2 Punkte sind 2 'hände'"
+                            "hint": "Limitiert ausgerüstete Waffen, 2 Punkte sind 2 'Hände'"
                         },
                         "autoCalc": {
                             "size": {
@@ -2057,11 +2057,11 @@
                     },
                     "details.hitLocationTable.value": {
                         "label": "Trefferzonen-Tabelle",
-                        "hint": "Defines a custom hit location table for when this Actor is attacked."
+                        "hint": "Definiert eine eigene Trefferzonen-Tabelle, wenn der Akteur angegriffen wird."
                     },
                     "status.morale.transferEffects": {
                         "label": "Transfer Morale Effects",
-                        "hint": "Apply morale effects to Actors on this vehicle."
+                        "hint": "Wendet Moraleffekte auf Akteure in diesem Fahrzeug an."
                     }
                 }
             },
@@ -2069,15 +2069,15 @@
                 "FIELDS": {
                     "ammunitionType.value": {
                         "label": "Munitionsart",
-                        "hint": "Designates what types of Weapons can use this Ammunition"
+                        "hint": "Bezeichnet, welche Arten von Waffen diese Munition verwenden können."
                     },
                     "range.value": {
-                        "label": "Range",
-                        "hint": "Modifies the Range of the Weapon using this Ammunition. e.g. Add: +2, Subtract: -2, Multiply: *2, Divide: /2"
+                        "label": "Reichweite",
+                        "hint": "Modifiziert die Reichweite der Waffe, die diese Munition verwendet. z.B. Hinzufügen: +2, Subtrahieren: -2, Multiplizieren: *2, Dividieren: /2"
                     },
                     "damage.value": {
-                        "label": "Damage",
-                        "hint": "Modifies the Damage of the Weapon using this Ammunition. See Range examples above."
+                        "label": "Schaden",
+                        "hint": "Modifiziert den Schaden der Waffe, die diese Munition verwendet. Siehe Beispiele zur Reichweite oben."
                     },
                     "damage.dice": {
                         "label": "Würfel",
@@ -2114,8 +2114,8 @@
                         }
                     },
                     "special.value": {
-                        "label": "Special",
-                        "hint": "Miscellaneous text that will show in the chat card."
+                        "label": "Spezial",
+                        "hint": "Verschiedener Text, der in der Chatkarte angezeigt wird."
                     }
                 }
             },
@@ -2135,7 +2135,7 @@
                             "label": "Stufe"
                         },
                         "standing": {
-                            "label": "Standing "
+                            "label": "Status"
                         }
                     }
                 }
@@ -2143,10 +2143,10 @@
             "cargo": {
                 "FIELDS": {
                     "tradeType": {
-                        "label": "Trade Type"
+                        "label": "Handelsart"
                     },
                     "cargoType.value": {
-                        "label": "Ladungstyp"
+                        "label": "Ladungsart"
                     },
                     "unitPrice.value": {
                         "label": "Stück Preis"
@@ -2170,8 +2170,8 @@
                         "label": "Trägt"
                     },
                     "countEnc.value": {
-                        "label": "Zählt Belastung",
-                        "hint": "Addiere diese Belastung zur Belastung des Charakters (wähle es ab wenn es nicht herumgetragen wird z.B. mit einem Karren)"
+                        "label": "Zählt Traglast",
+                        "hint": "Addiere diese Traglast zur Traglast des Charakters (wähle es ab wenn es nicht herumgetragen wird z.B. mit einem Karren)"
                     }
                 }
             },
@@ -2223,7 +2223,7 @@
                     },
                     "hide.progress": {
                         "label": "Verstecke Fortschritt",
-                        "hint": "Verstecke Proben Fortschritt vor den Spielern"
+                        "hint": "Verstecke Probenfortschritt vor den Spielern"
                     }
                 }
             },
@@ -2231,14 +2231,14 @@
                 "FIELDS": {
                     "coinValue.value": {
                         "label": "Münzwert",
-                        "hint": "Wert des Münztyps (in Messinggroschen)."
+                        "hint": "Wert der Münzart (in Messinggroschen)."
                     }
                 }
             },
             "skill": {
                 "FIELDS": {
                     "advanced.value": {
-                        "label": "Fähigkeits Typ"
+                        "label": "Fähigkeitsart"
                     },
                     "grouped.value": {
                         "label": "Spezialisierung"
@@ -2250,11 +2250,11 @@
                         "label": "Modifikator"
                     },
                     "advances.force": {
-                        "label": "Erzwinge Steigerungs Indikator",
-                        "hint": "Zeigt den Steigerungs Indikator, unabhängig von der Karriere, dies erlaubt dir die Nutzung von Erfahrung zu automatisieren."
+                        "label": "Erzwinge Steigerungsindikator",
+                        "hint": "Zeigt den Steigerungsindikator, unabhängig von der Karriere, dies erlaubt dir die Nutzung von Erfahrung zu automatisieren."
                     },
                     "advances.costModifier": {
-                        "label": "EP Kosten Modifikator"
+                        "label": "EP-Kostenmodifikator"
                     }
                 }
             },
@@ -2267,8 +2267,8 @@
                         "label": "Max"
                     },
                     "advances.force": {
-                        "label": "Erzwinge Steigerungs Indikator",
-                        "hint": "Zeigt den Steigerungs Indikator, unabhängig von der Karriere, dies erlaubt dir die Nutzung von Erfahrung zu automatisieren."
+                        "label": "Erzwinge Steigerungsindikator",
+                        "hint": "Zeigt den Steigerungsindikator, unabhängig von der Karriere, dies erlaubt dir die Nutzung von Erfahrung zu automatisieren."
                     }
                 }
             },
@@ -2278,7 +2278,7 @@
                         "label": "Modifikator"
                     },
                     "mutationType.value": {
-                        "label": "Mutations Typ"
+                        "label": "Mutationsart"
                     }
                 }
             },
@@ -2334,10 +2334,10 @@
                             "label": "Ziel"
                         },
                         "aoe": {
-                            "label": "Effekt Bereich"
+                            "label": "Effektbereich"
                         },
                         "extendableAoE": {
-                            "label": "Erweiterbarer Effekt Bereich",
+                            "label": "Erweiterbarer Effektbereich",
                             "hint": "Kann der Effektbereich mit extra EG vergrößert werden?"
                         }
                     },
@@ -2356,7 +2356,7 @@
                     },
                     "overcast": {
                         "enabled": {
-                            "label": "Extra Overcast Options"
+                            "label": "Extra Zauberverstärken Optionen"
                         }
                     }
                 }
@@ -2364,7 +2364,7 @@
             "spell": {
                 "FIELDS": {
                     "cn.value": {
-                        "label": "Casting Number"
+                        "label": "Zauberwert"
                     },
                     "lore.value": {
                         "label": "Lehre"
@@ -2416,7 +2416,7 @@
                     },
                     "overcast": {
                         "enabled": {
-                            "label": "Extra Overcast Options"
+                            "label": "Extra Zauberverstärken Optionen"
                         }
                     }
                 }
@@ -2463,14 +2463,14 @@
             "trapping": {
                 "FIELDS": {
                     "trappingType.value": {
-                        "label": "Ausrüstungs Typ"
+                        "label": "Ausrüstungsart"
                     }
                 }
             },
             "vehicleMod": {
                 "FIELDS": {
                     "modType.value": {
-                        "label": "Modifikations Typ"
+                        "label": "Modifikationsart"
                     }
                 }
             },
@@ -2485,10 +2485,10 @@
                 "FIELDS": {
                     "roles": {
                         "value": {
-                            "label": "Roles"
+                            "label": "Würfe"
                         },
                         "vital": {
-                            "label": "Vital Roles"
+                            "label": "Vital Würfe"
                         }
                     },
                     "handling": {
@@ -2566,10 +2566,10 @@
                 "FIELDS": {
                     "prompt": {
                         "label": "Prompt Standort",
-                        "hint": "Prompt for a location when added to an Actor."
+                        "hint": "Prompt für einen Standort, wenn er zu einem Akteur hinzugefügt wird."
                     },
                     "location.value": {
-                        "label": "Location"
+                        "label": "Standort"
                     }
                 }
             }
