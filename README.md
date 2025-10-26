@@ -7,9 +7,6 @@ Dieses Repository enthält die deutschen Übersetzungsdateien für das Warhammer
 
 Du kannst dieses Modul in Foundry VTT über die module.json manifest‑Datei installieren. Verwende eine der folgenden Raw‑GitHub‑URLs als Manifest‑URL beim Installieren:
 
-- Spezifischer Commit (stabile Referenz):
-  https://raw.githubusercontent.com/Bratwuaerst/WFRP4e-German-Translation/66a9438165e10923c66a082571d70d7ef8299a3d/module.json
-
 - Main‑Branch (zeigt immer auf die aktuellste Version auf main):
   https://raw.githubusercontent.com/Bratwuaerst/WFRP4e-German-Translation/main/module.json
 
