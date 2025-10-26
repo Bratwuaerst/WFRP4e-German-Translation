@@ -1,6 +1,7 @@
 {
   "id": "wfrp-4-e-german-translation",
   "title": "WFRP4E German Translation",
+  "manifest": https://raw.githubusercontent.com/Bratwuaerst/WFRP4e-German-Translation/main/module.json
   "version": "0.0.2",
   "compatibility": {
     "minimum": "11",
