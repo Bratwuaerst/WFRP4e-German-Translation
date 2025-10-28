@@ -8,11 +8,11 @@
     "minimum": "11",
     "verified": "13"
   },
-  "description": "<p>Übersetzung für das Warhammer Fantasy Rollenspielsystem 4 Edition.</p>",
+  "description": "<p>Übersetzung für das Warhammer Fantasy Rollenspielsystem 4te Edition.</p>",
   "authors": [
     {
-      "name": "Bratwuaerst",
-      "email": "happybird88 (discord)",
+      "name": "Happybird",
+      "discord": "bratwuaerst",
       "flags": {}
     },
     {
