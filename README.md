@@ -1,14 +1,14 @@
 # WFRP4e-German-Translation
-German Translation of the Warhammer Fantasy Roleplay 4E Foundry Modul
+German translation of the Warhammer Fantasy Roleplay 4E Foundry System.
 
 Dieses Repository enthält die deutschen Übersetzungsdateien für das Warhammer Fantasy Roleplay 4th Edition System für Foundry VTT.
 
 ## Foundry VTT Installation (Manifest‑URL)
 
-Du kannst dieses Modul in Foundry VTT über die module.json manifest‑Datei installieren. Verwende eine der folgenden Raw‑GitHub‑URLs als Manifest‑URL beim Installieren:
+Du kannst dieses Modul in Foundry VTT über die module.json manifest‑Datei installieren. Verwende den folgenden Raw‑GitHub‑URLs als Manifest‑URL beim Installieren:
 
-- Main‑Branch (zeigt immer auf die aktuellste Version auf main):
-  https://raw.githubusercontent.com/Bratwuaerst/WFRP4e-German-Translation/main/module.json
+- Version 0.1.0
+  https://github.com/Bratwuaerst/WFRP4e-German-Translation/releases/download/v0.1.0/module.json
 
 Schritte:
 1. In Foundry: Setup (oder Configuration & Setup) → Add‑on Modules → Install Module.  
