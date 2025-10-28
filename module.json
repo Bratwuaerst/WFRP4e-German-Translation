@@ -3,6 +3,7 @@
   "title": "WFRP4E German Translation",
   "manifest": "https://raw.githubusercontent.com/Bratwuaerst/WFRP4e-German-Translation/main/module.json",
   "download": "https://github.com/Bratwuaerst/WFRP4e-German-Translation/archive/refs/heads/main.zip",
+  "url": "https://github.com/Bratwuaerst/WFRP4e-German-Translation/tree/v0.1.0",
   "version": "0.1.0",
   "compatibility": {
     "minimum": "11",
