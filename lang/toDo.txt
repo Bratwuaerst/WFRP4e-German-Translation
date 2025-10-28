@@ -1,0 +1,50 @@
+
+Erledigtes bitte löschen
+oder Kommentieren!
+
+
+Charakterbogen:
+    Hauptseite:
+"Kritischer Wunden" zu Kritische Wunden (wo steht das?) 
+Anderes Wort für Ausgegeben? weniger Buchstaben, das Feld ist so klein
+
+    Fähigkeiten:
+soweit OK
+
+    Talente:
+Soweit OK
+
+    Kampf:
+Wo kommen die <p> bei den Rüstungszonen her? Finde die nicht in der DE.json
+
+    Effekte:
+
+System effekte sind teils nicht übersetzt. (Siehe das Drop Downmenü)
+
+Beschreibung "Dieser Effekt wird von einem "Gegenstand" dieses Akteurs verursacht" muss angepasst werden. 
+Hier werden Items (Talente, Gegenstände etc.) gemeint anstatt direkt Gegenstände
+Hovertext bei den passiven Effekten (kreis mit Haken) "Zwischen Effekten Schalten" passt nicht ganz. Sollte heissen Effekt "an/ausschalten"
+
+    Ausrüstung:
+"Behälter" sollte zu "Taschen und Rucksäcke" geändert werden.
+
+    Notizen:
+"Erfahrungs Log" sollte zu "Erfahrungslogbuch" geändert werden.
+
+
+    Probendialogfenster:
+Dialog Modifiers ist noch nicht übersetzt
+Eigenschaft zu Attribut ändern
+Schwierigkeiten Futile und Impossible übersetzen
+
+
+    Kampf:
+Chatnachricht: XXX gewinnt gegen XXX mit "undefiened EG" Übersetzungsfehler?
+
+
+    Tabellen: 
+Oops! Table (Übersetzungsfehler?)
+
+    Fahrzeug Bogen:
+Dialogfenster der Moralprobe (was ist das Wochenkennzeichen?)
+Toughness als Widerstand übersetzen
