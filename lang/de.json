@@ -1802,11 +1802,7 @@
     "CAREER.LeaveComplete": "Eine abgeschlossene Karriere verlassen",
     "CAREER.LeaveIncomplete": "Eine unabgeschlossene Karriere verlassen",
     "CAREER.DifferentClass": "Einer anderen Klasse beitreten",
-<<<<<<< HEAD
     "CAREERAdvHint": "Möchtest du diese Karriere Steigerung beim Akteur durchführen?",
-=======
-    "CAREERAdvHint": "<p>Möchtest du diese Karriere Steigerung beim Akteur durchführen?</p>",
->>>>>>> 6e518f085d211801b4ae1ab3e43fc7de34d43370
     "CAREERAdv": "Karriere Steigerung",
     "CAREER.AddSkillError": "Etwas ging beim hinzufügen von Fähigkeit {skill} schief: {error}",
     "CAREER.AddTalentError": "Etwas ging beim hinzufügen von Talent {talent} schief: {error}",
@@ -1933,12 +1929,7 @@
     "Select": "Auswählen",
 
     "Species Characteristics": "Volkseigenschaften",
-<<<<<<< HEAD
     "SpecChar": "Möchtest du diese Volkseigenschaften zum Akteur hinzufügen?",
-=======
-    "SpecChar": "<p>Möchtest du diese Volkseigenschaften zum Akteur hinzufügen?</p>",
->>>>>>> 6e518f085d211801b4ae1ab3e43fc7de34d43370
-
     "Stat Block Parser": "Stat Block Parser",
     "Possessions": "Besitz",
 
