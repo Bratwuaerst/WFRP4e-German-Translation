@@ -46,5 +46,14 @@ Chatnachricht: XXX gewinnt gegen XXX mit "undefiened EG" Übersetzungsfehler?
 Oops! Table (Übersetzungsfehler?)
 
     Fahrzeug Bogen:
-Dialogfenster der Moralprobe (was ist das Wochenkennzeichen?)
+Dialogfenster der Moralprobe (was ist das Wochenkennzeichen?) Zeile 1782 im de.json
 Toughness als Widerstand übersetzen
+
+
+Zeilen:
+1564 Was soll das Bedeuten?
+1679 - 1681 Übersetzung klingt merkwürdig. Mal beobachten
+1942 "Stat Block Parser" ??
+
+
+Durchgeschaut auf Fehler bis Zeile 286 
