@@ -14,6 +14,8 @@ Schritte:
 2. Füge eine der Manifest‑URLs oben in das Feld "Manifest URL" ein.  
 3. Klicke auf Install.
 
+
+ACHTUNG!
 Die aktuelle Version übersetzt auch Namen von Fähigkeiten und Talenten und funktioniert daher nur mit händisch übersetzten Items aus dem Kompendium.
 Macht man das nicht, funktionieren Verknüpfungen über die Macros nicht richtig. 
 z.b. automatische Berücksichtigung von Talenten bei Proben etc. 
