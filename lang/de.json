@@ -434,8 +434,8 @@
     "Symptoms": "Symptome",
     "Permanent": "Permanent",
     "Status": "Status",
-    "Status Tier": "Statusstufe",
-    "Status Standing": "Statusrang",
+    "Status Tier": "Statusrang",
+    "Status Standing": "Statusansehen",
     "Class": "Klasse",
     "Group": "Gruppe",
     "Personal Details": "Persönliche Details",
@@ -2131,10 +2131,10 @@
                     },
                     "status": {
                         "tier": {
-                            "label": "Stufe"
+                            "label": "Rang"
                         },
                         "standing": {
-                            "label": "Status"
+                            "label": "Ansehen"
                         }
                     }
                 }
