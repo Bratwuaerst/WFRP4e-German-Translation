@@ -15,32 +15,20 @@ soweit OK
 Soweit OK
 
     Kampf:
-Wo kommen die <p> bei den Rüstungszonen her? Finde die nicht in der DE.json
+Wo kommen die <p> bei den Rüstungszonen her? Finde die nicht in der DE.json //die scheinen von Foundry selbst zu sein. Ich weiß allerdings noch nicht wie ich die wegbekomme.
 
     Effekte:
 
 System effekte sind teils nicht übersetzt. (Siehe das Drop Downmenü)
 
-Beschreibung "Dieser Effekt wird von einem "Gegenstand" dieses Akteurs verursacht" muss angepasst werden. 
-Hier werden Items (Talente, Gegenstände etc.) gemeint anstatt direkt Gegenstände
-Hovertext bei den passiven Effekten (kreis mit Haken) "Zwischen Effekten Schalten" passt nicht ganz. Sollte heissen Effekt "an/ausschalten"
-
     Ausrüstung:
-"Behälter" sollte zu "Taschen und Rucksäcke" geändert werden.
-
-    Notizen:
-"Erfahrungs Log" sollte zu "Erfahrungslogbuch" geändert werden.
+"Behälter" sollte zu "Taschen und Rucksäcke" geändert werden. //mal an einer Stelle geändert, überprüfen ob dies reicht
 
 
     Probendialogfenster:
-Dialog Modifiers ist noch nicht übersetzt
-Eigenschaft zu Attribut ändern
+
+Eigenschaft zu Attribut ändern //Großteils gemacht, ein, zwei sollten beobachtet werden. Z 2570 und 2573
 Schwierigkeiten Futile und Impossible übersetzen
-
-
-    Kampf:
-Chatnachricht: XXX gewinnt gegen XXX mit "undefiened EG" Übersetzungsfehler?
-
 
     Tabellen: 
 Oops! Table (Übersetzungsfehler?)
