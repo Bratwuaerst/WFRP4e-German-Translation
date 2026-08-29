@@ -580,8 +580,8 @@
     "Trained Skills" : "Geschulte Fähigkeiten",
     "Traits" : "Eigenschaften",
     "Randomize Attributes" : "Zufällige Spielwerte",
-    "RANDOMIZER.C": "C",
-    "RANDOMIZER.S": "S",
+    "RANDOMIZER.C": "S",
+    "RANDOMIZER.S": "F",
     "RANDOMIZER.T": "T",    
     "Character Name" : "Name des Charakters ",
     "Extra" : "Extra",
@@ -901,7 +901,7 @@
     "CHAT.VortexMove": "Zufällige Vortex-Bewegung",
     "CHAT.CausesFear" : "<b>{actor}</b> verursacht {fear} bei {target}<br>",
     "CHAT.Fear" : "Furcht",
-    "CHAT.FearReminder" : "Diese Akteure sind aktuell von <b>Furcht</b> betroffen und können einen Wurf ablegen, um diese abzuschütteln.",
+    "CHAT.FearReminder" : "Diese Akteure sind aktuell von <b>Angst</b> betroffen und können einen Wurf ablegen, um diese abzuschütteln.",
     "CHAT.InjuryFinish" : "{injury} Verletzung überstanden.",
     "CHAT.InjuryError": "Kann {injury} nicht vermindern, da es sich nicht um eine Nummer handelt.",
     "Minor Infections" : "Leichte Infektionen",
@@ -955,46 +955,46 @@
     "CHAT.RoleNotFound" : "Rolle <strong>{role}</strong> wurde nicht gefunden!",
     "CHAT.TotalSL" : "Gesamte EG",
     "CHAT.Vital" : "Vital",
-    "CHAT.CrewTestVital" : "Crew Test (Vital)",
+    "CHAT.CrewTestVital" : "Besatzungs-Wurf (Vital)",
     "CHAT.AttackerTooSmallDamage" : "Angreifer ist zu klein um das Fahrzeug anzugreifen.",
     "CHAT.VehicleTBTooltipMultiply" : "{number} × TB",
     "CHAT.VehicleTBTooltipSubtract" : "TB - {number}",
     "CHAT.CommandLine.Help.Commands" : "Tabellen,Zustände,Waffenmerkmale,Charakter Erschaffung,Namensgenerator,Verfügbarkeits-Wurf,Bezahle,Erhalte,Korrumpierung,Reise,Erfahrung",
-    "CHAT.CommandLine.Help.Label.Command" : "Kommando",
+    "CHAT.CommandLine.Help.Label.Command" : "Befehl",
     "CHAT.CommandLine.Help.Label.Example": "Beispiel",
     "CHAT.CommandLine.Help.Label.Note": "Notiz",
     "CHAT.CommandLine.Help.Tables.Title" : "Tabellen",
     "CHAT.CommandLine.Help.Tables.Usage.Command" : "/tabelle <table-name> <column> <modifier>",
     "CHAT.CommandLine.Help.Tables.Usage.Example" : "<br>/table critarm +20<br>/table career human",
-    "CHAT.CommandLine.Help.Tables.Usage.Note" : "/table <anything-unrecognized> will pull up the table help menu",
+    "CHAT.CommandLine.Help.Tables.Usage.Note" : "/table <irgendein-nicht-erkannter-begriff> wird das Tabellen-Hilfsmenü anzeigen",
     "CHAT.CommandLine.Help.Conditions.Title" : "Zustände",
     "CHAT.CommandLine.Help.Conditions.Usage.Command" : "/cond <Zustands-Name>",
     "CHAT.CommandLine.Help.Conditions.Usage.Example" : "<br>/cond Brennend<br>/cond Bewusstlos",
-    "CHAT.CommandLine.Help.Conditions.Usage.Note" : "will match the closest spelling condition and display it (eg. /cond abl == /cond ablaze)",
-    "CHAT.CommandLine.Help.Properties.Title" : "Item Properties",
-    "CHAT.CommandLine.Help.Properties.Usage.Command" : "/prop <property-name>",
-    "CHAT.CommandLine.Help.Properties.Usage.Example" : "<br>/prop impact<br>/prop shoddy",
-    "CHAT.CommandLine.Help.Properties.Usage.Note" : "will match the closest spelling condition and display it (eg. /prop acc == /prop accurate)",
-    "CHAT.CommandLine.Help.CharacterGeneration.Title" : "Character Generation",
+    "CHAT.CommandLine.Help.Conditions.Usage.Note" : "wird sich dem nächstgelegenen Ausdruck anpassen und es anzeigen (z.B. /cond bre == /cond Brennend)",
+    "CHAT.CommandLine.Help.Properties.Title" : "Item Qualitäten",
+    "CHAT.CommandLine.Help.Properties.Usage.Command" : "/prop <Qualitäts-Name>",
+    "CHAT.CommandLine.Help.Properties.Usage.Example" : "<br>/prop Durchschlagend<br>/prop Stumpf",
+    "CHAT.CommandLine.Help.Properties.Usage.Note" : "wird sich dem nächstgelegenen Ausdruck anpassen und es anzeigen (z.B. /prop prä == /prop Präzise)",
+    "CHAT.CommandLine.Help.CharacterGeneration.Title" : "Charaktererstellung",
     "CHAT.CommandLine.Help.CharacterGeneration.Usage.Command" : "/char",
     "CHAT.CommandLine.Help.CharacterGeneration.Usage.Example" : "/char",
-    "CHAT.CommandLine.Help.CharacterGeneration.Usage.Note" : "Begins character generation",
-    "CHAT.CommandLine.Help.NameGeneration.Title" : "Name Generation",
+    "CHAT.CommandLine.Help.CharacterGeneration.Usage.Note" : "Beginnt Charaktererstellung",
+    "CHAT.CommandLine.Help.NameGeneration.Title" : "Namensgenerator",
     "CHAT.CommandLine.Help.NameGeneration.Usage.Command" : "/name",
     "CHAT.CommandLine.Help.NameGeneration.Usage.Example" : "<br>/name dwarf<br>/name helf male<br>/name welf female",
-    "CHAT.CommandLine.Help.NameGeneration.Usage.Note" : "Generates a name in chat (Also accessible by clicking the <Name> label on a an NPC or creature sheet)",
-    "CHAT.CommandLine.Help.AvailabilityTest.Title" : "Availability Test",
+    "CHAT.CommandLine.Help.NameGeneration.Usage.Note" : "Erstellt einen Namen im Chat (auch über das <Name>-Label auf einem NSC- oder Kreaturblatt zugänglich)",
+    "CHAT.CommandLine.Help.AvailabilityTest.Title" : "Verfügbarkeits-Wurf",
     "CHAT.CommandLine.Help.AvailabilityTest.Usage.Command" : "/avail",
     "CHAT.CommandLine.Help.AvailabilityTest.Usage.Example" : "<br>/avail town common<br>/avail city exotic",
-    "CHAT.CommandLine.Help.AvailabilityTest.Usage.Note" : "rolls an availability test to determine the availability and the stock of an item.",
+    "CHAT.CommandLine.Help.AvailabilityTest.Usage.Note" : "Würfelt einen Verfügbarkeits-Wurf, um die Verfügbarkeit und den Lagerbestand eines Gegenstands zu bestimmen.",
     "CHAT.CommandLine.Help.Pay.Title" : "Geld zahlen",
     "CHAT.CommandLine.Help.Pay.Usage.Command" : "/pay",
     "CHAT.CommandLine.Help.Pay.Usage.Example" : "<br>/pay 3gk2mg<br>/pay 10mg450ss",
-    "CHAT.CommandLine.Help.Pay.Usage.Note" : "This command offers 3 options: <ul><li><strong>/pay amount</strong>: (If GM) Display a chat card for all users, with a button for them to pay, or (if Player) pay the amount specified by the user's assigned actor. Example: /pay 12gc2bp</li><li><strong>/pay amount player_name </strong>: GM only. Display a chat card for the designated player only.</li><li><strong>/pay amount actor_name</strong>: GM only. Automatically reduces the money of the designated actor with the amount. Only a part of the actor name can be used, if the actor's name is Kastor Lieberung, then you can write /pay 12ss kastor. If the actor has a connected player, a chat card will ask him to approve the command. If the actor is not owned by a player (or the player is not connected), the amount is deduced automatically.</li></ul>",
+    "CHAT.CommandLine.Help.Pay.Usage.Note" : "Dieser Befehl bietet 3 Optionen: <ul><li><strong>/pay amount</strong>: (Falls GM) Zeigt eine Chat-Karte für alle Benutzer an, mit einem Button für sie, um zu zahlen, oder (falls Spieler) zahlt den Betrag, der vom zugewiesenen Akteur spezifiziert wurde. Beispiel: /pay 12gc2bp</li><li><strong>/pay amount player_name </strong>: Nur für GM. Zeigt eine Chat-Karte nur für den benannten Spieler an.</li><li><strong>/pay amount actor_name</strong>: Nur für GM. Reduziert automatisch das Geld des benannten Akteurs um den Betrag. Nur ein Teil des Akteurnamens kann verwendet werden, wenn der Akteur Kastor Lieberung heißt, dann können Sie /pay 12ss kastor schreiben. Wenn der Akteur einen verbundenen Spieler hat, wird eine Chat-Karte angezeigt, um ihn zu bitten, den Befehl zu genehmigen. Wenn der Akteur nicht von einem Spieler besessen wird (oder der Spieler nicht verbunden ist), wird der Betrag automatisch abgezogen.</li></ul>",
     "CHAT.CommandLine.Help.Credit.Title" : "Geld auszahlen",
     "CHAT.CommandLine.Help.Credit.Usage.Command" : "/credit",
     "CHAT.CommandLine.Help.Credit.Usage.Example" : "<br>/credit 3gc2bp<br>/credit 10bp450ss each<br>/credit 1bp420ss John<br>/credit 1gc12ss Kastor Lieberung",
-    "CHAT.CommandLine.Help.Credit.Usage.Note" : "This command is GM only. An amount of money entered by the GM will be sent to actors/players, with the following options: <ul><li><strong>/credit amount split (default)</strong>: Display as chat card for all users, with a button for them to receive payment. Example: /credit 12gc2bp</li><li><strong>/credit amount player_name</strong>: Display a chat card for the designated player only.</li><li><strong>/credit amount actor_name </strong>: Automatically adds money to the designated actor. Only a part of the actor name can be used, so if the actor's name is Kastor Lieberung, then you can write /credit 12ss kastor.</li></ul>",
+    "CHAT.CommandLine.Help.Credit.Usage.Note" : "Dieser Befehl ist nur für den GM verfügbar. Ein von ihm eingegebener Geldbetrag wird an Akteure/ Spieler gesendet, mit den folgenden Optionen: <ul><li><strong>/credit amount split (default)</strong>: Anzeige als Chat-Karte für alle Benutzer, mit einem Button für sie, um die Zahlung zu erhalten. Beispiel: /credit 12gc2bp</li><li><strong>/credit amount player_name</strong>: Anzeige einer Chat-Karte nur für den benannten Spieler.</li><li><strong>/credit amount actor_name </strong>: Automatisches Hinzufügen von Geld zum benannten Akteur. Nur ein Teil des Akteurnamens kann verwendet werden, also wenn der Akteur Kastor Lieberung heißt, dann können Sie /credit 12ss kastor schreiben.</li></ul>",
     "CHAT.CommandLine.Help.Corruption.Title" : "Korrumpierung",
     "CHAT.CommandLine.Help.Corruption.Usage.Command" : "/corruption",
     "CHAT.CommandLine.Help.Corruption.Usage.Example" : "<br>/corruption minor<br>/corruption moderate",
@@ -1006,9 +1006,9 @@
     "CHAT.CommandLine.Help.Travel.Title" : "Reisen",
     "CHAT.CommandLine.Help.Travel.Usage.Command" : "/travel",
     "CHAT.CommandLine.Help.Travel.Usage.Example" : "<br>/travel<br>/travel Altdorf Kemperbad",
-    "CHAT.CommandLine.Help.Travel.Usage.Note" : "Based off of the <a href='http://www.gitzmansgallery.com/docs/Travel%20Distances%20in%20the%20Empire.pdf'>Travel Distances in the Empire</a> PDF.",
-    "CHAT.CommandLine.Help.Link" : "See the <a href={link}>Wiki</a> for more information on the features in this system",
-    "Commands" : "Commands",
+    "CHAT.CommandLine.Help.Travel.Usage.Note" : "Basierend auf der <a href='http://www.gitzmansgallery.com/docs/Travel%20Distances%20in%20the%20Empire.pdf'>Travel Distances in the Empire</a> PDF.",
+    "CHAT.CommandLine.Help.Link" : "Siehe das <a href={link}>Wiki</a> für mehr Informationen über die Funktionen in diesem System",
+    "Commands" : "Befehle",
 
     "ErrorSpeciesSkills" : "Konnte die Fähigkeiten für dieses Volk nicht hinzufügen",
     "ErrorSpeciesTalents" : "Konnte die Talente für dieses Volk nicht hinzufügen",
@@ -1068,13 +1068,13 @@
     "ROLL.HitAnotherEngagedTarget": "<b>Oops! Du hast das falsche Ziel getroffen, wähle einen zufälligen, gebundenen Akteur aus und wende den Schaden an.</b>",
     "ROLL.CalledShot" : "Gezielter Schuss",
 
-    "WFRP4E.Reach.Personal" : "Kernschussreichweite",
+    "WFRP4E.Reach.Personal" : "Persönlich",
     "WFRP4E.Reach.VShort" : "Sehr Kurz",
     "WFRP4E.Reach.Short" : "Kurz",
-    "WFRP4E.Reach.Average" : "Durchschnitt",
+    "WFRP4E.Reach.Average" : "Durchschnittlich",
     "WFRP4E.Reach.Long" : "Lang",
     "WFRP4E.Reach.VLong" : "Sehr Lang",
-    "WFRP4E.Reach.Massive" : "Extrem",
+    "WFRP4E.Reach.Massive" : "Gewaltig",
 
     "WFRP4E.ArmourType.SLeather" : "Weiches Leder",
     "WFRP4E.ArmourType.BLeather" : "Gekochtes Leder",
@@ -1381,7 +1381,7 @@
     "NAME.Daemonic" : "Dämonisch",
     "NAME.DarkVision" : "Dunkelsicht",
     "NAME.Disease" : "Krankheit",
-    "NAME.Distract" : "Ablenken",
+    "NAME.Distract" : "Verstörend",
     "NAME.Dodge" : "Ausweichen",
     "NAME.Doomed" : "Unkenruf",
     "NAME.Drive" : "Fahren",
@@ -1863,9 +1863,9 @@
     "Minor": "Gering",
     "Moderate": "Moderat",
     "Major": "Schwer",
-    "CORRUPTION.Minor": "Gering",
-    "CORRUPTION.Moderate": "Moderat",
-    "CORRUPTION.Major": "Schwer",
+    "CORRUPTION.Minor": "Minor",
+    "CORRUPTION.Moderate": "Moderate",
+    "CORRUPTION.Major": "Major",
     "CORRUPTION.Exposure": "Korrumpierung ausgesetzt",
     "Quantity": "Anzahl",
     "Infinite": "Unendlich",
@@ -1889,37 +1889,37 @@
     "Wood Elf": "Waldelf",
 
     "Difficulty": "Schwierigkeit",
-    "DIFFICULTY.VEasy": "Sehr Leicht (+60)",
-    "DIFFICULTY.Easy": "Leicht (+40)",
+    "DIFFICULTY.VEasy": "Sehr einfach (+60)",
+    "DIFFICULTY.Easy": "Einfach (+40)",
     "DIFFICULTY.Average": "Durchschnittlich (+20)",
     "DIFFICULTY.Challenging": "Herausfordernd (+0)",
     "DIFFICULTY.Difficult": "Schwierig (-10)",
     "DIFFICULTY.Hard": "Schwer (-20)",
     "DIFFICULTY.VHard": "Sehr schwer (-30)",
-    "DIFFICULTY.Futile": "Aussichtslos (-40)",
+    "DIFFICULTY.Futile": "Extrem schwer (-40)",
     "DIFFICULTY.Impossible": "Unmöglich (-50)",
 
-    "DIFFICULTYNAME.VEasy": "Sehr Leicht",
-    "DIFFICULTYNAME.Easy": "Leicht",
+    "DIFFICULTYNAME.VEasy": "Sehr einfach",
+    "DIFFICULTYNAME.Easy": "Einfach",
     "DIFFICULTYNAME.Average": "Durchschnittlich",
     "DIFFICULTYNAME.Challenging": "Herausfordernd",
     "DIFFICULTYNAME.Difficult": "Schwierig",
     "DIFFICULTYNAME.Hard": "Schwer",
     "DIFFICULTYNAME.VHard": "Sehr schwer",
-    "DIFFICULTYNAME.Futile": "Aussichtslos",
+    "DIFFICULTYNAME.Futile": "Extrem schwer",
     "DIFFICULTYNAME.Impossible": "Unmöglich",
 
-    "DIFFICULTY.MooVEasy": "Sehr Leicht (+40)",
-    "DIFFICULTY.MooEasy": "Leicht (+30)",
+    "DIFFICULTY.MooVEasy": "Sehr einfach (+60)",
+    "DIFFICULTY.MooEasy": "Einfach (+40)",
     "DIFFICULTY.MooDifficult": "Schwierig (-20)",
     "DIFFICULTY.MooHard": "Schwer (-30)",
     "DIFFICULTY.MooVHard": "Sehr schwer (-40)",
-    "DIFFICULTY.MooFutile": "Aussichtslos (-50)",
+    "DIFFICULTY.MooFutile": "Extrem schwer (-50)",
     "DIFFICULTY.MooImpossible": "Unmöglich (-60)",
 
     "Point Blank": "Kernschussweite",
     "Short Range": "Kurze Reichweite",
-    "Normal": "Normale Reichweite",
+    "Normal": "Mittlere Reichweite",
     "Long Range": "Lange Reichweite",
     "Extreme": "Extreme Reichweite",
 
@@ -2121,13 +2121,13 @@
 
     "WFRP4e Content Setup": "WFRP4e Inhalts Setup",
     "Setup": "Setup",
-    "WFRP4e Content Initialization": "WFRS4e Inhalts Initialisierung",
+    "WFRP4e Content Initialization": "WFRS4e Inhaltsinitialisierung",
     "Initialization": "Initialisierung",
     "Import or update the content from the WFRP4e Core Module": "Importiere / Update den Inhalt des WFRS4e Kernmoduls",
 
     "WH": {
         "TransferType": {
-            "Crew": "Crew"
+            "Crew": "Besatzung"
         },
         "Models": {
             "standard": {
@@ -2162,7 +2162,7 @@
                             },
                             "wounds": {
                                 "label": "Berechne Lebenspunkte",
-                                "hint": "Standard max Lebenspunkte sind STB + (2 x WIB) + WKB (für durchschnittliche Größe)"
+                                "hint": "Standard max. Lebenspunkte sind STB + (2 x WIB) + WKB (für durchschnittliche Größe)"
                             },
                             "criticals": {
                                 "label": "Berechne Kritische Wunden",
@@ -2567,10 +2567,10 @@
                             "label": "Fähigkeit"
                         },
                         "rollCharacteristic": {
-                            "label": "Eigenschafts-Wurf"
+                            "label": "Attributs-Wurf"
                         },
                         "bonusCharacteristic": {
-                            "label": "Bonus Eigenschaft"
+                            "label": "Bonus Attribut"
                         },
                         "dice": {
                             "label": "Würfelwurf"
@@ -2648,7 +2648,7 @@
                     },
                     "reach": {
                         "value": {
-                            "label": "Bereich"
+                            "label": "Waffenlänge"
                         }
                     },
                     "range": {
