@@ -4,7 +4,7 @@
   "manifest": "https://github.com/Bratwuaerst/WFRP4e-German-Translation/raw/refs/heads/main/module.json",
   "download": "https://github.com/Bratwuaerst/WFRP4e-German-Translation/archive/refs/heads/main.zip",
   "url": "https://github.com/Bratwuaerst/WFRP4e-German-Translation/tree/main",
-  "version": "0.4.5",
+  "version": "0.4.6",
   "compatibility": {
     "minimum": "11",
     "verified": "13"

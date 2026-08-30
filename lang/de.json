@@ -900,7 +900,7 @@
     "CHAT.ChannelledSL" : "Kanalisierte EG",
     "CHAT.VortexMove": "Zufällige Vortex-Bewegung",
     "CHAT.CausesFear" : "<b>{actor}</b> verursacht {fear} bei {target}<br>",
-    "CHAT.Fear" : "Furcht",
+    "CHAT.Fear" : "Angst",
     "CHAT.FearReminder" : "Diese Akteure sind aktuell von <b>Angst</b> betroffen und können einen Wurf ablegen, um diese abzuschütteln.",
     "CHAT.InjuryFinish" : "{injury} Verletzung überstanden.",
     "CHAT.InjuryError": "Kann {injury} nicht vermindern, da es sich nicht um eine Nummer handelt.",
@@ -915,7 +915,7 @@
     "CHAT.LingeringRot" : " Langanhaltend: entwickle eine Blutfäule.",
     "CHAT.ApplyTT" : "GMs: Wähle Token zum anwenden. \nPlayers: zum ausgewählten Spieler zugefügt",
     "CHAT.Terror" : "Entsetzen",
-    "CHAT.Apply" : "anwenden",
+    "CHAT.Apply" : "Anwenden",
     "CHAT.Place" : "Place",
     "CHAT.ApplyCondition" : "Wende Zustand {condition} an",
     "CHAT.ApplyError" : "Du darfst diesen Effekt nicht anwenden.",
@@ -1453,7 +1453,7 @@
     "NAME.StrongMinded" : "Willensstärke",
     "NAME.Sturdy" : "Stämmig",
     "NAME.Swim" : "Schwimmen",
-    "NAME.Terror" : "Terror",
+    "NAME.Terror" : "Entsetzen",
     "NAME.Track" : "Track",
     "NAME.Trade" : "Beruf",
     "NAME.Trickriding" : "Kunstreiter",
@@ -1824,7 +1824,7 @@
     "EFFECT.Prevent": "Verhindert das hinzufügen des {name} Effekts: Effekt existiert bereits",
     "EFFECT.TestsToAffect": "Wurf zur Beeinflussung von",
     "EFFECT.AffectTheSourceOfFearName": "Wurf um {name} zu beeinflussen",
-    "EFFECT.AffectTheSourceOfFear": "Wurf um die Quelle der Furcht zu beeinflussen",
+    "EFFECT.AffectTheSourceOfFear": "Wurf um die Quelle der Angst zu beeinflussen",
     "EFFECT.Encumbrance": "Belastung",
     "EFFECT.ColdExposure": "Kälte ausgesetzt",
     "EFFECT.HeatExposure": "Hitze ausgesetzt",
@@ -2464,11 +2464,11 @@
                             "label": "Ziel"
                         },
                         "aoe": {
-                            "label": "Effektbereich"
+                            "label": "Wirkungsbereich"
                         },
                         "extendableAoE": {
-                            "label": "Erweiterbarer Effektbereich",
-                            "hint": "Kann der Effektbereich mit extra EG vergrößert werden?"
+                            "label": "Erweiterbarer Wirkungsbereich",
+                            "hint": "Kann der Wirkungsbereich mit extra EG vergrößert werden?"
                         }
                     },
                     "damage": {
@@ -2525,14 +2525,14 @@
                         "hint": "Wenn der Zauber enden würde, kannst du einen Willenskraft-Wurf machen, um die Dauer um +1 zu verlängern."
                     },
                     "magicMissile.value": {
-                        "label": "Magische Geschosse"
+                        "label": "Magisches Geschoss"
                     },
                     "target": {
                         "value": {
-                            "label": "Ziel"
+                            "label": "Ziele"
                         },
                         "aoe": {
-                            "label": "Effekt Bereich"
+                            "label": "Wirkungsbereich"
                         }
                     },
                     "damage": {
